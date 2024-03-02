@@ -359,3 +359,6 @@ a.md-source:hover {
 .md-search__input::placeholder {
   color: var(--custom-color-primary-dark) !important;
 }
+.md-copyright__highlight {
+  color: var(--custom-color-tertiary) !important;
+}
