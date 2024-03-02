@@ -27,6 +27,22 @@
   --custom-chip-border-size: 2px;
   --custom-chip-color: var(--custom-color-primary);
   --custom-chip-color-hover: var(--custom-color-tertiary);
+  --custom-chip-transition: filter 0.2s;
+  --custom-chip-filter: brightness(0.8) saturate(0.95);
+  --custom-chip-clip-inner: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    calc(var(--custom-chip-size) + 3px) 100%,
+    0 calc(100% - var(--custom-chip-size) - 3px)
+  );
+  --custom-chip-clip-outter: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    var(--custom-chip-size) 100%,
+    0 calc(100% - var(--custom-chip-size))
+  );
 }
 
 /* theme overrides  ------------------------------------------------------------
@@ -373,20 +389,13 @@ a.md-source:hover {
 
 /* glightbox */
 .glightbox:has(img:not(.no-chip)) {
-  transition: filter 0.2s;
-  filter: brightness(0.8) saturate(0.9);
+  transition: var(--custom-chip-transition);
+  filter: var(--custom-chip-filter);
   padding: 0;
   margin: 0;
   display: inline-block;
   background-color: var(--custom-chip-color);
-  clip-path: polygon(
-    0 0,
-    /*calc(100% - var(--custom-chip-size)) 0,*/
-      /*100% var(--custom-chip-size),*/ 100% 0,
-    100% 100%,
-    var(--custom-chip-size) 100%,
-    0 calc(100% - var(--custom-chip-size))
-  );
+  clip-path: var(--custom-chip-clip-outter);
 }
 article img:not(.no-chip):not(.no-border) {
   padding: var(--custom-chip-border-size);
@@ -394,16 +403,7 @@ article img:not(.no-chip):not(.no-border) {
   display: block !important;
   border: none !important;
   /* clip top right of img */
-  clip-path: polygon(
-    0 0,
-    /*calc(100% - var(--custom-chip-size) - 1px - var(--custom-chip-border-size))*/
-      /*  0,*/
-      /*100% calc(var(--custom-chip-size) + 1px + var(--custom-chip-border-size)),*/
-      100% 0,
-    100% 100%,
-    calc(var(--custom-chip-size) + 3px) 100%,
-    0 calc(100% - var(--custom-chip-size) - 3px)
-  );
+  clip-path: var(--custom-chip-clip-inner);
 }
 
 .glightbox:has(img:not(.no-chip)):not(.no-border):hover {
@@ -411,6 +411,15 @@ article img:not(.no-chip):not(.no-border) {
   /* zoom the image in */
   position: relative;
   z-index: 1000;
+  filter: none;
+}
+
+iframe {
+  transition: var(--custom-chip-transition);
+  filter: var(--custom-chip-filter);
+  clip-path: var(--custom-chip-clip-inner);
+}
+iframe:hover {
   filter: none;
 }
 
