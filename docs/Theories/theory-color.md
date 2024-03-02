@@ -104,9 +104,7 @@ You will visit a replica of Saburo's office twice in the game. The first time is
 during "Love Like Fire", and the second time during "TotalImmortal". When
 visiting later in the game, **there is a telling conversation between V and Hanako**:
 
-> V: "You're a replica. You're a projection
-
-> Hanako: "You
+@todo
 
 ### Delamain Quest Line
 
