@@ -337,6 +337,7 @@ a.md-source:hover {
   color: var(--custom-color-white) !important;
   opacity: 1 !important;
 }
+.md-nav__source,
 .md-header__source {
   display: none !important;
 }
