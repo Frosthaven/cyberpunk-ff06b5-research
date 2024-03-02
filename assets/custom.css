@@ -182,7 +182,7 @@ header {
   background: none !important;
   border: 0 !important;
 }
-.md-header {
+body:not([data-md-scrolllock]) .md-header {
   /* make background transparent but blur */
   background: var(--custom-color-glass) !important;
   backdrop-filter: blur(var(--custom-color-glass-blur)) !important;
