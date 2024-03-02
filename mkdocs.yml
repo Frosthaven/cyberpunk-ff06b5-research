@@ -11,8 +11,8 @@ markdown_extensions:
 #plugins:
 #  - glightbox
 theme:
-  logo: 'assets/cube.svg'
-  favicon: 'assets/cube.svg'
+  logo: 'assets/logo.svg'
+  favicon: 'assets/favicon.svg'
   name: material
   font:
     text: 'Roboto'

@@ -18,8 +18,10 @@ docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
 
 
 ## build and deploy docs to github pages
+You may need to use the `--force` flag if you are overwriting an existing
+deployment.
 ```shell
-mkdocs gh-deploy
+mkdocs gh-deploy --force
 ```
 
 ## build docs locally for self-hosting
