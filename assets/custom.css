@@ -150,12 +150,31 @@ table code {
 }
 
 /* links */
-.md-nav__title {
-  border-bottom: 2px solid var(--custom-color-primary-dark);
+.md-nav label.md-nav__link,
+.md-nav .md-nav__title {
+  background: none !important;
+  color: var(--custom-color-primary-dark) !important;
+  text-transform: uppercase;
 }
 .md-nav__item {
   border-top: 0 !important;
 }
+
+@media screen and (max-width: 1219px) {
+  .md-nav label.md-nav__link,
+  .md-nav .md-nav__title {
+    color: var(--custom-color-primary) !important;
+  }
+  .md-nav--primary .md-nav .md-nav__title {
+    color: var(--custom-color-secondary) !important;
+    border-bottom: 2px solid var(--custom-color-primary-dark) !important;
+  }
+}
+
+label.md-nav__title {
+  color: var(--custom-color-secondary) !important;
+}
+
 .md-nav label {
   text-transform: uppercase;
   color: var(--custom-color-primary) !important;
