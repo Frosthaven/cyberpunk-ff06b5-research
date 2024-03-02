@@ -1,5 +1,6 @@
 site_name: 'CCRF'
 site_url: 'https://ff06b5.thedragon.dev'
+repo_url: 'https://github.com/Frosthaven/cyberpunk-ff06b5-research'
 extra_css:
   - 'assets/custom.css'
 
