@@ -12,6 +12,7 @@
   --custom-color-gray: #808091;
   --custom-color-primary: #ff6159;
   --custom-color-primary-dark: #672b2b;
+  --custom-color-primary-disabled: rgba(255, 97, 89, 0.15);
   --custom-color-secondary: #29ffff;
   --custom-color-tertiary: #ffd141;
 
@@ -24,17 +25,35 @@
   --custom-color-gradient-low: #0a0d14;
 
   --custom-chip-size: 1rem;
-  --custom-chip-border-size: 2px;
-  --custom-chip-color: var(--custom-color-primary);
-  --custom-chip-color-hover: var(--custom-color-tertiary);
-  --custom-chip-transition: filter 0.2s;
+  --custom-chip-border-size: 1px;
+  --custom-chip-color: linear-gradient(
+    -155deg,
+    var(--custom-color-gradient-transparency),
+    var(--custom-color-gradient-transparency),
+    var(--custom-color-gradient-transparency),
+    var(--custom-color-gradient-transparency),
+    var(--custom-color-primary)
+  );
+  --custom-chip-color-hover: linear-gradient(
+    -155deg,
+    var(--custom-color-gradient-transparency),
+    var(--custom-color-gradient-transparency),
+    var(--custom-color-gradient-transparency),
+    var(--custom-color-gradient-transparency),
+    var(--custom-color-tertiary),
+    var(--custom-color-tertiary)
+  );
+  --custom-chip-transition: all 0.3s;
   --custom-chip-filter: brightness(0.8) saturate(0.95);
   --custom-chip-clip-inner: polygon(
     0 0,
     100% 0,
     100% 100%,
-    calc(var(--custom-chip-size) + 3px) 100%,
-    0 calc(100% - var(--custom-chip-size) - 3px)
+    calc(var(--custom-chip-size) + var(--custom-chip-border-size) + 1px) 100%,
+    0
+      calc(
+        100% - var(--custom-chip-size) - var(--custom-chip-border-size) - 1px
+      )
   );
   --custom-chip-clip-outter: polygon(
     0 0,
@@ -307,15 +326,6 @@ article a {
 img {
   color: black;
 }
-article img:not(.no-border) {
-  border: var(--custom-chip-border-size) solid var(--custom-color-primary-dark);
-}
-article a img:not(.no-border) {
-  border: var(--custom-chip-border-size) solid var(--custom-chip-color);
-}
-article a:hover img:not(.no-border) {
-  border: var(--custom-chip-border-size) solid var(--custom-chip-color-hover);
-}
 article svg {
   width: 25px;
   display: inline-block;
@@ -388,14 +398,19 @@ a.md-source:hover {
 }
 
 /* glightbox */
-.glightbox:has(img:not(.no-chip)) {
+.glightbox:has(img:not(.no-chip)):not(.no-border) {
   transition: var(--custom-chip-transition);
   filter: var(--custom-chip-filter);
   padding: 0;
   margin: 0;
   display: inline-block;
-  background-color: var(--custom-chip-color);
+  background: var(--custom-chip-color);
   clip-path: var(--custom-chip-clip-outter);
+}
+@media screen and (max-width: 1219px) {
+  .glightbox:has(img:not(.no-chip)):not(.no-border) {
+    filter: none !important;
+  }
 }
 article img:not(.no-chip):not(.no-border) {
   padding: var(--custom-chip-border-size);
@@ -407,8 +422,7 @@ article img:not(.no-chip):not(.no-border) {
 }
 
 .glightbox:has(img:not(.no-chip)):not(.no-border):hover {
-  background-color: var(--custom-chip-color-hover);
-  /* zoom the image in */
+  background: var(--custom-chip-color-hover);
   position: relative;
   z-index: 1000;
   filter: none;
@@ -421,6 +435,11 @@ iframe {
 }
 iframe:hover {
   filter: none;
+}
+@media screen and (max-width: 1219px) {
+  iframe {
+    filter: none !important;
+  }
 }
 
 .gslide-inner-content .gslide-inner-content h1,
