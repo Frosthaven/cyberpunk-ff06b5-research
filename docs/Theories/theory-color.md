@@ -90,7 +90,7 @@ source of the commotion.
 
 The **cyan and red** stage lights pierce the darkness of the club. The crowd
 stands in a pit of **blue and yellow** cheering. Johnny steps into the vibrant
-fresh colors of the freshly lit stage, ready to play, and proclaims:
+colors of the freshly illuminated stage, ready to play, and proclaims:
 
 > Tonight, I'm... I'm here to say goodbye to all of you.
 
