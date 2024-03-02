@@ -1,7 +1,5 @@
 # Welcome
 
-## About These Documents
-
 Welcome to the **CCRI**, or **Cyber Conspiracy Research Initiative**.
 
 This is a place where I document the strange things I find in Night City. It's
