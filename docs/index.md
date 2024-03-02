@@ -1,6 +1,8 @@
+# Welcome
+
 ## About These Documents
 
-Welcome to the **CCRF**, or **Cyber Conspiracy Research Facility**.
+Welcome to the **CCRI**, or **Cyber Conspiracy Research Initiative**.
 
 This is a place where I document the strange things I find in Night City. It's
 also the where I turn my mid-dig psycho-babbling into a more approachable
