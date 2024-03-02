@@ -1,5 +1,5 @@
 site_name: 'CCRF'
-site_url: 'http://localhost:8000'
+site_url: 'http://ff06b5.thedragon.dev'
 extra_css:
   - 'assets/custom.css'
 
