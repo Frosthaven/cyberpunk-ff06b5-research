@@ -24,79 +24,85 @@ convey a deeper meaning.
 
 ## The Color Wheel
 
-![RGB Color Wheel](./assets/rgb-color-wheel.png){width=100 align=left class=no-border}
+![RGB Color Wheel](./assets/rgb-color-wheel.png){width=150 align=left class=no-border}
 This theory requires a basic understanding of the RGB color wheel. I've included
 it here for reference.
+
+This theory will discuss **complimentary colors**. Complimentary colors are
+colors that are opposite each other on the color wheel. When combined, they
+cancel each other out and create a neutral color (white, gray, or black).
 <br>
 
 ## Discovery
 
 ### The UI
 
-The main interface is painted in **red and cyan**. When using an RGB color
-wheel, these colors are complimentary (perfectly opposite one another). This
-pattern continues when you gain control of Johnny Silverhand. For him, the UI is
-painted in **yellow and blue**, which are also complimentary.
-
 ![UI (V)](./assets/ui-v.png){width=376} ![UI (Johnny)](./assets/ui-johnny.png){width=376}
 <br>
 
-Johnny's UI doesn't have the same chip-like shape to it until he is sufficiently
-part of V - something we'll explore more in [symbols](../Research/Around%20The%20City/research-symbols.md).
+There are two complimentary color sets that we interact with a ton in the game:
 
-### Corpo Plaza Fish
+- **Red & Cyan** - The main interface color
+- **Blue & Yellow** - Johnny's interface color
 
-Following the idea of complimentary colors that rest opposite, some interesting
-observations can be made about the fish in the Corpo Plaza. The fish themselves
-are **orange and pale blue**, with the base of the circular foundation cycling
-through the color wheel.
+*Johnny's UI in this screenshot does not have the same chip-like shape to it
+until he is sufficiently part of V - something we'll explore more in [symbols](../Research/Around%20The%20City/research-symbols.md).*
+
+### The World
 
 ![Corpo Fish Colorwheel](./assets/corpo-fish-colorwheel.png)
 
-The most interesting takeaway from this is that the fish colors sit
-**symmetrically centered between the two color sets of the UI** we discussed
-earlier.
+This is where we are introduced to a third common complimentary color set:
+
+- **Orange & Pale Blue** - Corpo Plaza fish
+
+The orange & pale blue of the Corpo Plaza fish aligns *exactly* between the two
+previously mentioned color sets. This is a very important detail, as this
+*pattern of symmetry* will be seen throughout the game and this theory.
+
+*It is also noteworthy that the round foundation under the fish cycles through
+the colors of the color wheel.*
 
 ### Scene Color Casting
 
-#### Johnny's POV
-
-When V is shot and presumably on their way to the pearly gates, that's when the
-relic kicks in for a reboot. Enter Johnny.
-
-The scene *rotates* into view as Johnny flings the double doors open. When
-freshly loading into this scene, you can catch a glimpse of **cyan light** that
-surges down the hallway to illuminate a path. The extra observant may also
-notice the **red paint** covering the Samurai poster on the left and further
-down the hall.
+#### Johnny's Introduction
 
 ![Cyan Light](./assets/johnny-cyan-open.png)
 
-When the light settles, we're left with Johnny's gloomy blend of
-**blues and yellows**.
+V is shot and killed. That's when the relic kicks in for a reboot. Enter Johnny.
+
+The camera spins in from an upside-down position as Johnny flings the double
+doors open. When freshly loading into this scene, you can catch a glimpse of
+**cyan light**. This light illuminates the path forward while revealing a
+Samurai poster covered in **red paint** on the left. But the light does not
+last long.
 
 ![Blue and Yellow](./assets/johnny-blue-and-yellow.png)
 
-Backstage access is being guarded by Martin Tin - **A man wearing cyan
-and red clothes**. Johnny Pushes past him anyways.
-
 ![Martin Tin](./assets/martin-tin-cyan-red.png)
 
-The **cyan and red lights** illuminate the stage as if thirsty for a player.
+When the light fades, the scene is cast in Johnny's iconic **blue & yellow**.
+Back stage access is being guarded by Martin Tin - A man wearing
+**cyan & red clothes**. Johnny Pushes past this barrier and makes his way to the
+source of the commotion.
 
 ![Stage](./assets/stage-cyan-red.png)
 
-Looking out over the fans in blue and yellow, Johnny proclaims:
+The **cyan and red** stage lights pierce the darkness of the club. The crowd
+stands in a pit of **blue and yellow** cheering. Johnny steps into the vibrant
+fresh colors of the freshly lit stage, ready to play, and proclaims:
 
-> "Tonight, I'm... I'm here to say goodbye to all of you."
-
-...and say goodbye he did. Before getting in the AV for "Love Like Fire", we're
-greeted with a new color cast that is a combination of both color sets that we
-saw earlier.
+> Tonight, I'm... I'm here to say goodbye to all of you.
 
   ![Johnny in orange and green](./assets/johnny-orange-green.png)
 
+The crowd isn't the only thing given a farewell, as this is the last major time
+we see Johnny's starved pallet. The blue, yellow, red, and cyan **have now all
+blended together** to create this composite scene after the show.
+
 #### V Without Johnny
+
+@todo (devil ending colors)
 
 #### Saburo's Office
 

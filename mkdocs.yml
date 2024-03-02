@@ -30,3 +30,9 @@ theme:
     - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discordapp.com/users/141906786750955521
+    - icon: fontawesome/brands/reddit-alien
+      link: https://www.reddit.com/user/___Paladin___

@@ -4,13 +4,19 @@
 /*noinspection DuplicatedCode*/
 :root {
   --custom-color-gradient-transparency: transparent;
+
+  --custom-color-glass: rgb(15, 14, 21, 0.8);
+  --custom-color-glass-blur: 16px;
+
   --custom-color-white: #c3c3ce;
+  --custom-color-gray: #808091;
   --custom-color-primary: #ff6159;
   --custom-color-primary-dark: #672b2b;
   --custom-color-secondary: #29ffff;
   --custom-color-tertiary: #ffd141;
 
-  --custom-color-code: #05da3e;
+  --custom-color-quote: #3ecd75;
+  --custom-color-code: #a23ac2;
   --custom-color-bold: #f5932d;
 
   --custom-color-gradient-high: #200e16;
@@ -24,12 +30,13 @@
 /*noinspection DuplicatedCode*/
 [data-md-color-scheme="slate"] {
   background-color: #130e16;
-  background-image: linear-gradient(
-    180deg,
-    var(--custom-color-gradient-high),
-    var(--custom-color-gradient-mid),
-    var(--custom-color-gradient-low)
-  );
+  background-image: url(./bg-pattern.svg),
+    linear-gradient(
+      180deg,
+      var(--custom-color-gradient-high),
+      var(--custom-color-gradient-mid),
+      var(--custom-color-gradient-low)
+    );
   background-attachment: fixed;
 
   /* Typeset */
@@ -123,6 +130,47 @@ strong {
   font-weight: normal;
 }
 
+p > em:only-child {
+  color: var(--custom-color-gray);
+}
+
+blockquote {
+  position: relative;
+  border-left: 4px solid var(--custom-color-quote) !important;
+  color: var(--custom-color-quote) !important;
+}
+blockquote p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+}
+/* also add quote icon as pseudo element */
+blockquote p::before {
+  font:
+    1rem "Times New Roman",
+    Times,
+    serif;
+  justify-self: flex-start;
+  align-self: flex-start;
+  content: open-quote;
+  transform: scale(2.5) translateY(0.15rem);
+  color: var(--custom-color-quote);
+}
+blockquote p::after {
+  font:
+    1rem "Times New Roman",
+    Times,
+    serif;
+  justify-self: flex-end;
+  align-self: flex-end;
+  content: close-quote;
+  transform: scale(2.5) translateY(0.15rem);
+  color: var(--custom-color-quote);
+}
+
 code {
   border: 1px solid var(--custom-color-code);
 }
@@ -130,12 +178,28 @@ code {
 /* sections */
 header {
 }
+.md-tabs {
+  background: none !important;
+  border: 0 !important;
+}
+.md-header {
+  /* make background transparent but blur */
+  background: var(--custom-color-glass) !important;
+  backdrop-filter: blur(var(--custom-color-glass-blur)) !important;
+}
+.md-header__topic {
+  text-transform: uppercase !important;
+  font-weight: bolder !important;
+}
 .md-header--shadow {
   border-bottom: 2px solid var(--custom-color-primary-dark);
 }
 
 /* tables */
 /* any thead that doesn't have text content should be hidden */
+table {
+  background-color: transparent !important;
+}
 .md-typeset table {
   font-size: 0.8rem !important;
 }
@@ -242,8 +306,13 @@ li::marker {
   color: var(--custom-color-bold);
 }
 
-footer {
-  display: none;
+.md-footer-meta {
+  background-color: var(--custom-color-gradient-transparency);
+}
+.md-footer {
+  background-color: var(--custom-color-glass);
+  backdrop-filter: blur(var(--custom-color-glass-blur));
+  border-top: 2px solid var(--custom-color-primary-dark);
 }
 
 /* github links */
@@ -253,6 +322,9 @@ footer {
 
 .md-nav__source {
   border: 0 !important;
+}
+.md-source__facts {
+  display: none;
 }
 .md-nav--primary .md-nav__title ~ .md-nav__list {
   box-shadow: none !important;
@@ -264,4 +336,25 @@ a.md-source {
 a.md-source:hover {
   color: var(--custom-color-white) !important;
   opacity: 1 !important;
+}
+.md-header__source {
+  display: none !important;
+}
+
+.md-copyright {
+  color: var(--custom-color-white) !important;
+}
+.md-copyright a,
+.md-social a {
+  color: var(--custom-color-primary) !important;
+}
+.md-copyright a:hover,
+.md-social a:hover {
+  color: var(--custom-color-tertiary) !important;
+}
+.md-search__input {
+  color: var(--custom-color-secondary) !important;
+}
+.md-search__input::placeholder {
+  color: var(--custom-color-primary-dark) !important;
 }
