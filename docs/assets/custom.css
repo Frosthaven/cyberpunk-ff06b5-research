@@ -292,7 +292,7 @@ img {
   color: black;
 }
 article img:not(.no-border) {
-  border: var(--custom-chip-border-size) solid var(--custom-chip-color);
+  border: var(--custom-chip-border-size) solid var(--custom-color-primary-dark);
 }
 article a img:not(.no-border) {
   border: var(--custom-chip-border-size) solid var(--custom-chip-color);
@@ -387,7 +387,7 @@ a.md-source:hover {
     0 calc(100% - var(--custom-chip-size))
   );
 }
-.glightbox img:not(.no-chip) {
+article img:not(.no-chip):not(.no-border) {
   padding: var(--custom-chip-border-size);
   margin: 0;
   display: block !important;
