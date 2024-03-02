@@ -1,8 +1,9 @@
 /* my palette ------------------------------------------------------------------
 ----------------------------------------------------------------------------- */
 
+/*noinspection DuplicatedCode*/
 :root {
-  --custom-color-gradient-mid: transparent;
+  --custom-color-gradient-transparency: transparent;
   --custom-color-white: #c3c3ce;
   --custom-color-primary: #ff6159;
   --custom-color-primary-dark: #672b2b;
@@ -20,6 +21,7 @@
 /* theme overrides  ------------------------------------------------------------
 ----------------------------------------------------------------------------- */
 
+/*noinspection DuplicatedCode*/
 [data-md-color-scheme="slate"] {
   background-color: #130e16;
   background-image: linear-gradient(
@@ -127,7 +129,6 @@ code {
 
 /* sections */
 header {
-  backdrop-filter: blur(15px);
 }
 .md-header--shadow {
   border-bottom: 2px solid var(--custom-color-primary-dark);
@@ -149,9 +150,21 @@ table code {
 }
 
 /* links */
+.md-nav__title {
+  border-bottom: 2px solid var(--custom-color-primary-dark);
+}
+.md-nav__item {
+  border-top: 0 !important;
+}
 .md-nav label {
   text-transform: uppercase;
-  color: var(--custom-color-primary-dark) !important;
+  color: var(--custom-color-primary) !important;
+  box-shadow: none !important;
+  background: none !important;
+}
+.md-nav label:hover {
+  text-transform: uppercase;
+  color: var(--custom-color-tertiary) !important;
   box-shadow: none !important;
   background: none !important;
 }
@@ -208,4 +221,28 @@ article svg {
 
 li::marker {
   color: var(--custom-color-bold);
+}
+
+footer {
+  display: none;
+}
+
+/* github links */
+.md-nav__source {
+  background: none;
+}
+
+.md-nav__source {
+  border: 0 !important;
+}
+.md-nav--primary .md-nav__title ~ .md-nav__list {
+  box-shadow: none !important;
+}
+a.md-source {
+  color: var(--custom-color-tertiary) !important;
+  opacity: 1 !important;
+}
+a.md-source:hover {
+  color: var(--custom-color-white) !important;
+  opacity: 1 !important;
 }
