@@ -8,8 +8,6 @@
       
       
       
-        <link rel="canonical" href="https://ff06b5.thedragon.dev/Theories/theory-color/">
-      
       
         <link rel="prev" href="../theory-broken-time/">
       
@@ -57,7 +55,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -72,11 +79,6 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
-      
-        
-        <a href="#color-theory" class="md-skip">
-          Skip to content
-        </a>
       
     </div>
     <div data-md-component="announce">
@@ -120,43 +122,6 @@
     
     
     
-    
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
-        </button>
-      </nav>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list" role="presentation"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
     
     
       <div class="md-header__source">
@@ -874,19 +839,6 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Color Theory
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -897,163 +849,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
-    <span class="md-ellipsis">
-      Introduction
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#hypothesis" class="md-nav__link">
-    <span class="md-ellipsis">
-      Hypothesis
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-color-wheel" class="md-nav__link">
-    <span class="md-ellipsis">
-      The Color Wheel
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#discovery" class="md-nav__link">
-    <span class="md-ellipsis">
-      Discovery
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Discovery">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#the-ui" class="md-nav__link">
-    <span class="md-ellipsis">
-      The UI
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#the-world" class="md-nav__link">
-    <span class="md-ellipsis">
-      The World
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#scene-color-casting" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scene Color Casting
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Scene Color Casting">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#johnnys-introduction" class="md-nav__link">
-    <span class="md-ellipsis">
-      Johnny's Introduction
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#v-without-johnny" class="md-nav__link">
-    <span class="md-ellipsis">
-      V Without Johnny
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#saburos-office" class="md-nav__link">
-    <span class="md-ellipsis">
-      Saburo's Office
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#delamain-quest-line" class="md-nav__link">
-    <span class="md-ellipsis">
-      Delamain Quest Line
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#laurie-anderson" class="md-nav__link">
-    <span class="md-ellipsis">
-      Laurie Anderson
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#crosswalks" class="md-nav__link">
-    <span class="md-ellipsis">
-      Crosswalks
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#useful-tools" class="md-nav__link">
-    <span class="md-ellipsis">
-      Useful Tools
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -1236,154 +1031,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
-    <span class="md-ellipsis">
-      Introduction
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#hypothesis" class="md-nav__link">
-    <span class="md-ellipsis">
-      Hypothesis
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-color-wheel" class="md-nav__link">
-    <span class="md-ellipsis">
-      The Color Wheel
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#discovery" class="md-nav__link">
-    <span class="md-ellipsis">
-      Discovery
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Discovery">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#the-ui" class="md-nav__link">
-    <span class="md-ellipsis">
-      The UI
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#the-world" class="md-nav__link">
-    <span class="md-ellipsis">
-      The World
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#scene-color-casting" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scene Color Casting
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Scene Color Casting">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#johnnys-introduction" class="md-nav__link">
-    <span class="md-ellipsis">
-      Johnny's Introduction
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#v-without-johnny" class="md-nav__link">
-    <span class="md-ellipsis">
-      V Without Johnny
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#saburos-office" class="md-nav__link">
-    <span class="md-ellipsis">
-      Saburo's Office
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#delamain-quest-line" class="md-nav__link">
-    <span class="md-ellipsis">
-      Delamain Quest Line
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#laurie-anderson" class="md-nav__link">
-    <span class="md-ellipsis">
-      Laurie Anderson
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#crosswalks" class="md-nav__link">
-    <span class="md-ellipsis">
-      Crosswalks
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#useful-tools" class="md-nav__link">
-    <span class="md-ellipsis">
-      Useful Tools
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -1402,7 +1049,7 @@
 
 
 <h1 id="color-theory">Color Theory</h1>
-<p><img alt="Color On The Brain" src="../assets/color-brain.png" /></p>
+<p><img alt="Color On The Brain" class="no-lightbox" src="../assets/color-brain.png" /></p>
 <h2 id="introduction">Introduction</h2>
 <p>Color theory is a theory by which <strong>CD Project Red uses colors to tell a hidden
 story in Cyberpunk 2077</strong>. The theory is based on the idea that the colors used
@@ -1431,7 +1078,7 @@ cancel each other out and create a neutral color (white, gray, or black).
 <br></p>
 <h2 id="discovery">Discovery</h2>
 <h3 id="the-ui">The UI</h3>
-<p><img alt="UI (V)" src="../assets/ui-v.png" width="376" /> <img alt="UI (Johnny)" src="../assets/ui-johnny.png" width="376" />
+<p><a class="glightbox" href="../assets/ui-v.png" data-type="image" data-width="100%" data-height="auto" data-title="Red &amp; Cyan - The main interface color" data-desc-position="bottom"><img alt="Red &amp; Cyan - The main interface color" loading="lazy" src="../assets/ui-v.png" width="376" /></a> <a class="glightbox" href="../assets/ui-johnny.png" data-type="image" data-width="100%" data-height="auto" data-title="Blue &amp; Yellow - Johnny's interface color" data-desc-position="bottom"><img alt="Blue &amp; Yellow - Johnny's interface color" loading="lazy" src="../assets/ui-johnny.png" width="376" /></a>
 <br></p>
 <p>There are two complimentary color sets that we interact with a ton in the game:</p>
 <ul>
@@ -1441,7 +1088,7 @@ cancel each other out and create a neutral color (white, gray, or black).
 <p><em>Johnny's UI in this screenshot does not have the same chip-like shape to it
 until he is sufficiently part of V - something we'll explore more in <a href="../../Research/Around%20The%20City/research-symbols/">symbols</a>.</em></p>
 <h3 id="the-world">The World</h3>
-<p><img alt="Corpo Fish Colorwheel" src="../assets/corpo-fish-colorwheel.png" /></p>
+<p><a class="glightbox" href="../assets/corpo-fish-colorwheel.jpg" data-type="image" data-width="100%" data-height="auto" data-title="Orange &amp; Pale Blue - Corpo Plaza fish. This color set rests exactly between the two previously mentioned color sets" data-desc-position="bottom"><img alt="Orange &amp; Pale Blue - Corpo Plaza fish. This color set rests exactly between the two previously mentioned color sets" loading="lazy" src="../assets/corpo-fish-colorwheel.jpg" /></a></p>
 <p>This is where we are introduced to a third common complimentary color set:</p>
 <ul>
 <li><strong>Orange &amp; Pale Blue</strong> - Corpo Plaza fish</li>
@@ -1453,27 +1100,26 @@ previously mentioned color sets. This is a very important detail, as this
 the colors of the color wheel.</em></p>
 <h3 id="scene-color-casting">Scene Color Casting</h3>
 <h4 id="johnnys-introduction">Johnny's Introduction</h4>
-<p><img alt="Cyan Light" src="../assets/johnny-cyan-open.png" /></p>
-<p>V is shot and killed. That's when the relic kicks in for a reboot. Enter Johnny.</p>
-<p>The camera spins in from an upside-down position as Johnny flings the double
-doors open. When freshly loading into this scene, you can catch a glimpse of
+<p><a class="glightbox" href="../assets/johnny-cyan-open.jpg" data-type="image" data-width="100%" data-height="auto" data-title="This light illuminates the path forward" data-desc-position="bottom"><img alt="This light illuminates the path forward" loading="lazy" src="../assets/johnny-cyan-open.jpg" /></a></p>
+<p>V is shot and killed. That's when the relic kicks in for a reboot. Enter Johnny. The camera spins in from an upside-down position as Johnny flings the double
+doors open.</p>
+<p>When freshly loading into this scene, you can catch a glimpse of
 <strong>cyan light</strong>. This light illuminates the path forward while revealing a
-Samurai poster covered in <strong>red paint</strong> on the left. But the light does not
-last long.</p>
-<p><img alt="Blue and Yellow" src="../assets/johnny-blue-and-yellow.png" /></p>
-<p><img alt="Martin Tin" src="../assets/martin-tin-cyan-red.png" /></p>
+Samurai poster covered in <strong>red paint</strong> on the left and at the end of the hall.</p>
+<p><a class="glightbox" href="../assets/johnny-blue-and-yellow.jpg" data-type="image" data-width="100%" data-height="auto" data-title="When the light fades, the scene is cast in Johnny's iconic blue &amp; yellow" data-desc-position="bottom"><img alt="When the light fades, the scene is cast in Johnny's iconic blue &amp; yellow" loading="lazy" src="../assets/johnny-blue-and-yellow.jpg" /></a></p>
+<p><a class="glightbox" href="../assets/martin-tin-cyan-red.jpg" data-type="image" data-width="100%" data-height="auto" data-title="Back stage access is being guarded by Martin Tin - A man wearing cyan &amp; red clothes" data-desc-position="bottom"><img alt="Back stage access is being guarded by Martin Tin - A man wearing cyan &amp; red clothes" loading="lazy" src="../assets/martin-tin-cyan-red.jpg" /></a></p>
 <p>When the light fades, the scene is cast in Johnny's iconic <strong>blue &amp; yellow</strong>.
 Back stage access is being guarded by Martin Tin - A man wearing
 <strong>cyan &amp; red clothes</strong>. Johnny Pushes past this barrier and makes his way to the
 source of the commotion.</p>
-<p><img alt="Stage" src="../assets/stage-cyan-red.png" /></p>
+<p><a class="glightbox" href="../assets/stage-cyan-red.jpg" data-type="image" data-width="100%" data-height="auto" data-title="The cyan and red stage lights pierce the darkness of the club" data-desc-position="bottom"><img alt="The cyan and red stage lights pierce the darkness of the club" loading="lazy" src="../assets/stage-cyan-red.jpg" /></a></p>
 <p>The <strong>cyan and red</strong> stage lights pierce the darkness of the club. The crowd
 stands in a pit of <strong>blue and yellow</strong> cheering. Johnny steps into the vibrant
 colors of the freshly illuminated stage, ready to play, and proclaims:</p>
 <blockquote>
 <p>Tonight, I'm... I'm here to say goodbye to all of you.</p>
 </blockquote>
-<p><img alt="Johnny in orange and green" src="../assets/johnny-orange-green.png" /></p>
+<p><a class="glightbox" href="../assets/johnny-orange-green.jpg" data-type="image" data-width="100%" data-height="auto" data-title="The blue, yellow, red, and cyan have now all blended together to create this composite scene after the show" data-desc-position="bottom"><img alt="The blue, yellow, red, and cyan have now all blended together to create this composite scene after the show" loading="lazy" src="../assets/johnny-orange-green.jpg" /></a></p>
 <p>The crowd isn't the only thing given a farewell, as this is the last major time
 we see Johnny's starved pallet. The blue, yellow, red, and cyan <strong>have now all
 blended together</strong> to create this composite scene after the show.</p>
@@ -1505,7 +1151,7 @@ However, <strong>Laurie Anderson's health screen is <em>always</em> pure white</
 <h3 id="crosswalks">Crosswalks</h3>
 <p>At a certain point, the black background in the <strong>crosswalk lights begin shining a
 random color</strong> on game startup.</p>
-<p><img alt="Crosswalks" src="../assets/colored-crosswalks.png" /></p>
+<p><a class="glightbox" href="../assets/colored-crosswalks.png" data-type="image" data-width="100%" data-height="auto" data-title="Crosswalk lights begin shining a random color" data-desc-position="bottom"><img alt="Crosswalk lights begin shining a random color" loading="lazy" src="../assets/colored-crosswalks.png" /></a></p>
 <h2 id="useful-tools">Useful Tools</h2>
 <ul>
 <li><a href="https://www.calculator.net/hex-calculator.html">Hex Calculator</a></li>
@@ -1596,5 +1242,5 @@ random color</strong> on game startup.</p>
       <script src="../../assets/javascripts/bundle.c8d2eff1.min.js"></script>
       
     
-  </body>
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>
