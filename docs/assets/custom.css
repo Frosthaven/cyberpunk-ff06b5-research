@@ -40,8 +40,8 @@
     var(--custom-color-gradient-transparency),
     var(--custom-color-gradient-transparency),
     var(--custom-color-gradient-transparency),
-    var(--custom-color-tertiary),
-    var(--custom-color-tertiary)
+    var(--custom-color-secondary),
+    var(--custom-color-secondary)
   );
   --custom-chip-transition: all 0.3s;
   --custom-chip-filter: brightness(0.8) saturate(0.95);
