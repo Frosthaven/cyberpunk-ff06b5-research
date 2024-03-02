@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DependencyValidationManager">
+    <scope name="PurePHP" pattern="file:**/*Controllers/*.php||file:**/*controllers/*.php||file:**/*Models/*.php||file:**/*models/*.php||file:**/*Classes/*.php||file:**/*classes/*.php||file:**/Services/*.php||file:**/services/*.php||file:**/src/*.php||file:**/middleware/*.php||file:**/requests/*.php||file:**/functions/*.php||file:**/billing/*.php||file:**/cron/*.php" />
+  </component>
+</project>

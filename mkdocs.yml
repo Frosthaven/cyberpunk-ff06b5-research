@@ -1,0 +1,30 @@
+site_name: 'CCRF'
+site_url: 'http://localhost:8000'
+extra_css:
+  - 'assets/custom.css'
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+#plugins:
+#  - glightbox
+theme:
+  logo: 'assets/cube.svg'
+  favicon: 'assets/cube.svg'
+  name: material
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  palette:
+    scheme: slate
+    primary: pink
+    accent: yellow
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
