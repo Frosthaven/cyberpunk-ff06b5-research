@@ -1,15 +1,34 @@
+copyright: '© 2021-2077 Paladin Frosthaven'
 site_name: 'FF06B5:CCRF'
-site_url: 'https://ff06b5.thedragon.dev'
 repo_url: 'https://github.com/Frosthaven/cyberpunk-ff06b5-research'
-domain: 'ff06b5.thedragon.dev'
+
 extra_css:
   - 'assets/custom.css'
 
 markdown_extensions:
+  - toc:
+      toc_depth: 0
   - attr_list
   - md_in_html
-#plugins:
-#  - glightbox
+
+plugins:
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - no-border
+        - no-lightbox
+      auto_caption: true
+      caption_position: bottom
+      background: white
+      shadow: true
+
 theme:
   logo: 'assets/logo.svg'
   favicon: 'assets/favicon.svg'
@@ -30,10 +49,10 @@ theme:
     - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
+
 extra:
   social:
     - icon: fontawesome/brands/discord
       link: https://discordapp.com/users/141906786750955521
     - icon: fontawesome/brands/reddit-alien
       link: https://www.reddit.com/user/___Paladin___
-copyright: '© 2021-2077 Paladin Frosthaven'

@@ -22,6 +22,11 @@
   --custom-color-gradient-high: #200e16;
   --custom-color-gradient-mid: #130e16;
   --custom-color-gradient-low: #0a0d14;
+
+  --custom-chip-size: 1rem;
+  --custom-chip-border-size: 2px;
+  --custom-chip-color: var(--custom-color-primary);
+  --custom-chip-color-hover: var(--custom-color-tertiary);
 }
 
 /* theme overrides  ------------------------------------------------------------
@@ -140,7 +145,7 @@ blockquote {
   color: var(--custom-color-quote) !important;
 }
 blockquote p {
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   margin-right: 1rem;
   position: relative;
   display: flex;
@@ -283,14 +288,17 @@ article a {
 }
 
 /* media */
+img {
+  color: black;
+}
 article img:not(.no-border) {
-  border: 2px solid var(--custom-color-primary-dark);
+  border: var(--custom-chip-border-size) solid var(--custom-chip-color);
 }
 article a img:not(.no-border) {
-  border: 2px solid var(--custom-color-primary-dark);
+  border: var(--custom-chip-border-size) solid var(--custom-chip-color);
 }
 article a:hover img:not(.no-border) {
-  border: 2px solid var(--custom-color-tertiary);
+  border: var(--custom-chip-border-size) solid var(--custom-chip-color-hover);
 }
 article svg {
   width: 25px;
@@ -361,4 +369,59 @@ a.md-source:hover {
 }
 .md-copyright__highlight {
   color: var(--custom-color-tertiary) !important;
+}
+
+/* glightbox */
+.glightbox:has(img:not(.no-chip)) {
+  transition: all 0.2s ease-in-out;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  background-color: var(--custom-chip-color);
+  clip-path: polygon(
+    0 0,
+    /*calc(100% - var(--custom-chip-size)) 0,*/
+      /*100% var(--custom-chip-size),*/ 100% 0,
+    100% 100%,
+    var(--custom-chip-size) 100%,
+    0 calc(100% - var(--custom-chip-size))
+  );
+}
+.glightbox img:not(.no-chip) {
+  padding: var(--custom-chip-border-size);
+  margin: 0;
+  display: block !important;
+  border: none !important;
+  /* clip top right of img */
+  clip-path: polygon(
+    0 0,
+    /*calc(100% - var(--custom-chip-size) - 1px - var(--custom-chip-border-size))*/
+      /*  0,*/
+      /*100% calc(var(--custom-chip-size) + 1px + var(--custom-chip-border-size)),*/
+      100% 0,
+    100% 100%,
+    calc(var(--custom-chip-size) + 3px) 100%,
+    0 calc(100% - var(--custom-chip-size) - 3px)
+  );
+}
+
+.glightbox:has(img:not(.no-chip)):hover {
+  transition: all 0.2s ease-in-out;
+  background-color: var(--custom-chip-color-hover);
+  /* zoom the image in */
+  transform: scale(1.03);
+  position: relative;
+  z-index: 1000;
+}
+
+.gslide-inner-content .gslide-inner-content h1,
+.gslide-inner-content h2,
+.gslide-inner-content h3,
+.gslide-inner-content h4,
+.gslide-inner-content h5,
+.gslide-inner-content h6 {
+  font-weight: normal !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: var(--custom-color-white) !important;
 }

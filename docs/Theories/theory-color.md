@@ -1,6 +1,6 @@
 # Color Theory
 
-![Color On The Brain](./assets/color-brain.png)
+![Color On The Brain](./assets/color-brain.png){class=no-lightbox}
 
 ## Introduction
 
@@ -37,7 +37,7 @@ cancel each other out and create a neutral color (white, gray, or black).
 
 ### The UI
 
-![UI (V)](./assets/ui-v.png){width=376} ![UI (Johnny)](./assets/ui-johnny.png){width=376}
+![Red & Cyan - The main interface color](./assets/ui-v.png){width=376 loading=lazy} ![Blue & Yellow - Johnny's interface color](./assets/ui-johnny.png){width=376 loading=lazy}
 <br>
 
 There are two complimentary color sets that we interact with a ton in the game:
@@ -50,7 +50,7 @@ until he is sufficiently part of V - something we'll explore more in [symbols](.
 
 ### The World
 
-![Corpo Fish Colorwheel](./assets/corpo-fish-colorwheel.png)
+![Orange & Pale Blue - Corpo Plaza fish. This color set rests exactly between the two previously mentioned color sets](./assets/corpo-fish-colorwheel.jpg){loading=lazy}
 
 This is where we are introduced to a third common complimentary color set:
 
@@ -67,26 +67,25 @@ the colors of the color wheel.*
 
 #### Johnny's Introduction
 
-![Cyan Light](./assets/johnny-cyan-open.png)
+![This light illuminates the path forward](./assets/johnny-cyan-open.jpg){loading=lazy}
 
-V is shot and killed. That's when the relic kicks in for a reboot. Enter Johnny.
+V is shot and killed. That's when the relic kicks in for a reboot. Enter Johnny. The camera spins in from an upside-down position as Johnny flings the double
+doors open.
 
-The camera spins in from an upside-down position as Johnny flings the double
-doors open. When freshly loading into this scene, you can catch a glimpse of
+When freshly loading into this scene, you can catch a glimpse of
 **cyan light**. This light illuminates the path forward while revealing a
-Samurai poster covered in **red paint** on the left. But the light does not
-last long.
+Samurai poster covered in **red paint** on the left and at the end of the hall.
 
-![Blue and Yellow](./assets/johnny-blue-and-yellow.png)
+![When the light fades, the scene is cast in Johnny's iconic blue & yellow](./assets/johnny-blue-and-yellow.jpg){loading=lazy}
 
-![Martin Tin](./assets/martin-tin-cyan-red.png)
+![Back stage access is being guarded by Martin Tin - A man wearing cyan & red clothes](./assets/martin-tin-cyan-red.jpg){loading=lazy}
 
 When the light fades, the scene is cast in Johnny's iconic **blue & yellow**.
 Back stage access is being guarded by Martin Tin - A man wearing
 **cyan & red clothes**. Johnny Pushes past this barrier and makes his way to the
 source of the commotion.
 
-![Stage](./assets/stage-cyan-red.png)
+![The cyan and red stage lights pierce the darkness of the club](./assets/stage-cyan-red.jpg){loading=lazy}
 
 The **cyan and red** stage lights pierce the darkness of the club. The crowd
 stands in a pit of **blue and yellow** cheering. Johnny steps into the vibrant
@@ -94,7 +93,7 @@ colors of the freshly illuminated stage, ready to play, and proclaims:
 
 > Tonight, I'm... I'm here to say goodbye to all of you.
 
-  ![Johnny in orange and green](./assets/johnny-orange-green.png)
+  ![The blue, yellow, red, and cyan have now all blended together to create this composite scene after the show](./assets/johnny-orange-green.jpg){loading=lazy}
 
 The crowd isn't the only thing given a farewell, as this is the last major time
 we see Johnny's starved pallet. The blue, yellow, red, and cyan **have now all
@@ -138,7 +137,7 @@ However, **Laurie Anderson's health screen is *always* pure white**.
 At a certain point, the black background in the **crosswalk lights begin shining a
 random color** on game startup.
 
-![Crosswalks](./assets/colored-crosswalks.png)
+![Crosswalk lights begin shining a random color](./assets/colored-crosswalks.png){loading=lazy}
 
 ## Useful Tools
 
