@@ -10,5 +10,5 @@ mkdocs build
 
 # build and deploy docs to github pages
 ```shell
-mkdocs gh-deploy --ssh
+mkdocs gh-deploy
 ```
