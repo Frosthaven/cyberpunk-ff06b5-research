@@ -12,7 +12,7 @@
   --custom-color-gray: #808091;
   --custom-color-primary: #ff6159;
   --custom-color-primary-dark: #672b2b;
-  --custom-color-primary-disabled: rgba(255, 97, 89, 0.15);
+  --custom-color-primary-disabled: rgb(64, 40, 52);
   --custom-color-secondary: #29ffff;
   --custom-color-tertiary: #ffd141;
 
@@ -26,23 +26,8 @@
 
   --custom-chip-size: 1rem;
   --custom-chip-border-size: 1px;
-  --custom-chip-color: linear-gradient(
-    -155deg,
-    var(--custom-color-gradient-transparency),
-    var(--custom-color-gradient-transparency),
-    var(--custom-color-gradient-transparency),
-    var(--custom-color-gradient-transparency),
-    var(--custom-color-primary)
-  );
-  --custom-chip-color-hover: linear-gradient(
-    -155deg,
-    var(--custom-color-gradient-transparency),
-    var(--custom-color-gradient-transparency),
-    var(--custom-color-gradient-transparency),
-    var(--custom-color-gradient-transparency),
-    var(--custom-color-secondary),
-    var(--custom-color-secondary)
-  );
+  --custom-chip-color: var(--custom-color-primary-disabled);
+  --custom-chip-color-hover: var(--custom-color-secondary);
   --custom-chip-transition: all 0.3s;
   --custom-chip-filter: brightness(0.8) saturate(0.95);
   --custom-chip-clip-inner: polygon(
