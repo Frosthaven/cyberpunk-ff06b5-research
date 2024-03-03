@@ -64,42 +64,18 @@ previously mentioned color sets. This is a very important detail, as this
 the colors of the color wheel.*
 
 ### Scene Color Casting
+Both V and Johnny undergo a color transformation. The following slideshows
+document this during the penultimate openers of the game.
 
-#### Johnny's Introduction
+Johnny: Blue & Yellow ► Cyan & Red
+![Johnny's opening scene is cast in iconic blue & yellow.](./assets/johnny-blue-and-yellow.jpg){loading=lazy data-slider}
+![Back stage access is being guarded by Martin Tin - A man wearing cyan & red clothes.](./assets/martin-tin-cyan-red.jpg){loading=lazy data-slider}
+![The cyan and red stage lights pierce the darkness of the club, provoking Johnny to start playing. He closes with the phrase "Tonight, I'm... I'm here to say goodbye to all of you.". Fittingly, this is the last major time we see Johnny's starved pallet.](./assets/stage-cyan-red.jpg){loading=lazy data-slider}
+![The blue, yellow, red, and cyan have now all blended together to create this composite scene after the show.](./assets/johnny-orange-green.jpg){loading=lazy data-slider}
 
-![This light illuminates the path forward](./assets/johnny-cyan-open.jpg){loading=lazy}
 
-V is shot and killed. That's when the relic kicks in for a reboot. Enter Johnny. The camera spins in from an upside-down position as Johnny flings the double
-doors open.
-
-When freshly loading into this scene, you can catch a glimpse of
-**cyan light**. This light illuminates the path forward while revealing a
-Samurai poster covered in **red paint** on the left and at the end of the hall.
-
-![When the light fades, the scene is cast in Johnny's iconic blue & yellow](./assets/johnny-blue-and-yellow.jpg){loading=lazy}
-
-![Back stage access is being guarded by Martin Tin - A man wearing cyan & red clothes](./assets/martin-tin-cyan-red.jpg){loading=lazy}
-
-When the light fades, the scene is cast in Johnny's iconic **blue & yellow**.
-Back stage access is being guarded by Martin Tin - A man wearing
-**cyan & red clothes**. Johnny Pushes past this barrier and makes his way to the
-source of the commotion.
-
-![The cyan and red stage lights pierce the darkness of the club](./assets/stage-cyan-red.jpg){loading=lazy}
-
-The **cyan and red** stage lights pierce the darkness of the club. The crowd
-stands in a pit of **blue and yellow** cheering. Johnny steps into the vibrant
-colors of the freshly illuminated stage, ready to play, and proclaims:
-
-> Tonight, I'm... I'm here to say goodbye to all of you.
-
-  ![The blue, yellow, red, and cyan have now all blended together to create this composite scene after the show](./assets/johnny-orange-green.jpg){loading=lazy}
-
-The crowd isn't the only thing given a farewell, as this is the last major time
-we see Johnny's starved pallet. The blue, yellow, red, and cyan **have now all
-blended together** to create this composite scene after the show.
-
-#### V Without Johnny
+V: Pink & Green ► Cyan & Red
+@todo
 
 @todo (devil ending colors)
 

@@ -4,6 +4,8 @@ repo_url: 'https://github.com/Frosthaven/cyberpunk-ff06b5-research'
 
 extra_css:
   - 'assets/custom.css'
+extra_javascript:
+  - 'assets/custom.js'
 
 markdown_extensions:
   - toc:
