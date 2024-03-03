@@ -603,8 +603,8 @@ p:has([data-slidebox]) {
 
 [data-slidebox-title] {
   font-size: 0.7rem;
-  fill: var(--custom-color-bold);
-  color: var(--custom-color-bold);
+  fill: var(--custom-color-quote);
+  color: var(--custom-color-quote);
   font-weight: bolder;
   text-transform: uppercase;
   margin-bottom: 0.25rem;
