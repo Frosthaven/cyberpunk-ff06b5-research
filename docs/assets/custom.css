@@ -26,10 +26,13 @@
 
   --custom-chip-size: 1rem;
   --custom-chip-border-size: 1px;
-  --custom-chip-color: var(--custom-color-primary-disabled);
-  --custom-chip-color-hover: var(--custom-color-secondary);
-  --custom-chip-transition: all 0.3s;
-  --custom-chip-filter: brightness(0.8) saturate(0.95);
+  --custom-chip-color: var(--custom-color-gradient-transparency);
+  --custom-chip-color-hover: var(--custom-color-gradient-transparency);
+  --custom-chip-transition: all 0.2s;
+  --custom-chip-transform: scale(1.05);
+  --custom-chip-trannsform-odd: scale(1.05);
+  --custom-chip-filter: none;
+  --custom-chip-filter-after: brightness(1.2);
   --custom-chip-clip-inner: polygon(
     0 0,
     100% 0,
@@ -410,7 +413,21 @@ article img:not(.no-chip):not(.no-border) {
   background: var(--custom-chip-color-hover);
   position: relative;
   z-index: 1000;
-  filter: none;
+  filter: var(--custom-chip-filter-after);
+}
+.glightbox:has(img:not(.no-chip)):not(.no-border) img {
+  transition: var(--custom-chip-transition);
+}
+
+p:has(.glightbox):nth-of-type(even)
+  .glightbox:has(img:not(.no-chip)):not(.no-border)
+  img:hover {
+  transform: var(--custom-chip-transform);
+}
+p:has(.glightbox):nth-of-type(odd)
+  .glightbox:has(img:not(.no-chip)):not(.no-border)
+  img:hover {
+  transform: var(--custom-chip-trannsform-odd);
 }
 
 iframe {
