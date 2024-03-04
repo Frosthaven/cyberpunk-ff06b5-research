@@ -27,10 +27,10 @@ UI Color Sets
 ![Red/Cyan: The game interface color](./assets/ui-v.png){loading=lazy data-slider}
 ![Blue/Yellow: Johnny's interface color](./assets/ui-johnny.png){loading=lazy data-slider}
 
-### Title Screen Events
+### Mid-Game Title Screen Events
 
-I want to focus on the moment the title screen "Cyberpunk 2077" plays. The logo
-is sandwiched between two key events: Johnny's awakening and V's death.
+I want to focus on the main events in the game that occur on either side of
+the mid-game title screen. These events are V's death and Johnny's awakening.
 
 Johnny's Awakening: Blue/Yellow + Black
 ![Johnny's view opens with a rotating room devoid of light. The structures mirror those found in T-Bug's training shard.](./assets/johnny-darkness.png){loading=lazy data-slider}
