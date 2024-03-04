@@ -9,24 +9,21 @@ story in Cyberpunk 2077**. The theory is based on the idea that the colors used
 in the game are not just for aesthetic purposes, but are furthermore used to
 convey a deeper meaning.
 
-
 ![RGB Color Wheel](./assets/rgb-color-wheel.png){width=150 align=left class=no-border}
 This theory requires a basic understanding of the RGB color wheel. I've included
 it here for reference.
 
 This theory will discuss **complimentary colors**. Complimentary colors are
 colors that are opposite each other on the color wheel. When combined, they
-cancel each other out and create a neutral color (white, gray, or black).
-<br>
+cancel each other out and create a neutral gray.
 
-## The Color Triad
+## Complimentary Colors In Game
 
 ### The UI
+These are the two most obvious complimentary color sets in the game:
 
 ![Red & Cyan - The main interface color](./assets/ui-v.png){width=376 loading=lazy} ![Blue & Yellow - Johnny's interface color](./assets/ui-johnny.png){width=376 loading=lazy}
 <br>
-
-There are two complimentary color sets that we interact with a ton in the game:
 
 - **Red & Cyan** - The main interface color
 - **Blue & Yellow** - Johnny's interface color
@@ -34,7 +31,7 @@ There are two complimentary color sets that we interact with a ton in the game:
 *Johnny's UI in this screenshot does not have the same chip-like shape to it
 until he is sufficiently part of V - something we'll explore more in [symbols](../Research/Around%20The%20City/research-symbols.md).*
 
-### Johnny & V Find Color
+### Johnny & V Complete The Wheel
 I want to focus on the moment the title screen "Cyberpunk 2077" plays. The logo
 is sandwiched between two key events: Johnny's awakening and V's death.
 
@@ -53,25 +50,36 @@ V's Death: Pink/Green + White
 ![Pinks, greens, and now whites decorate the final walk](./assets/v-delamain-parked.jpg){loading=lazy data-slider}
 ![The final room combines all the colors encountered thus far, with a familiar red and cyan added to the list](./assets/v-final-room.jpg){loading=lazy data-slider}
 
-Johnny's color axis is 60 degrees right of center (Blue & Yeloow). V's color axis is 60 degrees left of center (Pink & Green).
-Where the two meet at cyan and red, the cyberpunk logo appears. Signifying both the completion of the color wheel and the
-beginning of the game.
+The logo appears in-between these two events, decorated in cross hatch glitch
+effects. This signifies both the completion of the color wheel and the beginning
+of the game.
 
-Their axis being reflections of one another is interesting, both because of the mirror you can
-break as V moments before, and because Johnny's scene literally rotates into view. Feel free to
-[watch the transition](https://www.youtube.com/watch?v=8jljcwOoTsM) for yourself.
+Feel free to
+[watch the transition](https://youtu.be/8jljcwOoTsM?t=81){target=_blank} for yourself.
+
+### The Color Axis
+
+- Johnny's color axis is 60 degrees right of center (Blue & Yellow).
+- V's color axis is 60 degrees left of center (Pink & Green).
+- Where the two meet is at 0 degrees (Red & Cyan).
+
+Johnny's axis being a reflection of V's is interesting, both because of the
+mirror you can break before the transition and because Johnny's scene literally
+rotates into view. *Not to mention that you can see Johnny in the mirror as an
+easter egg throughout the game.*
+
+**@todo - fill in arasaka logo that changes (starting with disconnected branches
+in johnny flashback)**
 
 ### The World
 
 ![Orange & Pale Blue - Corpo Plaza fish. This color set rests exactly between the two previously mentioned color sets](./assets/corpo-fish-colorwheel.jpg){loading=lazy}
 
-This is where we are introduced to a third common complimentary color set:
+This is where we are introduced to a third common complimentary color set of
+**orange & pale blue**. Based on the color wheel, this rests symmetrically between
+Johnny's blue/yellow and the game's cyan/red.
 
-- **Orange & Pale Blue** - Corpo Plaza fish
-
-The orange & pale blue of the Corpo Plaza fish aligns *exactly* between the two
-previously mentioned color sets. This is a very important detail, as this
-*pattern of symmetry* will be seen throughout the game and this theory.
+This *pattern of symmetry* will be seen throughout the game and this theory.
 
 *It is also noteworthy that the round foundation under the fish cycles through
 the colors of the color wheel.*
