@@ -54,8 +54,8 @@ Feel free to
 
 ### The Color Axis
 
-- Johnny's color axis is 60 degrees right of center (Blue & Yellow).
-- V's color axis is 60 degrees left of center (Pink & Green).
+- Johnny's color axis is right of center (Blue & Yellow).
+- V's color axis is left of center (Pink & Green).
 - Where the two meet in the interface/game is at 0 degrees (Red & Cyan).
 
 Johnny's axis being a reflection of V's is interesting, both because of the
@@ -74,6 +74,10 @@ Logos & Symbols
 ![In "The Heist', V sees Konpeki Plaza's logo. The branches are connected, but the shape is much more primitive.](./assets/logo-konpekiplaza.png){loading=lazy data-slider}
 ![The Arasaka logo in Counter-Intel has branches that are all wrapped together via infinity signs. There is no outer ring, but instead the circle is filled in.](./assets/logo-arasaka-counterintel.png){loading=lazy data-slider}
 ![My rendition of all known axis and the Arasaka logo](./assets/logo-arasaka-theory.png){loading=lazy data-slider}
+
+### Saburo's Office
+
+@todo
 
 ### The World
 
