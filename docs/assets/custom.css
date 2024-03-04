@@ -524,14 +524,11 @@ p:has([data-slidebox]) {
   transition: all 0.3s;
   opacity: 1;
   transform: scale(1);
-  /* but scale from top left */
-  transform-origin: 0 0;
 }
 [data-slider-loaded]:has([data-dragging="true"])
   [data-slidebox-description]
   span {
   opacity: 0;
-  transform: scale(0.5);
 }
 
 [data-slidebox-controls] {
