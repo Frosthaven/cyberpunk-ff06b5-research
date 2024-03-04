@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
   (() => {
     let startX = 0;
     let direction = 0;
+    let distance = 0;
+    let threshold = 15;
     const sliderParents = [];
     let elementBeingDragged = null;
 
@@ -15,7 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
         let deltaX = startX - clientX;
         elementBeingDragged.scrollLeft += deltaX;
         startX = e.clientX || e.touches[0].clientX;
-        direction = deltaX;
+        direction = deltaX > 0 ? 1 : deltaX < 0 ? -1 : 0;
+        distance += direction;
+        console.log("distance", distance);
       });
     });
 
@@ -43,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
           elementBeingDragged.dataset.activeImageIndex = closestImageIndex;
           updateDescription(elementBeingDragged, closestImage);
-        } else */ if (direction >= 0) {
+        } else */ if (Math.abs(distance) >= threshold && direction >= 0) {
           // swipe left
           let currentImageIndex = parseInt(
             elementBeingDragged.dataset.activeImageIndex,
@@ -61,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
               nextImage.dataset.imageIndex;
             updateDescription(elementBeingDragged, nextImage);
           }
-        } else if (direction < 0) {
+        } else if (Math.abs(distance) >= threshold && direction < 0) {
           // swipe right
           let currentImageIndex = parseInt(
             elementBeingDragged.dataset.activeImageIndex,
@@ -79,11 +83,24 @@ document.addEventListener("DOMContentLoaded", function () {
               prevImage.dataset.imageIndex;
             updateDescription(elementBeingDragged, prevImage);
           }
+        } else if (Math.abs(distance) < threshold) {
+          // get the active image index and use it to scroll to that image
+          let activeImageIndex = parseInt(
+            elementBeingDragged.dataset.activeImageIndex,
+          );
+          let closestImage = elementBeingDragged.querySelector(
+            `[data-image-index="${activeImageIndex}"]`,
+          );
+          elementBeingDragged.scrollTo({
+            left: closestImage.offsetLeft,
+            behavior: "smooth",
+          });
         }
 
         elementBeingDragged.dataset.dragging = "false";
         elementBeingDragged = null;
         direction = 0;
+        distance = 0;
       });
     });
 
