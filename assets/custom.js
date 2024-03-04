@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let startX = 0;
     let touchstartX = 0;
     let touchendX = 0;
-    let threshold = 45;
+    let threshold = 60;
     const sliderParents = [];
     let elementBeingDragged = null;
 
@@ -335,5 +335,5 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("resize", snapToActiveImage);
   })();
 
-  console.log("Custom JS v0.55 loaded");
+  console.log("Custom JS v0.6 loaded");
 });
