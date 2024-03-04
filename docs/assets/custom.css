@@ -32,8 +32,8 @@
   --custom-chip-color: var(--custom-color-gradient-transparency);
   --custom-chip-color-hover: var(--custom-color-gradient-transparency);
   --custom-chip-transition: all 0.2s;
-  --custom-chip-transform: scale(1.03);
-  --custom-chip-trannsform-odd: scale(1.1);
+  --custom-chip-transform: scale(1);
+  --custom-chip-trannsform-odd: scale(1);
   --custom-chip-filter: none;
   --custom-chip-filter-after: brightness(1.25);
   --custom-chip-clip-inner: polygon(
@@ -472,10 +472,9 @@ p:has([data-slidebox]) {
 }
 /* image viewer area */
 [data-slidebox] {
+  align-items: center;
   background-color: var(--custom-widget-background-color);
   gap: 0;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
   position: relative;
   display: flex;
   flex-wrap: nowrap;
@@ -500,6 +499,7 @@ p:has([data-slidebox]) {
 /* all descendants */
 [data-slidebox] * {
   /*scroll-snap-align: start;*/
+  align-items: center;
 }
 /* all descendants when dragging */
 [data-slidebox][data-dragging="true"] * {
@@ -512,11 +512,9 @@ p:has([data-slidebox]) {
 [data-slidebox-description] {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
   /*min-height: 150px;*/
   padding: 0.5rem;
-  color: var(--custom-color-white);
+  color: var(--custom-color-gray);
   overflow-x: hidden;
   overflow-y: auto;
   background: var(--custom-widget-background-color);
@@ -603,8 +601,8 @@ p:has([data-slidebox]) {
 
 [data-slidebox-title] {
   font-size: 0.7rem;
-  fill: var(--custom-color-quote);
-  color: var(--custom-color-quote);
+  fill: var(--custom-color-code);
+  color: var(--custom-color-code);
   font-weight: bolder;
   text-transform: uppercase;
   margin-bottom: 0.25rem;

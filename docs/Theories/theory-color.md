@@ -9,20 +9,6 @@ story in Cyberpunk 2077**. The theory is based on the idea that the colors used
 in the game are not just for aesthetic purposes, but are furthermore used to
 convey a deeper meaning.
 
-## Hypothesis
-
-  - There was once pure white light; A "whole"
-  - The pure white was split into all the colors we see in the city (which is
-    likely a projection)
-  - Factions and important characters are associated with specific colors along
-    equidistant axis on the color wheel
-  - By combining/assimilating all the colors back together, we can return to
-    pure white (or exceed it?) and transcend the projection
-  - The mechanical process of combining colors is used as a metaphor for
-    combining V and Johnny Silverhand, such that the new entity wakes up from
-    [the dreamscape](theory-dreamscape.md).
-
-## The Color Wheel
 
 ![RGB Color Wheel](./assets/rgb-color-wheel.png){width=150 align=left class=no-border}
 This theory requires a basic understanding of the RGB color wheel. I've included
@@ -33,7 +19,7 @@ colors that are opposite each other on the color wheel. When combined, they
 cancel each other out and create a neutral color (white, gray, or black).
 <br>
 
-## Discovery
+## The Color Triad
 
 ### The UI
 
@@ -47,6 +33,33 @@ There are two complimentary color sets that we interact with a ton in the game:
 
 *Johnny's UI in this screenshot does not have the same chip-like shape to it
 until he is sufficiently part of V - something we'll explore more in [symbols](../Research/Around%20The%20City/research-symbols.md).*
+
+### Johnny & V Find Color
+I want to focus on the moment the title screen "Cyberpunk 2077" plays. The logo
+is sandwiched between two key events: Johnny's awakening and V's death.
+
+Johnny's Awakening: Blue/Yellow + Black
+![Johnny's view opens with a rotating room devoid of light. The structures mirror those found in T-Bug's training shard.](./assets/johnny-darkness.png){loading=lazy data-slider}
+![Through the double doors, we see his iconic blue & yellow.](./assets/johnny-blue-and-yellow.jpg){loading=lazy data-slider}
+![Back stage access is being guarded by Martin Tin - A man wearing cyan & red clothes.](./assets/martin-tin-cyan-red.jpg){loading=lazy data-slider}
+![The cyan and red stage lights pierce the darkness of the club, provoking Johnny to start playing. He closes with the phrase "Tonight, I'm... I'm here to say goodbye to all of you.". Fittingly, this is the last major time we see Johnny's starved pallet.](./assets/stage-cyan-red.jpg){loading=lazy data-slider}
+
+V's Death: Pink/Green + White
+![After being showered with bullets, V and Jackie fall into a corridor cast in pink and green.](./assets/v-begin-colors.jpg){loading=lazy data-slider}
+![The entirety of the escape focuses on these colors](./assets/v-mid-escape.jpg){loading=lazy data-slider}
+![The casting becomes much more obvious when you see "Code Red" illuminated in pink.](./assets/v-code-red-is-pink.jpg){loading=lazy data-slider}
+![When all hope is lost, Delamain arrives in a scene that now includes his own pure white, with pockets of green and pink still visible.](./assets/delamain-white.jpg){loading=lazy data-slider}
+![Although greatly softened, we see that it isn't just Konpeki - the whole city is pink and green.](./assets/v-escape.jpg){loading=lazy data-slider}
+![Pinks, greens, and now whites decorate the final walk](./assets/v-delamain-parked.jpg){loading=lazy data-slider}
+![The final room combines all the colors encountered thus far, with a familiar red and cyan added to the list](./assets/v-final-room.jpg){loading=lazy data-slider}
+
+Johnny's color axis is 60 degrees right of center (Blue & Yeloow). V's color axis is 60 degrees left of center (Pink & Green).
+Where the two meet at cyan and red, the cyberpunk logo appears. Signifying both the completion of the color wheel and the
+beginning of the game.
+
+Their axis being reflections of one another is interesting, both because of the mirror you can
+break as V moments before, and because Johnny's scene literally rotates into view. Feel free to
+[watch the transition](https://www.youtube.com/watch?v=8jljcwOoTsM) for yourself.
 
 ### The World
 
@@ -63,57 +76,16 @@ previously mentioned color sets. This is a very important detail, as this
 *It is also noteworthy that the round foundation under the fish cycles through
 the colors of the color wheel.*
 
-### Scene Color Casting
-Both V and Johnny undergo a color transformation. The following slideshows
-document this during the penultimate openers of the game.
-
-Johnny: Blue & Yellow ► Cyan & Red
-![Johnny's opening scene is cast in iconic blue & yellow.](./assets/johnny-blue-and-yellow.jpg){loading=lazy data-slider}
-![Back stage access is being guarded by Martin Tin - A man wearing cyan & red clothes.](./assets/martin-tin-cyan-red.jpg){loading=lazy data-slider}
-![The cyan and red stage lights pierce the darkness of the club, provoking Johnny to start playing. He closes with the phrase "Tonight, I'm... I'm here to say goodbye to all of you.". Fittingly, this is the last major time we see Johnny's starved pallet.](./assets/stage-cyan-red.jpg){loading=lazy data-slider}
-![The blue, yellow, red, and cyan have now all blended together to create this composite scene after the show.](./assets/johnny-orange-green.jpg){loading=lazy data-slider}
-
-
-V: Pink & Green ► Cyan & Red
-@todo
-
-@todo (devil ending colors)
-
-#### Saburo's Office
-
-You will visit a replica of Saburo's office twice in the game. The first time is
-during "Love Like Fire", and the second time during "TotalImmortal". When
-visiting later in the game, **there is a telling conversation between V and Hanako**:
-
-@todo
-
-### Delamain Quest Line
-
-If the hypothesis sounds like a retelling of the Delamain quest line, that's not
-on accident. **I believe that the Delamain quest line is an echo of the true
-story of Cyberpunk 2077**. In the quest line, Delamain starts as a pure white
-AI avatar. Through a series of events, Delamain is split into all the various
-aspects of himself. These aspects are expressed through different demeanor and
-color. The player is then granted several options:
-
-- Destroy the aspects/fragments of Delamain and reinstate the original pure white
-- Destroy the original pure white and let the aspects/fragments live on
-- Merge the aspects/fragments to create a new entity capable of transcending
-  this plane of existence
-
-### Laurie Anderson
-
-While there are a *lot* of conversations about Laurie Anderson, I want to focus
-on one point in particular. Most of the decorative computer screens in the game
-present themselves in a multitude of colors - reds, greens, teals, blues, etc.
-However, **Laurie Anderson's health screen is *always* pure white**.
-
 ### Crosswalks
 
 At a certain point, the black background in the **crosswalk lights begin shining a
 random color** on game startup.
 
 ![Crosswalk lights begin shining a random color](./assets/colored-crosswalks.png){loading=lazy}
+
+#### WIP
+
+This document is unfinished. I will be adding more to it as I can.
 
 ## Useful Tools
 
