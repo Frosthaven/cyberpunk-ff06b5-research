@@ -237,7 +237,7 @@ document.addEventListener("DOMContentLoaded", function () {
             let parent = image.parentNode.parentNode;
             let parentWidth = parent.offsetWidth;
             let imageWidth = image.width;
-            let padding = (parentWidth - imageWidth) / 2;
+            let padding = (parentWidth - imageWidth) / 2 + 1;
             image.style.marginLeft = `${padding}px`;
             image.style.marginRight = `${padding}px`;
           } else {
@@ -245,7 +245,7 @@ document.addEventListener("DOMContentLoaded", function () {
               let parent = image.parentNode.parentNode;
               let parentWidth = parent.offsetWidth;
               let imageWidth = image.width;
-              let padding = (parentWidth - imageWidth) / 2;
+              let padding = (parentWidth - imageWidth) / 2 + 1;
               image.style.marginLeft = `${padding}px`;
               image.style.marginRight = `${padding}px`;
             };
