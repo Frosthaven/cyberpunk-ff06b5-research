@@ -620,8 +620,8 @@ p:has([data-slidebox]) {
 
 [data-slidebox-title] {
   font-size: 0.7rem;
-  fill: var(--custom-color-code);
-  color: var(--custom-color-code);
+  fill: var(--custom-color-secondary);
+  color: var(--custom-color-white);
   font-weight: bolder;
   text-transform: uppercase;
   margin-bottom: 0.25rem;
