@@ -36,7 +36,6 @@ document.addEventListener("DOMContentLoaded", function () {
         document.body.style.cursor = "auto";
 
         direction = checkDirection();
-        console.log(direction);
 
         /* if (!isTouchEvent) {
           let closestImage = Array.from(
@@ -55,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
           elementBeingDragged.dataset.activeImageIndex = closestImageIndex;
           updateDescription(elementBeingDragged, closestImage);
-        } else */ if (checkDirection() > 0) {
+        } else */ if (direction > 0) {
           // swipe left
           let currentImageIndex = parseInt(
             elementBeingDragged.dataset.activeImageIndex,
@@ -73,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
               nextImage.dataset.imageIndex;
             updateDescription(elementBeingDragged, nextImage);
           }
-        } else if (checkDirection() < 0) {
+        } else if (direction < 0) {
           // swipe right
           let currentImageIndex = parseInt(
             elementBeingDragged.dataset.activeImageIndex,
@@ -91,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
               prevImage.dataset.imageIndex;
             updateDescription(elementBeingDragged, prevImage);
           }
-        } else if (checkDirection() === 0) {
+        } else if (direction === 0) {
           // get the active image index and use it to scroll to that image
           let activeImageIndex = parseInt(
             elementBeingDragged.dataset.activeImageIndex,
@@ -336,5 +335,5 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("resize", snapToActiveImage);
   })();
 
-  console.log("Custom JS loaded");
+  console.log("Custom JS v0.5 loaded");
 });
