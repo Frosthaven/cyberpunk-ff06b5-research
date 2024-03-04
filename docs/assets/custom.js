@@ -335,5 +335,5 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("resize", snapToActiveImage);
   })();
 
-  console.log("Custom JS v0.5 loaded");
+  console.log("Custom JS v0.55 loaded");
 });
