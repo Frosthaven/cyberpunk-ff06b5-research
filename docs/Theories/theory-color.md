@@ -73,7 +73,7 @@ Logos & Symbols
 ![During "Love Like Fire" - before Johnny crosses over the relic to V - the Arasaka logo is shown with disconnected branches.](./assets/logo-arasaka-classic.jpg){loading=lazy data-slider}
 ![In "The Heist', V sees Konpeki Plaza's logo. The branches are connected, but the shape is much more primitive.](./assets/logo-konpekiplaza.png){loading=lazy data-slider}
 ![The Arasaka logo in Counter-Intel has branches that are all wrapped together via infinity signs. There is no outer ring, but instead the circle is filled in.](./assets/logo-arasaka-counterintel.png){loading=lazy data-slider}
-![My rendition of all known axis and the Arasaka logo](./assets/logo-arasaka-theory.png){loading=lazy data-slider}
+![My rendition of all known axis on the Arasaka logo](./assets/logo-arasaka-theory.png){loading=lazy data-slider}
 
 ### Saburo's Office
 
