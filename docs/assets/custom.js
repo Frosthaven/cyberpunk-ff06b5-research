@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let startX = 0;
     let touchstartX = 0;
     let touchendX = 0;
-    let threshold = 25;
+    let threshold = 45;
     const sliderParents = [];
     let elementBeingDragged = null;
 
