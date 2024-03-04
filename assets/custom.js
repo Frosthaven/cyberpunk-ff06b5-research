@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (!isTouchEvent) e.preventDefault();
         document.body.style.cursor = "auto";
 
-        if (!isTouchEvent) {
+        /* if (!isTouchEvent) {
           let closestImage = Array.from(
             elementBeingDragged.querySelectorAll(".glightbox"),
           ).reduce((prev, curr) => {
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
           elementBeingDragged.dataset.activeImageIndex = closestImageIndex;
           updateDescription(elementBeingDragged, closestImage);
-        } else if (direction >= 0) {
+        } else */ if (direction >= 0) {
           // swipe left
           let currentImageIndex = parseInt(
             elementBeingDragged.dataset.activeImageIndex,
