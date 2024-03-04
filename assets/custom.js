@@ -33,11 +33,15 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         // scroll to the closest image
+        let closestImage = childClosestToCenter;
+        let closestImageIndex = closestImage.dataset.imageIndex;
         elementBeingDragged.scrollTo({
-          left: childClosestToCenter.offsetLeft,
+          left: closestImage.offsetLeft,
           behavior: "smooth",
         });
 
+        // update the active image index
+        elementBeingDragged.dataset.activeImageIndex = closestImageIndex;
         updateDescription(elementBeingDragged, childClosestToCenter);
 
         elementBeingDragged.dataset.dragging = "false";
@@ -51,7 +55,6 @@ document.addEventListener("DOMContentLoaded", function () {
           "[data-slidebox-description] [data-description]",
         );
         if (description) {
-          console.log("description", description);
           description.textContent = image.dataset.title || "";
         }
       }
@@ -96,20 +99,17 @@ document.addEventListener("DOMContentLoaded", function () {
       leftButton.innerHTML =
         '<span data-prev-icon><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/></svg></span> <span data-prev-text>Prev</span>';
       leftButton.addEventListener("click", () => {
-        // get the current image scrolled into view and then scroll to the previous one
-        const currentImage = Array.from(
-          slidebox.querySelectorAll(".glightbox"),
-        ).find((image) => {
-          const rect = image.getBoundingClientRect();
-          return rect.left >= 0 && rect.right <= window.innerWidth;
-        });
+        const currentImageIndex = parseInt(slidebox.dataset.activeImageIndex);
+        const prevImage = slidebox.querySelector(
+          `[data-image-index="${currentImageIndex - 1}"]`,
+        );
 
-        const prevImage = currentImage.previousElementSibling;
         if (prevImage) {
           slidebox.scrollTo({
             left: prevImage.offsetLeft,
             behavior: "smooth",
           });
+          slidebox.dataset.activeImageIndex = prevImage.dataset.imageIndex;
           updateDescription(slidebox, prevImage);
         }
       });
@@ -131,20 +131,17 @@ document.addEventListener("DOMContentLoaded", function () {
       rightButton.innerHTML =
         '<span data-next-icon><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg></span><span data-next-text>Next</span>';
       rightButton.addEventListener("click", () => {
-        // get the current image scrolled into view and then scroll to the next one
-        const currentImage = Array.from(
-          slidebox.querySelectorAll(".glightbox"),
-        ).find((image) => {
-          const rect = image.getBoundingClientRect();
-          return rect.left >= 0 && rect.right <= window.innerWidth;
-        });
+        const currentImageIndex = parseInt(slidebox.dataset.activeImageIndex);
+        const nextImage = slidebox.querySelector(
+          `[data-image-index="${currentImageIndex + 1}"]`,
+        );
 
-        const nextImage = currentImage.nextElementSibling;
         if (nextImage) {
           slidebox.scrollTo({
             left: nextImage.offsetLeft,
             behavior: "smooth",
           });
+          slidebox.dataset.activeImageIndex = nextImage.dataset.imageIndex;
           updateDescription(slidebox, nextImage);
         }
       });
@@ -161,6 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
           left: firstImage.offsetLeft,
           behavior: "smooth",
         });
+        slidebox.dataset.activeImageIndex = "0";
         updateDescription(slidebox, firstImage);
       });
       controls.appendChild(restartButton);
@@ -178,12 +176,18 @@ document.addEventListener("DOMContentLoaded", function () {
         /* create a new parent element */
         const imageViewBox = document.createElement("div");
         imageViewBox.dataset.slidebox = "true";
+        imageViewBox.dataset.activeImageIndex = "0";
 
         let possibleImages = el.parentElement.querySelectorAll("a.glightbox");
         let allImages = Array.from(possibleImages).filter(
           // only include if there is a descendent with data-slider attribute
           (image) => image.querySelector("[data-slider]"),
         );
+
+        // add data-image-index to each image
+        allImages.forEach((image, index) => {
+          image.dataset.imageIndex = index.toString();
+        });
 
         let parent = el.parentNode;
 
