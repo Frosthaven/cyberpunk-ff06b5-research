@@ -43,7 +43,6 @@ theme:
     primary: pink
     accent: yellow
   features:
-    - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
     - navigation.instant.preview
