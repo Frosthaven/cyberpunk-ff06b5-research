@@ -19,9 +19,7 @@ cancel each other out and create a neutral gray.
 
 ## Complimentary Colors
 
-These are the two most obvious complimentary color sets in the game:
-
-### The UI
+The most obvious example of complimentary colors in the game is the interface:
 
 UI Color Sets
 ![Red/Cyan: The game interface color](./assets/ui-v.png){loading=lazy data-slider}
