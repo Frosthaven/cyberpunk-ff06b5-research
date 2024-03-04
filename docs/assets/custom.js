@@ -241,15 +241,14 @@ document.addEventListener("DOMContentLoaded", function () {
             image.style.marginLeft = `${padding}px`;
             image.style.marginRight = `${padding}px`;
           } else {
-            image.addEventListener("load", () => {
+            image.onload = function () {
               let parent = image.parentNode.parentNode;
               let parentWidth = parent.offsetWidth;
               let imageWidth = image.width;
               let padding = (parentWidth - imageWidth) / 2;
-              console.log(image.src, parentWidth, imageWidth);
               image.style.marginLeft = `${padding}px`;
               image.style.marginRight = `${padding}px`;
-            });
+            };
           }
         });
       }, 100);
@@ -367,5 +366,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   })();
 
-  console.log("Custom JS v0.6 loaded");
+  console.log("Custom JS v0.65 loaded");
 });
