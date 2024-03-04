@@ -469,7 +469,7 @@ iframe:hover {
 
 /* image slider --------------------------------------------------------------*/
 a.glightbox img {
-  max-height: 40vh !important;
+  max-height: 48vh !important;
 }
 /* parent */
 p:has([data-slidebox]) {
@@ -480,7 +480,7 @@ p:has([data-slidebox]) {
 [data-slidebox] {
   align-items: center;
   background-color: var(--custom-widget-background-color);
-  gap: 0;
+  gap: 0.25rem;
   position: relative;
   display: flex;
   flex-wrap: nowrap;
