@@ -228,6 +228,22 @@ document.addEventListener("DOMContentLoaded", function () {
       el.insertBefore(controls, slidebox);
     }
 
+    function snapToActiveImage() {
+      sliderParents.forEach((el) => {
+        let slidebox = el.querySelector("[data-slidebox]");
+        let activeImageIndex = parseInt(slidebox.dataset.activeImageIndex);
+        let activeImage = slidebox.querySelector(
+          `[data-image-index="${activeImageIndex}"]`,
+        );
+        if (activeImage) {
+          slidebox.scrollTo({
+            left: activeImage.offsetLeft,
+            behavior: "instant",
+          });
+        }
+      });
+    }
+
     function transformDOM() {
       document.querySelectorAll("a:has(> img[data-slider])").forEach((el) => {
         // check if it has a data-slider-loaded attribute
@@ -317,6 +333,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // detect when the url changes via the history API
     window.addEventListener("popstate", transformDOM);
+    window.addEventListener("resize", snapToActiveImage);
   })();
 
   console.log("Custom JS loaded");
