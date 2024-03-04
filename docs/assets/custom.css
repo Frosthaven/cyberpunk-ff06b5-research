@@ -469,7 +469,7 @@ iframe:hover {
 
 /* image slider --------------------------------------------------------------*/
 a.glightbox img {
-  max-height: min(380px, 48vh) !important;
+  max-height: min(475px, 45vh) !important;
 }
 /* parent */
 p:has([data-slidebox]) {
