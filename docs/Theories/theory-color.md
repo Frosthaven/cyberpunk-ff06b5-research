@@ -38,12 +38,12 @@ Johnny's Awakening: Blue/Yellow + Black
 
 V's Death: Pink/Green + White
 ![After being showered with bullets, V and Jackie fall into a corridor cast in pink and green.](./assets/v-begin-colors.jpg){loading=lazy data-slider}
-![The entirety of the escape focuses on these colors](./assets/v-mid-escape.jpg){loading=lazy data-slider}
+![The entirety of the escape focuses on these colors.](./assets/v-mid-escape.jpg){loading=lazy data-slider}
 ![The casting becomes much more obvious when you see "Code Red" illuminated in pink.](./assets/v-code-red-is-pink.jpg){loading=lazy data-slider}
 ![When all hope is lost, Delamain arrives in a scene that now includes his own pure white, with pockets of green and pink still visible.](./assets/delamain-white.jpg){loading=lazy data-slider}
 ![Although greatly softened, we see that it isn't just Konpeki - the whole city is pink and green.](./assets/v-escape.jpg){loading=lazy data-slider}
-![Pinks, greens, and now whites decorate the final walk](./assets/v-delamain-parked.jpg){loading=lazy data-slider}
-![The final room combines all the colors encountered thus far, with a familiar red and cyan added to the list](./assets/v-final-room.jpg){loading=lazy data-slider}
+![Pinks, greens, and now whites decorate the final walk.](./assets/v-delamain-parked.jpg){loading=lazy data-slider}
+![The final room combines all the colors encountered thus far, with a familiar red and cyan joining in to mark the scene.](./assets/v-final-room.jpg){loading=lazy data-slider}
 
 The game's title logo appears in-between these two events, decorated in cross
 hatch glitch effects. This signifies both the completion of the color wheel and
