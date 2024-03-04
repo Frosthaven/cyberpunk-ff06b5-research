@@ -227,6 +227,34 @@ document.addEventListener("DOMContentLoaded", function () {
       el.insertBefore(controls, slidebox);
     }
 
+    function adjustImageLayout() {
+      setTimeout(() => {
+        // goes through all images and ties into their load event to add padding needed to center them
+        // we should also account for if they are already loaded
+        const images = document.querySelectorAll(".glightbox img");
+        images.forEach((image) => {
+          if (image.complete) {
+            let parent = image.parentNode.parentNode;
+            let parentWidth = parent.offsetWidth;
+            let imageWidth = image.width;
+            let padding = (parentWidth - imageWidth) / 2;
+            image.style.marginLeft = `${padding}px`;
+            image.style.marginRight = `${padding}px`;
+          } else {
+            image.addEventListener("load", () => {
+              let parent = image.parentNode.parentNode;
+              let parentWidth = parent.offsetWidth;
+              let imageWidth = image.width;
+              let padding = (parentWidth - imageWidth) / 2;
+              console.log(image.src, parentWidth, imageWidth);
+              image.style.marginLeft = `${padding}px`;
+              image.style.marginRight = `${padding}px`;
+            });
+          }
+        });
+      }, 100);
+    }
+
     function snapToActiveImage() {
       sliderParents.forEach((el) => {
         let slidebox = el.querySelector("[data-slidebox]");
@@ -329,10 +357,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     transformDOM();
+    adjustImageLayout();
 
     // detect when the url changes via the history API
     window.addEventListener("popstate", transformDOM);
-    window.addEventListener("resize", snapToActiveImage);
+    window.addEventListener("resize", () => {
+      snapToActiveImage();
+      adjustImageLayout();
+    });
   })();
 
   console.log("Custom JS v0.6 loaded");

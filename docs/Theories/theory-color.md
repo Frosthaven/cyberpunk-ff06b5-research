@@ -17,21 +17,18 @@ This theory will discuss **complimentary colors**. Complimentary colors are
 colors that are opposite each other on the color wheel. When combined, they
 cancel each other out and create a neutral gray.
 
-## Complimentary Colors In Game
+## Complimentary Colors
 
-### The UI
 These are the two most obvious complimentary color sets in the game:
 
-![Red & Cyan - The main interface color](./assets/ui-v.png){width=376 loading=lazy} ![Blue & Yellow - Johnny's interface color](./assets/ui-johnny.png){width=376 loading=lazy}
-<br>
+### The UI
 
-- **Red & Cyan** - The main interface color
-- **Blue & Yellow** - Johnny's interface color
+UI Color Sets
+![Red/Cyan: The game interface color](./assets/ui-v.png){loading=lazy data-slider}
+![Blue/Yellow: Johnny's interface color](./assets/ui-johnny.png){loading=lazy data-slider}
 
-*Johnny's UI in this screenshot does not have the same chip-like shape to it
-until he is sufficiently part of V - something we'll explore more in [symbols](../Research/Around%20The%20City/research-symbols.md).*
+### Title Screen Events
 
-### Johnny & V Complete The Wheel
 I want to focus on the moment the title screen "Cyberpunk 2077" plays. The logo
 is sandwiched between two key events: Johnny's awakening and V's death.
 
@@ -61,15 +58,24 @@ Feel free to
 
 - Johnny's color axis is 60 degrees right of center (Blue & Yellow).
 - V's color axis is 60 degrees left of center (Pink & Green).
-- Where the two meet is at 0 degrees (Red & Cyan).
+- Where the two meet in the interface/game is at 0 degrees (Red & Cyan).
 
 Johnny's axis being a reflection of V's is interesting, both because of the
 mirror you can break before the transition and because Johnny's scene literally
 rotates into view. *Not to mention that you can see Johnny in the mirror as an
 easter egg throughout the game.*
 
-**@todo - fill in arasaka logo that changes (starting with disconnected branches
-in johnny flashback)**
+There are also many symbols that express this axis:
+
+Logos & Symbols
+![The MedTech logo contains the same axis discussd earlier. It connects to form a pie shape.](./assets/logo-medtech.png){loading=lazy data-slider}
+![The Trauma Team logo also reflects this axis. It has a slight cutout in the top left inner corner](./assets/logo-trauma-team.png){loading=lazy data-slider}
+![The Petrochem logo on the Mikoshi access point contains the same axis. They combine to form interconnected panels in 3D.](./assets/logo-petrro-axis.png){loading=lazy data-slider}
+![The modern Arasaka logo has connected branches and an outer ring. Nodes are connected at the same axis.](./assets/logo-arasaka-modern.png){loading=lazy data-slider}
+![During "Love Like Fire" - before Johnny crosses over the relic to V - the Arasaka logo is shown with disconnected branches.](./assets/logo-arasaka-classic.jpg){loading=lazy data-slider}
+![In "The Heist', V sees Konpeki Plaza's logo. The branches are connected, but the shape is much more primitive.](./assets/logo-konpekiplaza.png){loading=lazy data-slider}
+![The Arasaka logo in Counter-Intel has branches that are all wrapped together via infinity signs. There is no outer ring, but instead the circle is filled in.](./assets/logo-arasaka-counterintel.png){loading=lazy data-slider}
+![My rendition of all known axis and the Arasaka logo](./assets/logo-arasaka-theory.png){loading=lazy data-slider}
 
 ### The World
 
