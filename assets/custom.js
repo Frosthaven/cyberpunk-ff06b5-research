@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Horizontal image slider
   (() => {
     let startX = 0;
+    let direction = 0;
     const sliderParents = [];
     let elementBeingDragged = null;
 
@@ -10,9 +11,11 @@ document.addEventListener("DOMContentLoaded", function () {
         if (!elementBeingDragged) return;
         elementBeingDragged.dataset.dragging = "true";
         document.body.style.cursor = "grabbing";
-        let deltaX = startX - e.clientX || startX - e.touches[0].clientX;
+        let clientX = e.touches ? e.touches[0].clientX : e.clientX;
+        let deltaX = startX - clientX;
         elementBeingDragged.scrollLeft += deltaX;
         startX = e.clientX || e.touches[0].clientX;
+        direction = deltaX;
       });
     });
 
@@ -23,29 +26,64 @@ document.addEventListener("DOMContentLoaded", function () {
         if (!isTouchEvent) e.preventDefault();
         document.body.style.cursor = "auto";
 
-        const childClosestToCenter = Array.from(
-          elementBeingDragged.querySelectorAll(".glightbox"),
-        ).reduce((prev, curr) => {
-          return Math.abs(curr.offsetLeft - elementBeingDragged.scrollLeft) <
-            Math.abs(prev.offsetLeft - elementBeingDragged.scrollLeft)
-            ? curr
-            : prev;
-        });
+        if (!isTouchEvent) {
+          let closestImage = Array.from(
+            elementBeingDragged.querySelectorAll(".glightbox"),
+          ).reduce((prev, curr) => {
+            return Math.abs(curr.offsetLeft - elementBeingDragged.scrollLeft) <
+              Math.abs(prev.offsetLeft - elementBeingDragged.scrollLeft)
+              ? curr
+              : prev;
+          });
+          let closestImageIndex = closestImage.dataset.imageIndex;
+          elementBeingDragged.scrollTo({
+            left: closestImage.offsetLeft,
+            behavior: "smooth",
+          });
 
-        // scroll to the closest image
-        let closestImage = childClosestToCenter;
-        let closestImageIndex = closestImage.dataset.imageIndex;
-        elementBeingDragged.scrollTo({
-          left: closestImage.offsetLeft,
-          behavior: "smooth",
-        });
+          elementBeingDragged.dataset.activeImageIndex = closestImageIndex;
+          updateDescription(elementBeingDragged, closestImage);
+        } else if (direction >= 0) {
+          // swipe left
+          let currentImageIndex = parseInt(
+            elementBeingDragged.dataset.activeImageIndex,
+          );
+          let nextImage = elementBeingDragged.querySelector(
+            `[data-image-index="${currentImageIndex + 1}"]`,
+          );
 
-        // update the active image index
-        elementBeingDragged.dataset.activeImageIndex = closestImageIndex;
-        updateDescription(elementBeingDragged, childClosestToCenter);
+          if (nextImage) {
+            elementBeingDragged.scrollTo({
+              left: nextImage.offsetLeft,
+              behavior: "smooth",
+            });
+            elementBeingDragged.dataset.activeImageIndex =
+              nextImage.dataset.imageIndex;
+            updateDescription(elementBeingDragged, nextImage);
+          }
+        } else if (direction < 0) {
+          // swipe right
+          let currentImageIndex = parseInt(
+            elementBeingDragged.dataset.activeImageIndex,
+          );
+          let prevImage = elementBeingDragged.querySelector(
+            `[data-image-index="${currentImageIndex - 1}"]`,
+          );
+
+          if (prevImage) {
+            elementBeingDragged.scrollTo({
+              left: prevImage.offsetLeft,
+              behavior: "smooth",
+            });
+            elementBeingDragged.dataset.activeImageIndex =
+              prevImage.dataset.imageIndex;
+            updateDescription(elementBeingDragged, prevImage);
+          }
+        }
 
         elementBeingDragged.dataset.dragging = "false";
         elementBeingDragged = null;
+        direction = 0;
       });
     });
 
@@ -67,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
           if (!isTouchEvent) e.preventDefault();
 
           elementBeingDragged = el;
-          startX = e.clientX || e.touches[0].clientX;
+          startX = e.touches ? e.touches[0].clientX : e.clientX;
         });
       });
     }
