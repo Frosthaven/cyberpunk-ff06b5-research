@@ -47,9 +47,9 @@ V's Death: Pink/Green + White
 ![Pinks, greens, and now whites decorate the final walk](./assets/v-delamain-parked.jpg){loading=lazy data-slider}
 ![The final room combines all the colors encountered thus far, with a familiar red and cyan added to the list](./assets/v-final-room.jpg){loading=lazy data-slider}
 
-The logo appears in-between these two events, decorated in cross hatch glitch
-effects. This signifies both the completion of the color wheel and the beginning
-of the game.
+The game's title logo appears in-between these two events, decorated in cross
+hatch glitch effects. This signifies both the completion of the color wheel and
+the beginning of the game.
 
 Feel free to
 [watch the transition](https://youtu.be/8jljcwOoTsM?t=81){target=_blank} for yourself.
