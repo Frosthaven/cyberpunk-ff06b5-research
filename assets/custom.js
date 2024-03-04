@@ -2,11 +2,18 @@ document.addEventListener("DOMContentLoaded", function () {
   // Horizontal image slider
   (() => {
     let startX = 0;
-    let direction = 0;
-    let distance = 0;
-    let threshold = 5;
+    let touchstartX = 0;
+    let touchendX = 0;
+    let threshold = 20;
     const sliderParents = [];
     let elementBeingDragged = null;
+
+    function checkDirection() {
+      let distance = Math.abs(touchstartX - touchendX);
+      if (distance < threshold) return 0; // no movement
+      if (touchendX < touchstartX) return 1;
+      if (touchendX > touchstartX) return -1;
+    }
 
     ["touchmove", "mousemove"].forEach((event) => {
       document.addEventListener(event, (e) => {
@@ -17,9 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
         let deltaX = startX - clientX;
         elementBeingDragged.scrollLeft += deltaX;
         startX = e.clientX || e.touches[0].clientX;
-        direction = deltaX > 0 ? 1 : deltaX < 0 ? -1 : 0;
-        distance += direction;
-        console.log("distance", distance);
       });
     });
 
@@ -28,7 +32,11 @@ document.addEventListener("DOMContentLoaded", function () {
         if (!elementBeingDragged) return;
         let isTouchEvent = e.type === "touchend";
         if (!isTouchEvent) e.preventDefault();
+        touchendX = isTouchEvent ? e.changedTouches[0].screenX : e.clientX;
         document.body.style.cursor = "auto";
+
+        direction = checkDirection();
+        console.log(direction);
 
         /* if (!isTouchEvent) {
           let closestImage = Array.from(
@@ -47,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
           elementBeingDragged.dataset.activeImageIndex = closestImageIndex;
           updateDescription(elementBeingDragged, closestImage);
-        } else */ if (direction >= 0) {
+        } else */ if (checkDirection() > 0) {
           // swipe left
           let currentImageIndex = parseInt(
             elementBeingDragged.dataset.activeImageIndex,
@@ -65,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
               nextImage.dataset.imageIndex;
             updateDescription(elementBeingDragged, nextImage);
           }
-        } else if (direction < 0) {
+        } else if (checkDirection() < 0) {
           // swipe right
           let currentImageIndex = parseInt(
             elementBeingDragged.dataset.activeImageIndex,
@@ -83,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
               prevImage.dataset.imageIndex;
             updateDescription(elementBeingDragged, prevImage);
           }
-        } else if (direction === 0) {
+        } else if (checkDirection() === 0) {
           // get the active image index and use it to scroll to that image
           let activeImageIndex = parseInt(
             elementBeingDragged.dataset.activeImageIndex,
@@ -99,8 +107,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         elementBeingDragged.dataset.dragging = "false";
         elementBeingDragged = null;
-        direction = 0;
-        distance = 0;
       });
     });
 
@@ -120,6 +126,7 @@ document.addEventListener("DOMContentLoaded", function () {
         el.addEventListener(event, (e) => {
           let isTouchEvent = e.type === "touchstart";
           if (!isTouchEvent) e.preventDefault();
+          touchstartX = isTouchEvent ? e.changedTouches[0].screenX : e.clientX;
 
           elementBeingDragged = el;
           startX = e.touches ? e.touches[0].clientX : e.clientX;
