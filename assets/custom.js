@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", function () {
       ["touchstart", "mousedown"].forEach((event) => {
         el.addEventListener(event, (e) => {
           let isTouchEvent = e.type === "touchstart";
-          if (!isTouchEvent) e.preventDefault();
+          //if (!isTouchEvent) e.preventDefault();
           touchstartX = isTouchEvent ? e.changedTouches[0].screenX : e.clientX;
 
           elementBeingDragged = el;
