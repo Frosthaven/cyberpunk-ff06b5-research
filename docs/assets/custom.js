@@ -18,12 +18,18 @@ document.addEventListener("DOMContentLoaded", function () {
     ["touchmove", "mousemove"].forEach((event) => {
       document.addEventListener(event, (e) => {
         if (!elementBeingDragged) return;
-        elementBeingDragged.dataset.dragging = "true";
         document.body.style.cursor = "grabbing";
         let clientX = e.touches ? e.touches[0].clientX : e.clientX;
         let deltaX = startX - clientX;
         elementBeingDragged.scrollLeft += deltaX;
         startX = e.clientX || e.touches[0].clientX;
+
+        let touchDeltaFromClientX = touchstartX - clientX;
+        if (Math.abs(touchDeltaFromClientX) > threshold) {
+          elementBeingDragged.dataset.dragging = "true";
+        } else {
+          elementBeingDragged.dataset.dragging = "false";
+        }
       });
     });
 
@@ -124,7 +130,7 @@ document.addEventListener("DOMContentLoaded", function () {
       ["touchstart", "mousedown"].forEach((event) => {
         el.addEventListener(event, (e) => {
           let isTouchEvent = e.type === "touchstart";
-          //if (!isTouchEvent) e.preventDefault();
+          if (!isTouchEvent) e.preventDefault();
           touchstartX = isTouchEvent ? e.changedTouches[0].screenX : e.clientX;
 
           elementBeingDragged = el;
