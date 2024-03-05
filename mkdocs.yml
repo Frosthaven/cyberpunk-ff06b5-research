@@ -57,3 +57,6 @@ extra:
       link: https://discordapp.com/users/141906786750955521
     - icon: fontawesome/brands/reddit-alien
       link: https://www.reddit.com/user/___Paladin___
+  analytics:
+    provider: google
+    property: G-2VDE4Q49MN
