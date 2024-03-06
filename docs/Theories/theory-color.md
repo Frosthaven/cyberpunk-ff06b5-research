@@ -4,9 +4,6 @@
 
 ## Introduction
 
-This theory requires a basic understanding of the RGB color wheel. I've included
-it here for reference.
-
 Color theory is a theory by which **CD Project Red uses colors to tell a hidden
 story in Cyberpunk 2077**. The theory is based on the idea that the colors used
 in the game are not just for aesthetic purposes, but are furthermore used to
@@ -14,9 +11,11 @@ convey a deeper meaning.
 
 ## The Color Axis
 
-Looking at an RGB Color wheel, we can see a pattern in the colors used in-game
-and symmetrical axis. These color pairs are known as **complimentary colors**.
-There are many symbols in the game that point to these axis.
+This theory requires a basic understanding of the RGB color wheel. I've included
+it here for reference.' Looking at the wheel, we can see a pattern in the colors
+used in-game and symmetrical axis. These color pairs are known as
+**complimentary colors**. There are many symbols in the game that point to these
+axis.
 
 ![RGB Color Wheel](./assets/rgb-color-wheel.png){width=300 align=left class=no-border}
 
