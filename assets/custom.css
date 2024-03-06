@@ -178,6 +178,7 @@ p > em:only-child {
 }
 
 blockquote {
+  clear: both;
   position: relative;
   border-left: 4px solid var(--custom-color-quote) !important;
   color: var(--custom-color-quote) !important;
@@ -663,4 +664,13 @@ p:has([data-slidebox]) {
 
 [data-slidebox] a {
   cursor: grab;
+}
+
+@media screen and (max-width: 959px) {
+  [align="left"],
+  [align="right"] {
+    display: block !important;
+    margin: 0 auto !important;
+    float: none !important;
+  }
 }
