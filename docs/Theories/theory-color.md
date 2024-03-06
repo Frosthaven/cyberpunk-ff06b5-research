@@ -24,7 +24,7 @@ The axis of primary color sets are as follows:
 
 - **0°** + **180°**: Red & Cyan
 - **60°** + **240°**: Blue & Yellow
-- **120°** + **300°** degrees: Pink & Green
+- **120°** + **300°**: Pink & Green
 
 The axis of secondary color sets are as follows:
 
@@ -81,7 +81,7 @@ the beginning of the game.
 
 - Johnny's color axis is right of center (Blue & Yellow).
 - V's color axis is left of center (Pink & Green).
-- Where the two meet in the interface/game is at 0 degrees (Red & Cyan).
+- Where the two meet in the interface/game is at 0° (Red & Cyan).
 
 Johnny's axis being a reflection of V's is interesting, both because of the
 mirror you can break before the transition and because Johnny's scene literally
@@ -97,7 +97,7 @@ Feel free to
 
 This is where we are introduced to a third common complimentary color set of
 **orange & pale blue**. Based on the color wheel, this rests symmetrically between
-Johnny's blue/yellow and the game's cyan/red at 30 degrees.
+Johnny's blue/yellow and the game's cyan/red at 30°.
 
 *It is also noteworthy that the round foundation under the fish cycles through
 the colors of the color wheel.*
