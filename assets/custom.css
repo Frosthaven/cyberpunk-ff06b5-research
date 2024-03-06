@@ -122,12 +122,24 @@ h5,
 h6 {
   color: var(--custom-color-secondary) !important;
   font-weight: bolder !important;
+  clear: both;
 }
 h1 {
   border-bottom: 4px solid var(--custom-color-primary-dark);
 }
 h2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6rem !important;
   border-bottom: 2px solid var(--custom-color-primary-dark);
+}
+h2:before {
+  /* use an svg of a page */
+  content: url(header-icon.svg);
+  margin-right: 0.25rem;
+  width: 1.1rem;
+  position: relative;
+  top: 0.15rem;
 }
 h3 {
   border-bottom: 1px solid var(--custom-color-primary-dark);
@@ -200,6 +212,28 @@ blockquote p::after {
   content: close-quote;
   transform: scale(2.5) translateY(0.15rem);
   color: var(--custom-color-quote);
+}
+blockquote + ul:has(li:only-child) {
+  background: none !important;
+  margin-left: 0 !important;
+  margin-right: 2.5rem !important;
+  margin-top: -1rem !important;
+  border-left: 4px solid var(--custom-color-quote) !important;
+}
+blockquote + ul li:only-child {
+  color: var(--custom-color-quote);
+  padding-left: 0.5rem;
+  width: fit-content !important;
+  margin-left: 3rem !important;
+  padding-top: 0.5rem;
+  font-style: italic;
+  opacity: 0.55;
+}
+blockquote + ul li:only-child::marker {
+  content: "—";
+  margin-right: 1rem;
+  color: var(--custom-color-quote);
+  opacity: 0.55;
 }
 
 code {
@@ -524,7 +558,7 @@ p:has([data-slidebox]) {
   overflow-x: hidden;
   overflow-y: auto;
   background: var(--custom-widget-background-color);
-  border-bottom: 1px solid var(--custom-color-primary-dark);
+  border-bottom: 1px solid var(--custom-color-primary-disabled);
 }
 
 [data-slidebox-description] span {
@@ -539,7 +573,7 @@ p:has([data-slidebox]) {
 }
 
 [data-slidebox-controls] {
-  border-bottom: 1px solid var(--custom-color-primary-dark);
+  border-bottom: 1px solid var(--custom-color-primary-disabled);
   padding-top: 0.5rem;
   display: flex;
   flex-direction: row;
