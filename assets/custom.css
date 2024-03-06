@@ -667,6 +667,9 @@ p:has([data-slidebox]) {
 }
 
 @media screen and (max-width: 959px) {
+  h2 {
+    margin-top: 3rem !important;
+  }
   [align="left"],
   [align="right"] {
     display: block !important;
