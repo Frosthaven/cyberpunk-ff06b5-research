@@ -1,22 +1,52 @@
 # Mystery Moon
 
+![Edgerunners Moon](assets/moon-cover.png){class=no-lightbox}
+
 ## Moon Time
 
-Throughout the game, there are several missions or moments in which time is
-either hidden or unreliable
-(See: [broken time theory](../../Theories/theory-broken-time.md)).
-Interestingly, the moon is often secretly present in these moments. **Stand in a
-specific location, look in a specific direction, and there it will be**.
+The moon in game does not behave as it does in real life. Through normal gameplay
+within Cyberpunk 2077, **the moon rotates approximately 11° per hour**. This is a
+*significant deviation from reality*, as the moon in real life is in lock-step
+rotation with earth and never changes its perceived rotation.
 
-More interestingly, the moon in game does not behave as it does in real life. In
-real life, our view of the moon's face does not change. Through normal gameplay
-within Cyberpunk 2077, **the moon rotates approximately 11 degrees per hour**.
-This is a **significant deviation from reality** and would require pre-meditated
-engineering to implement.
+I have been able to tell time by comparing the in-game moon's rotation to this
+chart I put together:
 
-I have been able to tell time by comparing the in-game moon's rotation to the
-[Lunagraph](../../Works/lunagraph.md). The findings are usually informative,
-but sometimes strange and unexpected.
+![Lunagraph](assets/lunagraph.png)
+
+If you look at the moon at any point in normal non-quest gameplay, you can match
+the moon's phase to the chart and determine the time of day with 100% accuracy.
+
+Why 11° per hour? I don't know. I just know that 10° per hour is too slow to
+stay in sync with the game's time, and 12° per hour is too fast. **11° per hour
+is the only value that works.**
+
+## Limitations of the Lunagraph - Questions
+
+The moon rotating 11° per hour raises the following questions:
+
+- If it spins 11° and there are 360° in a circle, then the moon will complete
+  a full rotation every 32.7273 hours. This is problematic for a 24 hour clock.
+  Where does the moon go for the other 8.7273 hours? Does this have to do with
+  the extra loops in the serpent's body?
+- Several key moments, especially endings, seem to deviate from the moon's
+  rotation. Is the moon moving or are we? What can account for these deviations?
+- When the moon isn't visible, is it changing rotation speed or direction? Is it
+  flipped? Is it even moving at all? *What rules is it playing by?*
+
+## Hidden Moon
+
+Another tantalizing feature of the moon is that often the game will obfuscate the
+current time, while making the moon visible if you know where to look. I will
+attempt to catalog these below in an attempt to uncover a pattern.
+
+### Corpo Rat
+
+In Jenkin's office, if you crouch down in the far right corner of his city-facing
+window, you can barely bring the moon into sight. This moon matches up to **11pm**
+on the lunagraph. The same time of the Smasher fight at the end of the game.
+
+![Moon in Jenkin's Office - 11PM](assets/moon-jenkins-office.jpg)
 
 ### Love Like Fire
 
