@@ -19,13 +19,13 @@ axis.
 
 ![RGB Color Wheel](./assets/rgb-color-wheel.png){width=300 align=left class=no-border}
 
-The axis of primary color sets are as follows:
+The axis of initial color sets:
 
 - **0°** + **180°**: Red & Cyan
 - **60°** + **240°**: Blue & Yellow
 - **120°** + **300°**: Pink & Green
 
-The axis of secondary color sets are as follows:
+The axis of intermediate color sets:
 
 - **30°** + **210°**: Orange & Pale Blue
 - **90°** + **270°**: Purple & Lime
