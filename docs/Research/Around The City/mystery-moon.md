@@ -36,9 +36,8 @@ The moon rotating 11° per hour raises the following questions:
 
 ## Hidden Moons
 
-Another feature of the moon is that often the **game will obfuscate the
-current time**, while making the moon visible if you know where to look. I will
-attempt to catalog these below in an attempt to uncover a pattern.
+**The game will often obfuscate the current time**, while making the moon visible
+if you know where to look. I will attempt to catalog these moments below.
 
 ### The Corpo-Rat
 
@@ -65,8 +64,7 @@ Love Like Fire Moons
 
 When walking through Evelyn Parker's scroll of the penthouse suite, there are only
 a couple of frames where you can see the moon. If you stay in first person mode,
-the moment Evelyn takes a drink you will have only a brief moment to see an **8pm**
-moon out the window.
+You will have a very brief window to catch an **8pm** moon as Evelyn takes a drink.
 
 ### Endings
 

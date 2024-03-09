@@ -101,6 +101,11 @@ Johnny's blue/yellow and the game's cyan/red at 30°.
 *It is also noteworthy that the round foundation under the fish cycles through
 the colors of the color wheel.*
 
+## The First BD
+
+An echo of the game's story
+![A man dressed in cyan and red plans a heist, hading a gun to...](./assets/bd-1.jpg){loading=lazy data-slider}
+![...a man dressed in green and pink who doesn't know he's being set up to die. Orange and pale blue illuminate the counter where the clerk fiddles with a rubik's cube.](./assets/bd-2.jpg){loading=lazy data-slider}
 
 ## Saburo's Office
 
