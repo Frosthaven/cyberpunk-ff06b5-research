@@ -29,36 +29,44 @@ The moon rotating 11° per hour raises the following questions:
   a full rotation every 32.7273 hours. This is problematic for a 24 hour clock.
   Where does the moon go for the other 8.7273 hours? Does this have to do with
   the extra loops in the serpent's body?
-- Several key moments, especially endings, seem to deviate from the moon's
-  rotation. Is the moon moving or are we? What can account for these deviations?
+- Several key moments, especially endings, seem to deviate from the chart.
+  Is the moon moving or are we? What can account for these deviations?
 - When the moon isn't visible, is it changing rotation speed or direction? Is it
-  flipped? Is it even moving at all? *What rules is it playing by?*
+  flipped? Is it even moving at all? **What rules is it playing by?**
 
-## Hidden Moon
+## Hidden Moons
 
-Another tantalizing feature of the moon is that often the game will obfuscate the
-current time, while making the moon visible if you know where to look. I will
+Another feature of the moon is that often the **game will obfuscate the
+current time**, while making the moon visible if you know where to look. I will
 attempt to catalog these below in an attempt to uncover a pattern.
 
-### Corpo Rat
+### The Corpo-Rat
+
+![The Corpo-Rat: Moon in Jenkin's Office / 11PM](assets/moon-jenkins-office.jpg)
 
 In Jenkin's office, if you crouch down in the far right corner of his city-facing
 window, you can barely bring the moon into sight. This moon matches up to **11pm**
 on the lunagraph. The same time of the Smasher fight at the end of the game.
 
-![Moon in Jenkin's Office - 11PM](assets/moon-jenkins-office.jpg)
-
-### Love Like Fire
-
-@todo (always 1AM??)
-
-### The Information
-
-@todo (Evelyn's BD Scroll)
-
 ### The Heist
 
 @todo (Konpeki Window) - what about before meeting dex and after waking?
+
+### Love Like Fire
+
+Love Like Fire Moons
+![Before getting on the AV with Rogue, you can see the moon by walking much further forward past the craft and then turning around. It is a 9pm moon, despite the clocking having moved from 9pm to 10pm for this scene.](./assets/moon-love-like-fire-1.jpg){loading=lazy data-slider}
+![After landing on the roof, we can see a moon indicating sometime between 12pm and 1pm. This matches the current clock, which shows 12:10am.](./assets/moon-love-like-fire-2.jpg){loading=lazy data-slider}
+![This is where things get strange. The subtitle that comes up on the roof escape sequence says 11:45pm. The clock still shows 12:10am. The moon puts it between 12pm and 1pm. The moon will remain in this rotation for the remainder of Johnny's scenes.](./assets/moon-love-like-fire-3.jpg){loading=lazy data-slider}
+
+### The Information
+
+![The Information / 8PM](assets/moon-konpeki-bd.jpg)
+
+When walking through Evelyn Parker's scroll of the penthouse suite, there are only
+a couple of frames where you can see the moon. If you stay in first person mode,
+the moment Evelyn takes a drink you will have only a brief moment to see an **8pm**
+moon out the window.
 
 ### Endings
 
