@@ -58,5 +58,8 @@ seem to share qualities with the mega building they are associated with.
 
 Interestingly in the path I took thus far it appears that the image of a mega-building
 is slowly rotating in the screenshots. This might point to new locations on existing
-buildings to continue the chain. It may also be possible that I took a wrong step
-in the chain thus far.
+buildings to continue the chain.
+
+It may also be possible that I took a wrong step
+in the chain thus far. In particular, the jump from H02 to H12 seems like more
+of a leap without more understanding. I'll have to revisit this later.
