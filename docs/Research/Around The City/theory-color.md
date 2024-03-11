@@ -126,6 +126,15 @@ appears to be a composite image created from multiple color axes composited
 together. It is very reminiscent of Johnny and V being inseparable by this point
 in the game. @todo - show color composition slides
 
+## Delamain
+
+@todo list:
+
+- offspring are fragmented colors of the color wheel
+- discuss how it mirrors protagonist's journey
+- discuss how it mirrors the game's color axis
+- merging required a lot of intelligence - foreshadowing?
+
 ## Crosswalks
 
 At a certain point, the black background in the **crosswalk lights begin shining a
