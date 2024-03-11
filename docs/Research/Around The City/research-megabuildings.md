@@ -1,10 +1,16 @@
 # Mega-buildings
 
+![Mega Building](./assets/megabuilding-as-core.png){loading=lazy class=no-lightbox}
+
 3-10-2022: While revisiting my previous "Cores are literally mega buildings" work
 (not yet uploaded) I noticed that the buildings have some interesting features
 as it relates to [color theory](../../Theories/theory-color.md). Many of the
 buildings seem to shift color to the inversion of another mega building under
 certain time and location positions.
+
+There also seems to be some correlations between the red digital apparition that
+appears on one side of the cores, and details on the mega buildings, starting
+with H01.
 
 I'm not yet sure what to make of these findings, so I'll place them here and
 revisit when time allows.
@@ -37,3 +43,15 @@ H08 BW324
 ![H08 @ 8pm. The pink and green stand tall.](./assets/mb-h08-a.png){data-slider loading=lazy}
 ![H08 @ 8am. The color cast with a cyan direct light and green area light at this time of day makes the building orange and green. Another trail to follow!](./assets/mb-h08-b.png){data-slider loading=lazy}
 ![The color cast to orange and green is exhasterbated if we view it from the magenta booth in the market below.](./assets/mb-h08-c.png){data-slider loading=lazy}
+
+## Etc
+
+This is still under investigation, but there's some more correlations that are
+true about the mega buildings. For example, they seem to be a projection of a local
+environment, as shown in this image of the curb:
+
+![The curb in front of megabuilding.](./assets/megabuilding-example.jpg){loading=lazy}
+
+There also always seems to be a site nearby with flood lights that are either already
+on and colored specifically, or that can be turned on. These sites almost always
+seem to share qualities with the mega building they are associated with.
