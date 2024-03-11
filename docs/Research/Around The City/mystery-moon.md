@@ -54,7 +54,7 @@ on the lunagraph. The same time of the Smasher fight at the end of the game.
 ### Love Like Fire
 
 Love Like Fire Moons
-![Before getting on the AV with Rogue, you can see the moon by walking much further forward past the craft and then turning around. It is a 9pm moon, despite the clocking having moved from 9pm to 10pm for this scene.](./assets/moon-love-like-fire-1.jpg){loading=lazy data-slider}
+![Before getting on the AV with Rogue, you can see the moon by walking much further forward past the craft and then turning around. It is a 9pm moon, despite the clock moving from 9pm to 10pm for this scene.](./assets/moon-love-like-fire-1.jpg){loading=lazy data-slider}
 ![After landing on the roof, we can see a moon indicating sometime between 12pm and 1pm. This matches the current clock, which shows 12:10am.](./assets/moon-love-like-fire-2.jpg){loading=lazy data-slider}
 ![This is where things get strange. The subtitle that comes up on the roof escape sequence says 11:45pm. The clock still shows 12:10am. The moon puts it between 12pm and 1pm. The moon will remain in this rotation for the remainder of Johnny's scenes.](./assets/moon-love-like-fire-3.jpg){loading=lazy data-slider}
 
