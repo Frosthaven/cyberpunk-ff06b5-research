@@ -29,9 +29,6 @@ you'll have a running start to the sections that follow.
 
 ## The Beginning
 
-The familiar FF06B5 statue that kicked everything off - with a twist. I've inverted
-it so you are less likely to humanize it.
-
 > Love ya, Spyder!
 
 - Johnny Silverhand
@@ -40,8 +37,9 @@ it so you are less likely to humanize it.
 
 - Spyder Murphy
 
-Tell me, what has 8 legs and can inject
-venom into its prey? I hope you don't have arachnophobia.
+Tell me, what has 8 legs and can inject venom into its prey? I hope you don't
+have arachnophobia. I've inverted these images so that you are less likely to
+humanize them.
 
 Spyder bite
 ![Spyder's Hacking Logo](./assets/dreamscape-spyder-2.png){data-slider loading=lazy}
@@ -93,4 +91,5 @@ will attempt to catalog those here.
 - the general 6 sided shape used in logos, johnny's quest indicator, color theory axis, etc
 - the BROOM room mirror matching aesthetics of Lizzie's bar changing room.
 - general overlaps between elevator floors in several places - H10 megabuilding, konpeki plaza, arasaka, etc
+- Mikoshi access point matches power systems for city (same array setup under tower as at power station)
 - etc
