@@ -39,7 +39,8 @@ you'll have a running start to the sections that follow.
 
 Tell me, what has 8 legs and can inject venom into its prey? I hope you don't
 have arachnophobia. I've inverted these images so that you are less likely to
-humanize them.
+humanize them (and because the endings teach us the pyramid is upside down, but
+I digress).
 
 Spyder bite
 ![Spyder's Hacking Logo](./assets/dreamscape-spyder-2.png){data-slider loading=lazy}
