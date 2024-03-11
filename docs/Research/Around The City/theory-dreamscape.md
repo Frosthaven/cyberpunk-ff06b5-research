@@ -21,11 +21,12 @@ We'll borrow some colors from [color theory](./theory-color.md) here:
 
 In Cyberpunk Lore, Johnny Silverhand was cut in two by Adam Smasher. Spider
 Murphy hit him with a ranged ai-given data slug in the hopes that he could be
-remade whole again. Spider is already known to cope with the harsh realities of
-the world by living it out as if it were a game.
+remade whole again. This slug carry's Alt's fingerprints: a deviation of
+soulkiller.
 
-Imagine what the process of the data slug might look like in this context, and
-you'll have a running start to the sections that follow.
+Spider is known to cope with the harsh realities of the world by living
+it out as if it were a game. Imagine what the process of the data slug might look
+like in this context, and you'll have a running start to the sections that follow.
 
 ## The Beginning
 
