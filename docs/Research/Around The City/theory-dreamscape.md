@@ -19,9 +19,9 @@ We'll borrow some colors from [color theory](./theory-color.md) here:
 
 ## The Setup
 
-In Cyberpunk Lore, Johnny Silverhand was cut in two by Adam Smasher. Spyder
+In Cyberpunk Lore, Johnny Silverhand was cut in two by Adam Smasher. Spider
 Murphy hit him with a ranged ai-given data slug in the hopes that he could be
-remade whole again. Spyder is already known to cope with the harsh realities of
+remade whole again. Spider is already known to cope with the harsh realities of
 the world by living it out as if it were a game.
 
 Imagine what the process of the data slug might look like in this context, and
@@ -29,22 +29,22 @@ you'll have a running start to the sections that follow.
 
 ## The Beginning
 
-> Love ya, Spyder!
+> Love ya, Spider!
 
 - Johnny Silverhand
 
 > The whole world loves me!
 
-- Spyder Murphy
+- Spider Murphy
 
 Tell me, what has 8 legs and can inject venom into its prey? I hope you don't
 have arachnophobia. I've inverted these images so that you are less likely to
 humanize them (and because the endings teach us the pyramid is upside down, but
 I digress).
 
-Spyder bite
-![Spyder's Hacking Logo](./assets/dreamscape-spider-2.png){data-slider loading=lazy}
-![Spyder Injects the software into Johnny](./assets/dreamscape-spider-1.png){data-slider loading=lazy}
+Spider bite
+![Spider's Hacking Logo](./assets/dreamscape-spider-2.png){data-slider loading=lazy}
+![Spider Injects the software into Johnny](./assets/dreamscape-spider-1.png){data-slider loading=lazy}
 
 I'll borrow from [color theory](./theory-color.md) once again, in that we know
 Johnny was limited to only seeing blues and yellows until V and the interface
@@ -75,7 +75,7 @@ in red/cyan. That's the system/game/interface colors.
 
 Lets review:
 
-- Spyder injects FF06B5 into Johnny's psyche by way of an AI-given data slug.
+- Spider injects FF06B5 into Johnny's psyche by way of an AI-given data slug.
 - The digital landscape (cyan/red) builds up around Johnny's backdrop of blue (world map).
 - V is the outside agent then introduced to Johnny's psyche in the hopes of making
   him whole again. Watson is the injection site.
