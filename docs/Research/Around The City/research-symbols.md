@@ -1,3 +1,3 @@
 # Symbols
 
-@todo (arasaka logo, etc)
+@todo (arasaka logo, axis is everywhere, shapes etc)
