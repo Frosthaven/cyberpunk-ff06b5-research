@@ -72,7 +72,8 @@ at this logo:
 
 Green nature in the boxes, pink separated part of brain connected only by a single strand. That's V's colors. "Night City"
 *is in and of itself* the center for behavioral health, made apparent by being made
-in red/cyan. That's the system/game/interface colors.
+in red/cyan. That's the system/game/interface colors. The top left of the logo
+depicts a disconnected Watson - a bridge that V will eventually cross.
 
 Lets review:
 
