@@ -69,7 +69,11 @@ at this logo:
 
 ![Night City Center For Behavioral Health](./assets/night-city-behavioral.png){loading=lazy}
 
-Hmm. Green nature in the boxes, pink logo. Lets review:
+Green nature in the boxes, pink separated part of brain connected only by a single strand. That's V's colors. "Night City"
+*is in and of itself* the center for behavioral health, made apparent by being made
+in red/cyan. That's the system/game/interface colors.
+
+Lets review:
 
 - Spyder injects FF06B5 into Johnny's psyche by way of an AI-given data slug.
 - The digital landscape (cyan/red) builds up around Johnny's backdrop of blue (world map).
