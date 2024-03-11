@@ -60,3 +60,7 @@ travel, we end up with a very interesting pattern:
 It does not matter how close or how far you put these two sets of rooms. The
 doorways must connect for you to travel them, and as long as that remains true
 then the only outcome is a double helix DNA strand.
+
+# Work In Progress
+
+@todo - add landmarks, notable projected images/colors.
