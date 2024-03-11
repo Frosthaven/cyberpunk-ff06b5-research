@@ -50,7 +50,7 @@ possible outcome from those rules. What are the rules?
 
 ### Outcome
 
-This creates a non-euclidean space if we try to map it up in a 3D space. This
+This creates a non-euclidean space if we try to map it up in a 3D scene. This
 explains why teleportation is necessary. If we draw out the room patterns based
 on the rules, and then connect the input and output doors that we know we can
 travel, we end up with a very interesting pattern:
