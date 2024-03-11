@@ -44,10 +44,9 @@ possible outcome from those rules. What are the rules?
 
 ### Rules
 
-- Top floor exits will take you into a flipped version of the room you are
-  currently in.
-- Bottom floor exits will take you into a fully mirrored version of the room
-  you are currently in.
+1. Top floor exits will take you into a horizontally flipped version of the current room
+2. Bottom floor exits will take you into a vertically flipped version of the current room
+3. Paths from where you came from *must* map to where you go.
 
 ### Outcome
 
