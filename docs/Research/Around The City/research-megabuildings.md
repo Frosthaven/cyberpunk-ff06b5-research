@@ -27,7 +27,7 @@ H01 HW357
 
 H02 WS708
 ![H02 @ 2pm. Awful bright, but nothing to write home about. You can see the same smudges used as a hint from H01's "No Future" grungy logo.](./assets/mb-h02-a.png){data-slider loading=lazy}
-![H02 @ 2am. We can see a reddish light in the bottom right, that happens to line up with where we saw the magenta light on H01. The immediate surroundings now match the colors of the building during the day. Another trail to follow...](./assets/mb-h02-b.png){data-slider loading=lazy}
+![H02 @ 2am. Positioning ourselves in the only immediately visible flood light and looking up, we can see a reddish light in the bottom right, lining up with where we saw the magenta light on H01. The immediate surroundings now match the colors of the building during the day. Another trail to follow...](./assets/mb-h02-b.png){data-slider loading=lazy}
 ![The lights in the area point towards the balcony, so lets head there and meditate.](./assets/mb-h02-c.png){data-slider loading=lazy}
 ![The lighting has formed trees out of the clouds and water towers. The path leads to the space station - black/white/red. There's a mega building for that.](./assets/mb-h02-d.png){data-slider loading=lazy}
 
