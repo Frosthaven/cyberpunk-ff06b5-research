@@ -4,7 +4,7 @@
 
 3-10-2022: While revisiting my previous "Cores are literally mega buildings" work
 (not yet uploaded) I noticed that the buildings have some interesting features
-as it relates to [color theory](../../Theories/theory-color.md). Many of the
+as it relates to [color theory](./theory-color.md). Many of the
 buildings seem to shift color to the inversion of another mega building under
 certain time and location positions.
 
