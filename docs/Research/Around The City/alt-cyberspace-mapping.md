@@ -1,6 +1,6 @@
 # Deep Space "Alt"
 
-!["Alt" in Cyberspace](./assets/alt-cyberspace.png){loading=lazy style=no-lightbox}
+![Alt in Cyberspace](./assets/alt-cyberspace.png){loading=lazy style=no-lightbox}
 
 ## Introduction
 
