@@ -43,8 +43,8 @@ humanize them (and because the endings teach us the pyramid is upside down, but
 I digress).
 
 Spyder bite
-![Spyder's Hacking Logo](./assets/dreamscape-spyder-2.png){data-slider loading=lazy}
-![Spyder Injects the software into Johnny](./assets/dreamscape-spyder-1.png){data-slider loading=lazy}
+![Spyder's Hacking Logo](./assets/dreamscape-spider-2.png){data-slider loading=lazy}
+![Spyder Injects the software into Johnny](./assets/dreamscape-spider-1.png){data-slider loading=lazy}
 
 I'll borrow from [color theory](./theory-color.md) once again, in that we know
 Johnny was limited to only seeing blues and yellows until V and the interface
