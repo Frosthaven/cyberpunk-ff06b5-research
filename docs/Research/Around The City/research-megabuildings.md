@@ -21,7 +21,7 @@ H01 HW357
 ![H01 @ 1pm. Smudged Graffiti](./assets/mb-h01-a.png){data-slider loading=lazy}
 ![H01 @ 1am. A single magenta window becomes visible in the graffiti.](./assets/mb-h01-b.png){data-slider loading=lazy}
 ![Down below the building, in the bottom of the forest, we can find matching artwork next to a street stopper with black and yellow paint. The character in the mural is glowing in yellow light. The individual in the artwork is standing on debris where their shadow is cast. There's some debris with a Johnny magazine we can stand on for this photo.](./assets/mb-h01-c.png){data-slider loading=lazy}
-![After a moment of meditating on the debris, light from the above roads will illuminate the words "No future" - in white/orange/green with black sludge. That's building 02.](./assets/mb-h01-d.jpg){data-slider loading=lazy}
+![After a moment of meditating on the debris, light from the above roads will illuminate the words "No future" - in white/orange/green with black sludge. That's an exact match to building 02. If you try to use a modded in flashlight to bypass, half of the text sits behind the grunge and can't be seen.](./assets/mb-h01-d.jpg){data-slider loading=lazy}
 
 ## H02
 
