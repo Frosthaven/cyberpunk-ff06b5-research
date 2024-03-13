@@ -12,10 +12,10 @@ as it turns out. There is a jumbled story that wants to unfold here. Can you see
 ## H01
 
 H01 HW357
-![Golden Light Of A Fallen Angel](./assets/mb-h01-0.png){data-slider loading=lazy}
+![Conquering The Serpent](./assets/mb-h01-0.jpg){data-slider loading=lazy}
 ![H01 @ 1pm. Smudged Graffiti](./assets/mb-h01-a.png){data-slider loading=lazy}
 ![H01 @ 1am. A single magenta window becomes visible in the graffiti.](./assets/mb-h01-b.png){data-slider loading=lazy}
-![Down below the building, in the bottom of the forest, we can find matching graffiti. The character in the mural is illuminated by golden light. They stand on top of a serpent.](./assets/mb-h01-c.png){data-slider loading=lazy}
+![Down below the building, in the bottom of the forest, we can find matching graffiti. The character in the mural is illuminated by golden light that radiates around their skull. They stand on top of a serpent.](./assets/mb-h01-c.png){data-slider loading=lazy}
 ![After a moment of meditating on the debris, light from the above roads will illuminate the words "No future" - in white/orange/green with black sludge.](./assets/mb-h01-d.jpg){data-slider loading=lazy}
 ![Walking the path up the stairs, we see a skull divided in two among other things. This layout echoes Johnny's situation and the dreamscape perfectly.](./assets/mb-h01-d.png){data-slider loading=lazy}
 

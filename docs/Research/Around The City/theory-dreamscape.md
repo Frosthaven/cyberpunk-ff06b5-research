@@ -51,9 +51,15 @@ I'll borrow from [color theory](./theory-color.md) once again, in that we know
 Johnny was limited to only seeing blues and yellows until V and the interface
 came into his life.
 
+## The Neural Web
+
+![The Web](./assets/dreamscape-the-web.jpg){loading=lazy data-slider}
+![The Map](./assets/dreamscape-the-map.jpg){loading=lazy data-slider}
+![Dreamscape](./assets/dreamscape.png){loading=lazy data-slider}
+
 ## Watson Lockdown
 
-Take note of the image that tops this research page - of the samurai logo laid
+Take note of the samurai logo laid
 over the city map. If we combine our knowledge of V's color axis with the overlay
 of the samurai logo, we can draw some conclusions as to why Watson is on lockdown
 in the beginning and V cannot leave.
