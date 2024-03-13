@@ -142,6 +142,75 @@ random color** on game startup.
 
 ![Crosswalk lights begin shining a random color](./assets/colored-crosswalks.png){loading=lazy}
 
+## The Demiurge Creation
+
+![Demiurge Color Creation](./assets/theory-color-demiurge.png){loading=lazy}
+
+If we take the serpent emblem given at the cube cutscene and focus only on the
+order that the symbols appear (and their location), we can treat the emblem as a
+color wheel.
+
+Going from 1 to 2 is -75° on the color wheel. Going from 2 to 3 is a hue flip, etc.
+This paints the story of the world's creation, starting with #FF06B5 and its
+companion color as the key. We end with the duality of the corpo plaza fish -
+emblematic of this world.
+
+It's worth noting that this color companionship of magenta and green is within
+color calibration margins of V, and leads to a palette that much more closely
+resembles Johnny's. Below, we will attempt such a calibration effort.
+
+## Calibrating The Smasher Room
+
+![Smasher Room Calibration](./assets/theory-color-smasher-room.png){loading=lazy}
+
+### The Approach
+
+- The first thing to notice is that the room is cyan and red. We know how to get
+  to Johnny or V's perspective by shifting hues.
+- If Johnny was indeed cut in two, and work done on [dreamscape theory](./theory-dreamscape.md) is
+  accurate, then we should expect some symbolism of only seeing one half.
+- All cores are behind a yellow barrier. We will need to probably try mixing this
+  in to get accurate core colors.
+- The cores are behind either red or blue barriers. This may be another place we
+  need to manipulate colors.
+- The cores are all facing different directions, if we go by the apparition shown
+  one side of each. We may need to rotate the final colors to connect to the middle
+  (symbolic of putting Johnny back together).
+
+### Attempts
+
+You may want to open these images in their own tab or download them, as they are
+quite large. Please note that some labels show "World", but those should really
+say "interface", based on our findings combined with [dreamscape theory](./theory-dreamscape.md).
+
+#### Attempt 1: WYSIWYG
+
+![Smasher Room Calibration Attempt 1](./assets/theory-color-smasher-room-calibrated-1.png){loading=lazy}
+
+#### Attempt 1: Recap
+
+We do see the symbolism of only seeing half when we hit our first step. By blending
+V's red+cyan, we get gray. Same goes for the interface's yellow+blue and Johnny's green+magenta.
+
+This one is interesting. The final result seems to mirror what "Alt" tells us in
+cyberspace. Without accounting for the body, the only combination that doesn't run
+into overflow errors is Johnny+Interface without V.
+
+#### Attempt 2: Calibrating V to #FF06B5
+
+![Smasher Room Calibration Attempt 2](./assets/theory-color-smasher-room-calibrated-2.png){loading=lazy}
+
+#### Attempt 2: Recap
+
+Calibrating the colors to where V is #FF06B5, an interesting pattern emerges. Because
+we can know that V's pink is #FF06B5, we can calculate the companion color shade of
+green. Because we know that, we can apply it to Johnny's barrier colors. This chain
+of calculation leads to an entirely corrected color palette.
+
+I wonder if this is what "considering the body" or "the human factor" means, and
+if it is the step that "Alt" was missing. The outcome here paints a very different
+picture of whats possible, with both V and Johnny remaining compatible at the end.
+
 ## WIP
 
 This document is unfinished. I will be adding more to it as I can.
