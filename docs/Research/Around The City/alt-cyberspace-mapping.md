@@ -1,7 +1,6 @@
-# Deep Space "Alt"
+# Mapping Cyberspace
 
 ![Alt in Cyberspace](./assets/alt-cyberspace.png){class=no-lightbox}
-
 
 ## Introduction
 
@@ -29,7 +28,7 @@
 Map previous instances of this room. They are much more simple and do not allow
 deep travel like the final one.
 
-## Mapping The Final Layout
+## The Final Layout
 
 @todo use something a little more pleasant than hand mapped stylus boxes. for
 now, its fine. Long story short you can't actually map this place directly due

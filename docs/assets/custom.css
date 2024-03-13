@@ -16,6 +16,7 @@
   --custom-color-secondary: rgb(41, 255, 255);
   --custom-color-secondary-dark: rgba(41, 255, 255, 0.1);
   --custom-color-tertiary: #ffd141;
+  --custom-the-color: rgba(255, 6, 181, 1);
 
   --custom-color-quote: #3ecd75;
   --custom-color-code: #a23ac2;
@@ -383,9 +384,7 @@ li::marker {
 .md-nav__source {
   border: 0 !important;
 }
-.md-source__facts {
-  display: none;
-}
+
 .md-nav--primary .md-nav__title ~ .md-nav__list {
   box-shadow: none !important;
 }
@@ -396,10 +395,6 @@ a.md-source {
 a.md-source:hover {
   color: var(--custom-color-white) !important;
   opacity: 1 !important;
-}
-.md-nav__source,
-.md-header__source {
-  display: none !important;
 }
 
 .md-copyright {
@@ -421,6 +416,13 @@ a.md-source:hover {
 }
 .md-copyright__highlight {
   color: var(--custom-color-tertiary) !important;
+}
+.md-source__facts {
+  display: none;
+}
+a.md-source:hover,
+a.md-source:focus {
+  color: var(--custom-the-color) !important;
 }
 
 /* glightbox */
