@@ -45,7 +45,7 @@ I digress).
 
 Spider bite
 ![Spider's Hacking Logo](./assets/dreamscape-spider-2.png){data-slider loading=lazy}
-![Spider Injects the software into Johnny, catching him in her web as he walls.](./assets/dreamscape-spider-1.png){data-slider loading=lazy}
+![Spider Injects the software into Johnny, catching him in her web as he falls.](./assets/dreamscape-spider-1.png){data-slider loading=lazy}
 
 I'll borrow from [color theory](./theory-color.md) once again, in that we know
 Johnny was limited to only seeing blues and yellows until V and the interface
