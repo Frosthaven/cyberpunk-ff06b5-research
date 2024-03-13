@@ -48,6 +48,9 @@ path. Show how this further matches vanishing arasaka rangers who vanish in DFTR
 that you have to be incredibly quick to notice. Wonder if CDPR was expecting
 speed runners to notice sooner?
 
+@todo point out person standing at base of colored building and how it matches
+the "traveling the curve" drawing.
+
 ## Traveling The Curve
 
 ![Traveling The Curve](assets/child-traveling-the-curve.png){loading=lazy}
