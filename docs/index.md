@@ -3,7 +3,7 @@
 Welcome to the **Cyber Conspiracy Research Initiative**.
 
 This is a place where I document the strange things I find in Night City. It's
-also the where I turn my mid-dig psycho-babbling into a more approachable
+also where I turn my mid-dig psycho-babbling into a more approachable
 repository of information. There are many rabbit holes to explore - each one
 stranger than the last. **I hope you enjoy reading** the theories and findings I
 have assembled here. If not for genuine interest, then perhaps for the
