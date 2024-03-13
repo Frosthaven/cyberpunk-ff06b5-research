@@ -79,10 +79,14 @@ Lets review:
 
 - Spider injects FF06B5 into Johnny's psyche by way of an AI-given data slug.
 - The digital landscape (cyan/red) builds up around Johnny's backdrop of blue (world map).
-- V is the outside agent then introduced to Johnny's psyche in the hopes of making
-  him whole again. Watson is the injection site.
+- V is the outside agent then introduced to Johnny in the hopes of making him
+  whole again. Watson is ground zero.
 - The game/interface compels V, much like an antibody, to merge with the host system
   and begin spreading to other areas (Watson lockdown lifted).
+- The half deserted streets of cyan form the web of the spider, overlaying the
+  blue ocean of Johnny's mind.
+- Through V's actions of traveling these pathways, the neural network of Johnny's
+  mind is reconnected.
 
 ![Watson is in the top left of the map, matching the behavioral health logo](./assets/map-watson.png){loading=lazy}
 
