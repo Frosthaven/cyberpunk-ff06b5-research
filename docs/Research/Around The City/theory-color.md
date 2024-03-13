@@ -173,8 +173,8 @@ resembles Johnny's. Below, we will attempt such a calibration effort.
   in to get accurate core colors.
 - The cores are behind either red or blue barriers. This may be another place we
   need to manipulate colors.
-- The cores are all facing different directions, if we go by the apparition shown
-  one side of each. We may need to rotate the final colors to connect to the middle
+- The cores are all facing different directions, hinted at by the large red digital
+  apparition on one side of each. We may need to rotate the final colors to connect to the middle
   (symbolic of putting Johnny back together).
 
 ### Attempts
