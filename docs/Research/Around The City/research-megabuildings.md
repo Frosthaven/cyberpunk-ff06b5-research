@@ -28,7 +28,7 @@ H02 WS708
 ![The lights in the area point towards the balcony. In the distance we can see the soft white glow to the red and black space station. Lets head there and meditate.](./assets/mb-h02-c.png){data-slider loading=lazy}
 ![In the distance, 2 aircraft begin to travel towards the roller coaster area, in front of blazing afterburners.](./assets/mb-h02-d.png){data-slider loading=lazy}
 ![Their destination takes our view to a rainbow of colors](./assets/mb-h02-e.png){data-slider loading=lazy}
-![A familiar sight of a purple spider spinning their web.](./assets/mb-h02-f.png){data-slider loading=lazy}
+![A familiar sight of a magenta spider spinning their web.](./assets/mb-h02-f.png){data-slider loading=lazy}
 
 ## A Note On Mega-Buildings
 
@@ -47,4 +47,4 @@ orange and green:
 Chameleons At Night
 ![H08 @ 8pm. The pink and green stand tall.](./assets/mb-h08-a.png){data-slider loading=lazy}
 ![H08 @ 8am. The color cast with a cyan direct light and green area light at this time of day makes the building orange and green. Another trail to follow!](./assets/mb-h08-b.png){data-slider loading=lazy}
-![The color cast to orange and green is exhasterbated if we view it from the magenta booth in the market below.](./assets/mb-h08-c.png){data-slider loading=lazy}
+![The color cast to orange and green is exacerbated if we view it from the magenta booth in the market below.](./assets/mb-h08-c.png){data-slider loading=lazy}
