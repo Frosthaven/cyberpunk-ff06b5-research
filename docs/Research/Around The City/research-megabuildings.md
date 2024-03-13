@@ -7,7 +7,7 @@ Many of the buildings seem to shift color to the inversion of another mega build
 under certain time and location parameters.
 
 There is a correlation between the red apparition on the cores and mega buildings,
-as it turns out. There is a story that wants to unfold here. Can you see it?
+as it turns out. There is a jumbled story that wants to unfold here. Can you see it?
 
 ## H01
 
