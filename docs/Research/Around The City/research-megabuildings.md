@@ -12,7 +12,6 @@ as it turns out. There is a jumbled story that wants to unfold here. Can you see
 ## H01
 
 H01 HW357
-![Conquering The Serpent](./assets/mb-h01-0.jpg){data-slider loading=lazy}
 ![H01 @ 1pm. Smudged Graffiti](./assets/mb-h01-a.png){data-slider loading=lazy}
 ![H01 @ 1am. A single magenta window becomes visible in the graffiti.](./assets/mb-h01-b.png){data-slider loading=lazy}
 ![Down below the building, in the bottom of the forest, we can find matching graffiti. The character in the mural is illuminated by golden light that radiates around their skull. They stand on top of a serpent.](./assets/mb-h01-c.png){data-slider loading=lazy}

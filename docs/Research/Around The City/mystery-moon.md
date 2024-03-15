@@ -39,9 +39,17 @@ The moon rotating 11° per hour raises the following questions:
 **The game will often obfuscate the current time**, while making the moon visible
 if you know where to look. I will attempt to catalog these moments below.
 
+### The StreetKid
+
+![The StreetKid: Moon in V's Apartment / 10PM](assets/moon-streetkid.png){loading=lazy}
+
+In the street kid path, you can catch a small glimpse of the moon immediately after
+leaving the bar by stand on some garbage bags. It's obscured for the rest of the
+opening.
+
 ### The Corpo-Rat
 
-![The Corpo-Rat: Moon in Jenkin's Office / 11PM](assets/moon-jenkins-office.jpg)
+![The Corpo-Rat: Moon in Jenkin's Office / 11PM](assets/moon-jenkins-office.jpg){loading=lazy}
 
 In Jenkin's office, if you crouch down in the far right corner of his city-facing
 window, you can barely bring the moon into sight. This moon matches up to **11pm**
