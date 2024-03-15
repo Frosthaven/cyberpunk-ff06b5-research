@@ -45,7 +45,7 @@ if you know where to look. I will attempt to catalog these moments below.
 
 In the street kid path, you can catch a small glimpse of the moon immediately after
 leaving the bar by stand on some garbage bags. It's obscured for the rest of the
-opening.
+opening. It points to **9pm**.
 
 ### The Corpo-Rat
 
