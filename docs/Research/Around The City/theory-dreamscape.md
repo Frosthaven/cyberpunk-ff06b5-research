@@ -11,7 +11,7 @@
 This line of research examines the possibility that the entirety of Cyberpunk
 2077's city takes place within the psyche of Johnny Silverhand.
 
-We'll borrow some colors from [color theory](./theory-color.md) here:
+We'll borrow some colors from [color theory](theory-color-1.md) here:
 
 - **Red & Cyan** is the game/system/interface.
 - **Pink & Green** is V
@@ -47,7 +47,7 @@ Spider bite
 ![Spider's Hacking Logo](./assets/dreamscape-spider-2.png){data-slider loading=lazy}
 ![Spider Injects the software into Johnny, catching him in her web as he falls.](./assets/dreamscape-spider-1.png){data-slider loading=lazy}
 
-I'll borrow from [color theory](./theory-color.md) once again, in that we know
+I'll borrow from [color theory](theory-color-1.md) once again, in that we know
 Johnny was limited to only seeing blues and yellows until V and the interface
 came into his life.
 
