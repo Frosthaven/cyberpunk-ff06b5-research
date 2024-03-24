@@ -7,8 +7,8 @@
 This is a continuation of [color theory 1](theory-color-1.md). It is expected that
 you are coming into this research with a brief understanding of that paper. The
 goal of this follow up is to take what we know from color theory and apply the
-symbolism used in the game characters. We will be trying to extract some
-implementation details that could reveal more about the game's story.
+symbolism used in the game. We will be trying to extract some implementation
+details that could reveal more about the game's story.
 
 ## The Color Wheel Tattoo
 
@@ -185,6 +185,9 @@ Green
 ![Gigs are indicated in green](./assets/green-gigs.png){loading=lazy data-slider}
 ![All but a single green planters in Rogue's ending can be disabled (##06##?)](./assets/green-planters.png){loading=lazy data-slider}
 ![Green dump lights can be turned red by filling them.](./assets/green-dump.png){loading=lazy data-slider}
+
+Is there a hidden mechanic here, or just a nod? Who knows. But it's a powerful use
+of color either way.
 
 ## Up Next
 
