@@ -15,8 +15,8 @@ details that could reveal more about the game's story.
 ![A broken, leaking color wheel](assets/color-theory-2.png){loading=lazy}
 
 There are many tattoos in the game that hold symbolism. We'll cover those in
-greater detail later. For now I want to focus on the one in this article's
-header - one that was brought to surface attention by the reddit user [OniHanzpPT](https://www.reddit.com/user/OniHanzpPT/).
+greater detail later. For now I want to focus on this one that was brought to
+surface attention by the reddit user OniHanzpPT.
 
 There are several key differences in this tattoo that do not exist in previous
 discussions:
