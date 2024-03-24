@@ -12,7 +12,7 @@ details that could reveal more about the game's story.
 
 ## The Color Wheel Tattoo
 
-![Color On The Skin](assets/color-theory-2.png){loading=lazy}
+![A broken, leaking color wheel](assets/color-theory-2.png){loading=lazy}
 
 There are many tattoos in the game that hold symbolism. We'll cover those in
 greater detail later. For now I want to focus on the one in this article's
