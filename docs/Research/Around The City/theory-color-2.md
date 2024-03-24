@@ -192,6 +192,9 @@ Green
 Is there a hidden mechanic here, or just a nod? Who knows. But it's a powerful use
 of color either way.
 
+Alternatively, we could echo Delamain's ascension path and create a new being
+from a limited subset of our own now-overflowing pallet.
+
 ## Up Next
 
 We will explore the VDB symbolism and how it relates to the overlapping of
