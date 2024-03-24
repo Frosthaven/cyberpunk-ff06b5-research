@@ -184,7 +184,7 @@ Cyan
 
 Green
 ![Gigs are indicated in green](./assets/green-gigs.png){loading=lazy data-slider}
-![All but a single green planters in Rogue's ending can be disabled (##06##?)](./assets/green-planters.png){loading=lazy data-slider}
+![All but a single green planter in Rogue's ending can be disabled (##06##?)](./assets/green-planters.png){loading=lazy data-slider}
 ![Green dump lights can be turned red by filling them.](./assets/green-dump.png){loading=lazy data-slider}
 
 Is there a hidden mechanic here, or just a nod? Who knows. But it's a powerful use
