@@ -1,6 +1,6 @@
 # Color Theory 2
 
-![Color On The Skin](assets/color-theory-2.png){class=no-lightbox}
+![Color On The Skin](assets/color-theory-2-header.png){class=no-lightbox}
 
 ## Introduction
 
@@ -11,6 +11,8 @@ symbolism used in the game. We will be trying to extract some implementation
 details that could reveal more about the game's story.
 
 ## The Color Wheel Tattoo
+
+![Color On The Skin](assets/color-theory-2.png){loading=lazy}
 
 There are many tattoos in the game that hold symbolism. We'll cover those in
 greater detail later. For now I want to focus on the one in this article's
