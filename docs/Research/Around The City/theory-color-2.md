@@ -131,7 +131,7 @@ Color Artifacting
 ![This is alt normally](assets/alt-cyberspace.png){loading=lazy data-slider}
 ![This is alt with a hue shift towards yellow. You will notice the orange/red splotches in the top left of the image - an artifact of hue rotation.](assets/color-artifacting.png){loading=lazy data-slider}
 ![This is the normal "World" tarot card](assets/color-artifacting-3.png){loading=lazy data-slider}
-![This is how V sees it in game, missing magenta and showing artifacting greens where we expect limes and browns](assets/color-artifacting-2.png){loading=lazy data-slider}
+![This is how V sees it in game post-merge, missing magenta and showing artifacting greens where we expect lime. Could the tarot cards reveal Johnny's true color wheel via these artifacts?](assets/color-artifacting-2.png){loading=lazy data-slider}
 ![The child drawings are full of this artifacting, particularly in reds, yellows, and blues](assets/child-balloons-by-day.png){loading=lazy data-slider}
 
 ## Swapped Colors
