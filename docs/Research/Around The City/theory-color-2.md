@@ -167,24 +167,24 @@ Black & White
 ![Arasaka's white jungle lights can be turned off](./assets/white-jungle.png){loading=lazy data-slider}
 ![Delamain represents pure white and has multiple outcomes](./assets/delamain-white.jpg){loading=lazy data-slider}
 
-Red
+Red = Magenta + Yellow (CMYK)
 ![Lockdown is indicated in red and can be lifted. Up to and including disabling these lockdown signs.](./assets/red-lockdown.png){loading=lazy data-slider}
 ![Forklifts can be toggled to block a red light in the base game (Dogtown forklifts have no such red light). Interestingly, their tooltip states "YOU CAN OPEN A PATH THAT IS BLOCKED".](./assets/red-forklifts.png){loading=lazy data-slider}
 ![Red fire extinguishers can be destroyed](./assets/red-extinguishers.png){loading=lazy data-slider}
 ![Red radios can be turned on to convert them to cyan](./assets/red-radios.png){loading=lazy data-slider}
 ![Red explosives can be destroyed](./assets/red-explosives.png){loading=lazy data-slider}
 
-Yellow
+Yellow = Red + Green (RBG)
 ![The main missions are indicated in yellow](./assets/yellow-missions.png){loading=lazy data-slider}
 ![Yellow generators can be overloaded](./assets/yellow-generators.png){loading=lazy data-slider}
 ![The access points with a soft yellow glow do not function like other points. Often found at cyan NCPD locations, these do not cause a world/minimap glitch when completing them. Songbird commends you for finding a hidden path through the parking garage via an access panel that has this same yellow glowing indicator.](./assets/yellow-hacking.png){loading=lazy data-slider}
 ![You can open yellow exit grates through the ending paths to hide them](./assets/yellow-grate.png){loading=lazy data-slider}
 
-Cyan
+Cyan = Green + Blue (RGB)
 ![NCPD Missions are indicated in cyan](./assets/cyan-ncpd.png){loading=lazy data-slider}
 ![Cyan laptop screens can be hidden by closing them](./assets/cyan-laptops.png){loading=lazy data-slider}
 
-Green
+Green = Cyan + Yellow (CMYK)
 ![Gigs are indicated in green](./assets/green-gigs.png){loading=lazy data-slider}
 ![All but a single green planter in Rogue's ending can be disabled (##06##?)](./assets/green-planters.png){loading=lazy data-slider}
 ![Green dump lights can be turned red by filling them.](./assets/green-dump.png){loading=lazy data-slider}
