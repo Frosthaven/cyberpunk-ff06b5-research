@@ -115,6 +115,9 @@ is the progressive nature of the city and of the dream. It is the fine structure
 constant of *this* reality. The smallest divisible unit that comprises the
 dreamscape and the shape of the world.
 
+A square in 3 dimensions that can point in any direction along a circle. The
+source code of the dream itself.
+
 ## What does this mean for the future?
 
 In one possibility, Johnny will return. Half AI. Half human. He will become a
