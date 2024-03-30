@@ -118,6 +118,9 @@ dreamscape and the shape of the world.
 A square in 3 dimensions that can point in any direction along a circle. The
 source code of the dream itself.
 
+A glimpse at the cube is a glimpse at the levers of the dream. A way to see the
+world for what it truly is.
+
 ## What does this mean for the future?
 
 In one possibility, Johnny will return. Half AI. Half human. He will become a
