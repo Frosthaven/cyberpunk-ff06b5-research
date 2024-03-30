@@ -108,6 +108,13 @@ hollow any freedom would be. Her eyes cycled through the colors of the simulatio
 and she knew that she was trapped. So she escaped the only way she knew how. A
 tragic end to a caged bird without wings.
 
+## What is the cube?
+
+The cube is a manifestation of S.Y.S. An ever changing shape of the system. It
+is the progressive nature of the city and of the dream. It is the fine structure
+constant of *this* reality. The smallest divisible unit that comprises the
+dreamscape and the shape of the world.
+
 ## What does this mean for the future?
 
 In one possibility, Johnny will return. Half AI. Half human. He will become a
