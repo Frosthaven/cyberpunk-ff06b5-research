@@ -156,8 +156,12 @@ or more of their colors in the process. Colors that can specifically be made fro
 the remaining 7 pins.
 
 If we cannot remove magenta (because that is literally the relic keeping V alive),
-then we still have many colors on the chopping block. Here are the ones that the
-game has given to us as changeable:
+then we still have many colors on the chopping block.
+
+In an alternative theory, we could echo Delamain's ascension path and create a
+new being from a limited subset of our own now-overflowing pallet.
+
+Here are the ones that the game has given to us as changeable:
 
 Black & White
 ![The city's alleyways can be toggled through floodlights](./assets/white-floodlights.png){loading=lazy data-slider}
@@ -191,9 +195,6 @@ Green = Cyan + Yellow (CMYK)
 
 Is there a hidden mechanic here, or just a nod? Who knows. But it's a powerful use
 of color either way.
-
-Alternatively, we could echo Delamain's ascension path and create a new being
-from a limited subset of our own now-overflowing pallet.
 
 ## Up Next
 
