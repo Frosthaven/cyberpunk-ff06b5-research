@@ -27,7 +27,7 @@ V does not belong here.
 This singular purpose leaves V with a daunting reality - to save Johnny, V must
 sacrifice themselves. Like any black-box controlled AI or daemon from the old
 days, V+Hydra is a one-time use tool. A tool that will be disintegrated in a
-cloud of blue mist through use.
+cloud of blue mist through use - like a packet of flavored powder in water.
 
 ## What is the black wall?
 
