@@ -17,10 +17,12 @@ mind, and releases V into the city.
 
 ## Who or What is V?
 
-V is a digital ghost. A black-box AI from beyond the black wall. Confined to a
-chip and given a single purpose: save Johnny Silverhand. By traversing the city
-and progressing through the story, V unlocks memories and rewires the neural
-pathways of Johnny's mind.
+V is a digital ghost, a dreamer. A black-box AI from beyond the black wall.
+Confined to a chip and given a single purpose: save Johnny Silverhand. By
+traversing the city and progressing through the story, V unlocks memories and
+rewires the neural pathways of Johnny's mind.
+
+V does not belong here.
 
 This singular purpose leaves V with a daunting reality - to save Johnny, V must
 sacrifice themselves. Like any black-box controlled AI or daemon from the old
@@ -72,10 +74,44 @@ Cyan (Mr. Blue Eyes) is the opposite end of the spectrum from red ("Alt"). Throu
 him, the powers that be will stop at nothing to prevent Johnny from waking up.
 They will offer riches, power, and the world itself to keep Johnny asleep.
 
+## Netwatch, The Corporations, and The Voodoo Boys
+
+Netwatch works alongside the corporations to keep the dream going. An immense
+collaboration that keeps the dreamer asleep. Their very existence is threatened
+by the possibility of Johnny waking up. Do dream entities have souls? They'd
+rather not find out.
+
+Meanwhile, the Voodoo boys have figured out the true nature of the city. They
+inscribe it into their symbols. They carry ritual in honor of it. They seek
+Johnny's engram because it contains within it the colors necessary to overload
+the simulation. By acquiring the 8th color, they can punch through to the
+blackwall - a power that threatens "reality" for everyone in the dream.
+
+## Saburo & Yorinobu Arasaka
+
+Saburo wanted control. He gained this through fear. Fear that he could end the
+charade at any moment. Fear that he could end the dream. Fear that he could
+end the world.
+
+By attempting to hand Johnny's engram over to Netwatch, Yorinobu hoped to remove
+the source of that fear. It wasn't power he sought, but family. By removing the
+nuclear option from the table, he could buy peace for his family.
+
+## Evelyn Parker
+
+Evelyn wanted to escape her life. She wanted to be free. Suffocating under the
+control of the corporations - likely with ties to Petrochem - she saw intercepting
+the relic as her ticket to freedom.
+
+After being on the receiving end of a netrunner assault, she realized just how
+hollow any freedom would be. Her eyes cycled through the colors of the simulation
+and she knew that she was trapped. So she escaped the only way she knew how. A
+tragic end to a caged bird.
+
 ## What does this mean for the future?
 
 In one possibility, Johnny will return. Half AI. Half human. He will become a
 third new thing. How diluted into his psyche V will be is up to fate.
 
-In another, whoever hired the player will have the requisite data they sought to
-collect by diving into the dreamscape.
+In another possibility, whoever hired the player will have the requisite data
+they sought to collect by diving into the dreamscape.
