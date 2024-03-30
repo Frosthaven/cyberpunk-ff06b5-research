@@ -106,7 +106,7 @@ the relic as her ticket to freedom.
 After being on the receiving end of a netrunner assault, she realized just how
 hollow any freedom would be. Her eyes cycled through the colors of the simulation
 and she knew that she was trapped. So she escaped the only way she knew how. A
-tragic end to a caged bird.
+tragic end to a caged bird without wings.
 
 ## What does this mean for the future?
 
