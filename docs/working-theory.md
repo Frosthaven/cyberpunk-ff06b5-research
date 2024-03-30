@@ -115,8 +115,8 @@ is the progressive nature of the city and of the dream. It is the fine structure
 constant of *this* reality. The smallest divisible unit that comprises the
 dreamscape and the shape of the world.
 
-A square in 3 dimensions that can point in any direction along a circle. The
-source code of the dream itself.
+A square in 3 dimensions that can point in any direction along a sphere. The
+source code of the dream itself. Always moving, always changing, always the same.
 
 A glimpse at the cube is a glimpse at the levers of the dream. A way to see the
 world for what it truly is.
