@@ -1,49 +1,53 @@
-# Dancing Buildings
+# Mikoshi Cores
 
-![Mega Building](./assets/megabuilding-as-core.png){loading=lazy class=no-lightbox}
+![Mikoshi Cores](./assets/megabuilding-as-core.png){loading=lazy class=no-lightbox}
 
-The mega buildings have some interesting features as it relates to [color theory](theory-color-1.md).
-Many of the buildings seem to shift color to the inversion of another mega building
-under certain time and location parameters.
+Two rows of cores numbered 0-7. The left side is surrounded in blue squares,
+while the right is surrounded in red. A judgment card split down the middle is
+nestled behind them, with an overwhelming sense of symmetry/asymmetry at play.
 
-There is a correlation between the red apparition on the cores and mega buildings,
-as it turns out. There is a jumbled story that wants to unfold here. Can you see it?
+## The Strange Symbol
 
-## H01
+I've traced the symbol that appears on each of the cores here for easier viewing:
 
-H01 HW357
-![H01 @ 1pm. Smudged Graffiti](./assets/mb-h01-a.png){data-slider loading=lazy}
-![H01 @ 1am. A single magenta window becomes visible in the graffiti.](./assets/mb-h01-b.png){data-slider loading=lazy}
-![Down below the building, in the bottom of the forest, we can find matching graffiti. The character in the mural is illuminated by golden light that radiates around their skull. They stand on top of a serpent.](./assets/mb-h01-c.png){data-slider loading=lazy}
-![After a moment of meditating on the debris, light from the above roads will illuminate the words "No future" - in white/orange/green with black sludge.](./assets/mb-h01-d.jpg){data-slider loading=lazy}
-![Walking the path up the stairs, we see a skull divided in two among other things. This layout echoes Johnny's situation and the dreamscape perfectly.](./assets/mb-h01-d.png){data-slider loading=lazy}
+![The Strange Symbol](./assets/mikoshi-symbol.png){loading=lazy}
 
-## H02
+### The Ambassadors (Holbein)
 
-H02 WS708
-![The Spider And The Web](./assets/mb-h02-0.png){data-slider loading=lazy}
-![H02 @ 2pm. Awful bright, but nothing to write home about. You can see the same smudges used as a hint from H01's "No Future" grungy logo.](./assets/mb-h02-a.png){data-slider loading=lazy}
-![H02 @ 2am. Positioning ourselves in the only immediately visible flood light and looking up, we can see a reddish light in the bottom right, lining up with where we saw the magenta light on H01. The immediate surroundings now match the colors of the building during the day. Another trail to follow...](./assets/mb-h02-b.png){data-slider loading=lazy}
-![The lights in the area point towards the balcony. In the distance we can see the soft white glow to the red and black space station. Lets head there and meditate.](./assets/mb-h02-c.png){data-slider loading=lazy}
-![In the distance, 2 aircraft begin to travel towards the roller coaster area, in front of blazing afterburners.](./assets/mb-h02-d.png){data-slider loading=lazy}
-![Their destination takes our view to a rainbow of colors](./assets/mb-h02-e.png){data-slider loading=lazy}
-![A familiar sight of a magenta spider spinning their web.](./assets/mb-h02-f.png){data-slider loading=lazy}
+The symbol upon initial inspection seems rather tall. I've seen stretched
+symbols before in the world of art - an example being "The Ambassadors".
 
-## A Note On Mega-Buildings
+![A stretched smudge at the bottom of the painting](./assets/mikoshi-painting-1.jpg){loading=lazy data-slider}
+![When viewed at the right perspective, the smudge becomes a very clear skull.](./assets/mikoshi-painting-2.jpg){loading=lazy data-slider}
 
-They are all a projection of the local environment:
+### Processing the Symbol
 
-![The curb in front of a mega-building.](./assets/megabuilding-example.jpg){loading=lazy}
+By viewing the core symbol in the same way, we can attempt to destretch it and
+analyze it further:
 
-There is always a site nearby with flood lights that are either already
-on and colored specifically, or that can be turned on. These sites almost always
-seem to share qualities with the mega building they are associated with.
+![The symbol (shown in white), mirrored against itself in the same way the cores are mirrored against themselves and the judgement card which indicates two halves](./assets/mikoshi-symbol-2.png){loading=lazy data-slider}
+![Here, I attempt to repeat the pattern for the number of cores.](./assets/mikoshi-symbol-3.png){loading=lazy data-slider}
+![This is the final result. Very reminescent of the ending pyramid and the pathway leading to it, reflecting an inverted tower entrance below. There being 4 of these could be pointing to Johnny's "Don't fear the reaper" path, a hidden pyramid in addition to the Hanako, Rogue, and Panam paths of the base game.](./assets/mikoshi-symbol-4.png){loading=lazy data-slider}
+![The previous symbol is very reminescent of these music albums](./assets/mikoshi-albums.png){loading=lazy data-slider}
 
-The mega buildings also have a habit of changing colors given the right time and
-location. Take mega building H08 for example, that goes from pink and green to
-orange and green:
+Ultimately it _seems_ that these symbols are pointing to the hidden "Don't Fear
+(The Reaper)" ending existing, by expressing 4 pyramids instead of the 3 we
+knew about prior to this ending path coming to light.
 
-Chameleons At Night
-![H08 @ 8pm. The pink and green stand tall.](./assets/mb-h08-a.png){data-slider loading=lazy}
-![H08 @ 8am. The color cast with a cyan direct light and green area light at this time of day makes the building orange and green. Another trail to follow!](./assets/mb-h08-b.png){data-slider loading=lazy}
-![The color cast to orange and green is exacerbated if we view it from the magenta booth in the market below.](./assets/mb-h08-c.png){data-slider loading=lazy}
+## Similar Structures
+
+### Mega Buildings
+
+The cores are very similar in architecture to the mega buildings that dot the
+landscape of Night City. There are 8 cores, and there are 8 mega buildings that
+are not inaccessible.
+
+![H01 @ 1pm. Smudged Graffiti](./assets/mb-h01-a.png){loading=lazy}
+
+### Arasaka Estate
+
+The heated outdoor seating area at the Arasaka Estate also shares some very
+notable architectural similarities with the cores. Seeing a fire underneath the
+obilisk reminds me that we "have a city to burn".
+
+![Arasaka Estate - Heated Seating](./assets/mikoshi-estate.png){loading=lazy}

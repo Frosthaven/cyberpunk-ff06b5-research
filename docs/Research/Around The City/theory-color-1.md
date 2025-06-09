@@ -1,4 +1,4 @@
-# Color Theory 1
+# Color Research 1
 
 ![Color On The Brain](assets/color-brain.png){class=no-lightbox}
 
@@ -84,11 +84,11 @@ the beginning of the game.
 
 Johnny's axis being a reflection of V's is interesting, both because of the
 mirror you can break before the transition and because Johnny's scene literally
-rotates into view. *Not to mention that you can see Johnny in the mirror as an
-easter egg throughout the game.*
+rotates into view. _Not to mention that you can see Johnny in the mirror as an
+easter egg throughout the game._
 
 Feel free to
-[watch the transition](https://youtu.be/8jljcwOoTsM?t=81){target=_blank} for yourself.
+[watch the transition](https://youtu.be/8jljcwOoTsM?t=81){target=\_blank} for yourself.
 
 ## The World
 
@@ -98,8 +98,8 @@ This is where we are introduced to a third common complimentary color set of
 **orange & pale blue**. Based on the color wheel, this rests symmetrically between
 Johnny's blue/yellow and the game's cyan/red at 30°.
 
-*It is also noteworthy that the round foundation under the fish cycles through
-the colors of the color wheel.*
+_It is also noteworthy that the round foundation under the fish cycles through
+the colors of the color wheel._
 
 ## The First BD
 
@@ -157,66 +157,10 @@ emblematic of this world.
 
 It's worth noting that this color companionship of magenta and green is within
 color calibration margins of V, and leads to a palette that much more closely
-resembles Johnny's. Below, we will attempt such a calibration effort.
-
-## Calibrating The Smasher Room
-
-![Smasher Room Calibration](assets/theory-color-smasher-room.png){loading=lazy}
-
-### The Approach
-
-- The first thing to notice is that the room is cyan and red. We know how to get
-  to Johnny or V's perspective by shifting hues.
-- If Johnny was indeed cut in two, and work done on [dreamscape theory](theory-dreamscape.md) is
-  accurate, then we should expect some symbolism of only seeing one half.
-- All cores are behind a yellow barrier. We will need to probably try mixing this
-  in to get accurate core colors.
-- The cores are behind either red or blue barriers. This may be another place we
-  need to manipulate colors.
-- The cores are all facing different directions, hinted at by the large red digital
-  apparition on one side of each. We may need to rotate the final colors to connect to the middle
-  (symbolic of putting Johnny back together).
-
-### Attempts
-
-You may want to open these images in their own tab or download them, as they are
-quite large. Please note that some labels show "World", but those should really
-say "interface", based on our findings combined with [dreamscape theory](theory-dreamscape.md).
-
-#### Attempt 1: WYSIWYG
-
-![Smasher Room Calibration Attempt 1](assets/theory-color-smasher-room-calibrated-1.png){loading=lazy}
-
-#### Attempt 1: Recap
-
-We do see the symbolism of only seeing half when we hit our first step. By blending
-V's red+cyan, we get gray. Same goes for the interface's yellow+blue and Johnny's green+magenta.
-
-This one is interesting. The final result seems to mirror what "Alt" tells us in
-cyberspace. Without accounting for the body, the only combination that doesn't run
-into overflow errors is Johnny+Interface without V.
-
-#### Attempt 2: Calibrating V to #FF06B5
-
-![Smasher Room Calibration Attempt 2](assets/theory-color-smasher-room-calibrated-2.png){loading=lazy}
-
-#### Attempt 2: Recap
-
-Calibrating the colors to where V is #FF06B5, an interesting pattern emerges. Because
-we can know that V's pink is #FF06B5, we can calculate the companion color shade of
-green. Because we know that, we can apply it to Johnny's barrier colors. This chain
-of calculation leads to an entirely corrected color palette.
-
-I wonder if this is what "considering the body" or "the human factor" means, and
-if it is the step that "Alt" was missing. The outcome here paints a very different
-picture of whats possible, with both V and Johnny remaining compatible at the end.
-
-## WIP
-
-This document is unfinished. I will be adding more to it as I can.
+r
 
 ## Useful Tools
 
 - [Hex Calculator](https://www.calculator.net/hex-calculator.html)
 - [Color Hue Rotator](https://imgonline.tools/color-hue)
-- [Color Mixer](https://colordesigner.io/color-mixer)
+- [Color Mixer](https://colordesigner.io/color-mixer)esembles Johnny's. Below, we will attempt such a calibration effort.

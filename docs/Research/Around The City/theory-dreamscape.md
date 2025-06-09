@@ -1,4 +1,4 @@
-# Dreamscape Theory
+# The World as Johnny
 
 ![Dreamscape](./assets/dreamscape.png){class=no-lightbox}
 
@@ -9,13 +9,14 @@
 - Johnny Silverhand
 
 This line of research examines the possibility that the entirety of Cyberpunk
-2077's city takes place within the psyche of Johnny Silverhand.
+2077's city takes place within the psyche of Johnny Silverhand. This would be
+an ultimate twist where instead of Johnny being in our brain, we are in his.
 
 We'll borrow some colors from [color theory](theory-color-1.md) here:
 
-- **Red & Cyan** is the game/system/interface.
-- **Pink & Green** is V
-- **Blue & Yellow** is Johnny
+- **Red & Cyan** is the game/system/interface or V.
+- **Pink & Green** is V or the player.
+- **Blue & Yellow** is Johnny.
 
 ## The Setup
 
@@ -64,27 +65,29 @@ over the city map. If we combine our knowledge of V's color axis with the overla
 of the samurai logo, we can draw some conclusions as to why Watson is on lockdown
 in the beginning and V cannot leave.
 
-Let's start with the Arasaka logo Johnny first sees in his *disconnected from V*
+Let's start with the Arasaka logo Johnny first sees in his _disconnected from V_
 state in "Love Like Fire" and see if you notice anything missing from it:
 
 ![Arasaka Logo is missing branches](./assets/logo-arasaka-classic.jpg){loading=lazy}
 
 The branches are missing, indicating that V/Johnny/System have not yet merged.
+This also symbolizes the prison Johnny starts in, unable to navigate pathways.
 
-Why does this impact V? Well, remember V's colors - pink and green. Take a look
-at this logo:
+Take a look at this logo:
 
 ![Night City Center For Behavioral Health](./assets/night-city-behavioral.png){loading=lazy}
 
-Green nature in the boxes, pink separated part of brain connected only by a single strand. That's V's colors. "Night City"
-*is in and of itself* the center for behavioral health, made apparent by being made
+Green nature in the boxes, pink separated part of brain connected only by a single strand. That's the player's colors. "Night City"
+_is in and of itself_ the center for behavioral health, made apparent by being made
 in red/cyan. That's the system/game/interface colors. The top left of the logo
 depicts a disconnected Watson - a bridge that V will eventually cross.
 
 Lets review:
 
-- Spider injects FF06B5 into Johnny's psyche by way of an AI-given data slug.
-- The digital landscape (cyan/red) builds up around Johnny's backdrop of blue (world map).
+- Spider injects FF06B5 into Johnny's psyche by way of an AI enhanced data slug.
+- The game/interface provides the red buildings and cyan roads by which to
+  traverse the otherwise barren landscape (blue/Johnny) and accomplish the
+  quests required (yellow/Johnny).
 - V is the outside agent then introduced to Johnny in the hopes of making him
   whole again. Watson is ground zero.
 - The game/interface compels V, much like an antibody, to merge with the host system
@@ -92,7 +95,8 @@ Lets review:
 - The half deserted streets of cyan form the web of the spider, overlaying the
   blue ocean of Johnny's mind.
 - Through V's actions of traveling these pathways, the neural network of Johnny's
-  mind is reconnected.
+  mind is reconnected. Turn on the power here. Unlock a pathway there. That's
+  the gist.
 
 ![Watson is in the top left of the map, matching the behavioral health logo](./assets/map-watson.png){loading=lazy}
 

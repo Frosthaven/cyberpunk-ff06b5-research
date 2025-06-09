@@ -1,4 +1,4 @@
-# Color Theory 2
+# Color Research 2
 
 ![Color On The Skin](assets/color-theory-2-header.png){class=no-lightbox}
 
@@ -151,7 +151,7 @@ ingredients from both the RGB range (Red + Missing Blue) and the CMYK range
 (Missing magenta outright).
 
 If we were to hazard a solution where V and Johnny can both ride off into the
-sunset and live happily ever after, then it would *require* that V lose one
+sunset and live happily ever after, then it would _require_ that V lose one
 or more of their colors in the process. Colors that can specifically be made from
 the remaining 7 pins.
 
@@ -195,9 +195,3 @@ Green = Cyan + Yellow (CMYK)
 
 Is there a hidden mechanic here, or just a nod? Who knows. But it's a powerful use
 of color either way.
-
-## Up Next
-
-We will explore the VDB symbolism and how it relates to the overlapping of
-Johnny and V's color spaces to open a window into the blackwall. We'll throw in
-some reversed-pyramid symbolism for good measure.
