@@ -85,26 +85,6 @@ the world in magenta as a result, are we causing this shift? When data flows
 past the expected boundary, it can start overwriting other good data and causing
 all manner of glitches. This is known as a buffer overflow.
 
-If we reinvestigate the Arasaka 3D score screen, this is exactly what we see:
-
-![Arasaka 3D Score](assets/oom-a3d.png){loading=lazy}
-
-The flaw in the design of the Arasaka 3D arcade game is that it treats scores
-as hexidecimal numbers by mistake. The largest integer value is generally seen
-as `0xFFFFFFFF`, which is `4294967295` in decimal. If this scoreboard total is
-saved under a single space in memory as decimal, then the sequence would look
-something like this:
-
-| Name     | Score  | To Decimal  | Size Left (Unsigned Int) |
-| -------- | ------ | ----------- | ------------------------ |
-| BLCKHND  | 941229 | 9703977     | 4285263318               |
-| MRPHY    | 940204 | 19403821    | 4265859497               |
-| ARMSMG   | 870312 | 432487219   | 3833372278               |
-| ANTVRK   | 110180 | 18024592281 | -14191220003 (overflow)  |
-| POLYHSTR | FF06B5 | 16713397    | -18041305678 (magenta)   |
-
-_ARMSMG_ and _ANTVRK_ never made sense as score holders since there are no known characters by those names, but that was probably the point. Polyhistor didn't insert FF06B5 into the game. He likely added the two fake names with large scores in order to force a buffer overflow on the game, which as a result led to FF06B5 and the hidden -10 level (A glitch much like Mario's minus levels).
-
 ### Thoughts
 
 It's entirely likely that "Don't Fear (The Reaper)" is a result of us overwhelming the game data with our character - who's time extends beyond what memory would allow. By doing this, we force a buffer overflow that results in a glitchy ending where we storm Arasaka with Johnny. This would explain all of the strange clipping issues and more and justify the missing gaps (where did we get Alt's shard again?).
