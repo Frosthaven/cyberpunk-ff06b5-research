@@ -963,59 +963,6 @@ shifted.</p>
 the world in magenta as a result, are we causing this shift? When data flows
 past the expected boundary, it can start overwriting other good data and causing
 all manner of glitches. This is known as a buffer overflow.</p>
-<p>If we reinvestigate the Arasaka 3D score screen, this is exactly what we see:</p>
-<p><a class="glightbox" href="../assets/oom-a3d.png" data-type="image" data-width="100%" data-height="auto" data-title="Arasaka 3D Score" data-desc-position="bottom"><img alt="Arasaka 3D Score" loading="lazy" src="../assets/oom-a3d.png" /></a></p>
-<p>The flaw in the design of the Arasaka 3D arcade game is that it treats scores
-as hexidecimal numbers by mistake. The largest integer value is generally seen
-as <code>0xFFFFFFFF</code>, which is <code>4294967295</code> in decimal. If this scoreboard total is
-saved under a single space in memory as decimal, then the sequence would look
-something like this:</p>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Score</th>
-<th>To Decimal</th>
-<th>Size Left (Unsigned Int)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>BLCKHND</td>
-<td>941229</td>
-<td>9703977</td>
-<td>4285263318</td>
-</tr>
-<tr>
-<td>MRPHY</td>
-<td>940204</td>
-<td>19403821</td>
-<td>4265859497</td>
-</tr>
-<tr>
-<td>ARMSMG</td>
-<td>870312</td>
-<td>432487219</td>
-<td>3833372278</td>
-</tr>
-<tr>
-<td>ANTVRK</td>
-<td>110180</td>
-<td>18024592281</td>
-<td>-14191220003 (overflow)</td>
-</tr>
-<tr>
-<td>POLYHSTR</td>
-<td>FF06B5</td>
-<td>16713397</td>
-<td>-18041305678 (magenta)</td>
-</tr>
-</tbody>
-</table>
-<p><em>ARMSMG</em> and <em>ANTVRK</em> never made sense as score holders since there are no known characters by those names, but that was probably the point. Polyhistor didn't insert FF06B5 into the game. He likely added the two fake names with large scores in order to force a buffer overflow on the game, which as a result led to FF06B5 and the hidden -10 level (A glitch much like Mario's minus levels).</p>
-<h3 id="thoughts">Thoughts</h3>
-<p>It's entirely likely that "Don't Fear (The Reaper)" is a result of us overwhelming the game data with our character - who's time extends beyond what memory would allow. By doing this, we force a buffer overflow that results in a glitchy ending where we storm Arasaka with Johnny. This would explain all of the strange clipping issues and more and justify the missing gaps (where did we get Alt's shard again?).</p>
-<p>By going through any deep quest with Panam, Rogue, etc, we can see that Netrunner Operations still has these glitchy aspects and doors labeled "-10BR.OOM.S" etc. Is there a way to get through the game without causing a buffer overflow?</p>
 
 
 
