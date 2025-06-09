@@ -37,9 +37,9 @@ panels of the title screen isolated:
 ![No Save Title Screen](assets/oom-payload-upload.png){loading=lazy}
 
 What makes this screen interesting is that it only appears when no save files
-exist. The dark pink/purple data streams here are also going upwards instead of
-downwards, signifying that we are breaching into the game and uploading a
-payload of our character data.
+exist or during character creation. The dark pink/purple data streams here are
+also going upwards instead of downwards, signifying that we are breaching into
+the game and uploading a payload of our character data.
 
 We next see the results of our character upload on the side of a protocol
 mirror, with a nice little profile upload/download ui in the top left corner:
