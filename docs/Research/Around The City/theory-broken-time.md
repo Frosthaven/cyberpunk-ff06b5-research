@@ -92,7 +92,7 @@ all manner of glitches. This is known as a buffer overflow.
 The "exploit" in Arasaka 3D is that the scoreboard totals are registered as
 hexidecimal values instead of decimal. Where we would expect a max score of
 `999,999`, we see that Polyhistor's entry exceeds this limit. The PLHSTR score
-line results in `16,713,397`, which is almost 16 million more points than should
+line results in `16,713,397`, which results in `15,713,398` more points than should
 be possible. This means that the remainder of the score that doesn't fit into
 the normal memory allocation is being written to the next memory location,
 essentially corrupting and overwriting the game data.
