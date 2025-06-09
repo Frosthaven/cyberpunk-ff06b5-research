@@ -85,6 +85,21 @@ the world in magenta as a result, are we causing this shift? When data flows
 past the expected boundary, it can start overwriting other good data and causing
 all manner of glitches. This is known as a buffer overflow.
 
+### Revisiting Arasaka 3D
+
+![Arasaka 3D](assets/oom-a3d.png){loading=lazy}
+
+The "exploit" in Arasaka 3D is that the scoreboard totals are registered as
+hexidecimal values instead of decimal. Where we would expect a max score of
+`999,999`, we see that Polyhistor's entry exceeds this limit. The PLHSTR score
+line results in `16,713,397`, which is almost 16 million more points than should
+be possible.
+
+This kind of buffer overflow hack for the arcade game is probably
+what allows us the user to visit the -10 level (much like the minus levels in
+Mario). It allows accessing memory locations that otherwise would be out of
+bounds - leading to all kinds of glitches in gameplay and otherwise.
+
 ### Thoughts
 
 It's entirely likely that "Don't Fear (The Reaper)" is a result of us overwhelming the game data with our character - who's time extends beyond what memory would allow. By doing this, we force a buffer overflow that results in a glitchy ending where we storm Arasaka with Johnny. This would explain all of the strange clipping issues and more and justify the missing gaps (where did we get Alt's shard again?).
