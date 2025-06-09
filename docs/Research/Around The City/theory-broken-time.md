@@ -93,12 +93,19 @@ The "exploit" in Arasaka 3D is that the scoreboard totals are registered as
 hexidecimal values instead of decimal. Where we would expect a max score of
 `999,999`, we see that Polyhistor's entry exceeds this limit. The PLHSTR score
 line results in `16,713,397`, which is almost 16 million more points than should
-be possible.
+be possible. This means that the remainder of the score that doesn't fit into
+the normal memory allocation is being written to the next memory location,
+essentially corrupting and overwriting the game data.
+
+These kinds of code injection attacks are common in programming. One popular
+instance is when a user programmed "Flappy Bird" into "Super Mario World" by
+simply playing the game in a specific way ([source](https://www.youtube.com/watch?v=hB6eY73sLV0)).
 
 This kind of buffer overflow hack for the arcade game is probably
 what allows us the user to visit the -10 level (much like the minus levels in
 Mario). It allows accessing memory locations that otherwise would be out of
-bounds - leading to all kinds of glitches in gameplay and otherwise.
+bounds - leading to all kinds of glitches as the game loads data that it
+shouldn't.
 
 ### Thoughts
 
