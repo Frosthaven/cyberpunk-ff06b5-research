@@ -62,7 +62,8 @@
 /*noinspection DuplicatedCode*/
 [data-md-color-scheme="slate"] {
   background-color: #130e16;
-  background-image: url(./bg-pattern.svg),
+  background-image:
+    url(./bg-pattern.svg),
     linear-gradient(
       180deg,
       var(--custom-color-gradient-high),
@@ -327,13 +328,13 @@ label.md-nav__title {
 }
 
 article a {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .md-nav__item a,
 .md-tabs__item.md-tabs__item a {
   color: var(--custom-color-primary) !important;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   opacity: 1;
 }
 .md-nav__item a:hover,
