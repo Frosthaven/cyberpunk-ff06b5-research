@@ -1,4 +1,4 @@
-# The World as Johnny
+# Johnny as the World
 
 ![Dreamscape](./assets/dreamscape.png){class=no-lightbox}
 
