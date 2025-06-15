@@ -122,6 +122,8 @@ that much like the arcade, this would take the form of magenta appearing in
 the game world - being an overflowing amount of character upload data (violet)
 going into the memory buffer (red).
 
+### Quest Corruption
+
 Corruption Through Quests
 ![Meeting Panam: A small hint of corruption where a single headlight is colored magenta.](assets/oom-panam-1.png){loading=lazy data-slider}
 ![Kerry Jamming: A fever dream of reds and purples, with V's corner alone bathed in magenta.](assets/oom-kerry-1.png){loading=lazy data-slider}
@@ -129,6 +131,8 @@ Corruption Through Quests
 
 In the correllary, we can also see a change throughout the scene transitions in
 the game:
+
+### Scene Transition Corruption
 
 Corruption Through Transitions
 ![This transition effect occured after carrying Evelyn Parker's body out of the electric company. The average color on-screen is rgb(28, 1, 8) or #1c0108.](assets/oom-transition-1.png){loading=lazy data-slider}
