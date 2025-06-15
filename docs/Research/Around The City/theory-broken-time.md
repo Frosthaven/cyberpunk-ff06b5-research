@@ -171,5 +171,5 @@ very well be the "-10" level of the game. We might have been seeing the hidden
 minus world all along.
 
 That begs the question, though - can we reach the end without corrupting the
-buffer and oversaturating the system with new memories? Or is it yet to be
-implemented and a story for another time?
+buffer and oversaturating the system with new or corrupted memories? Or is it
+yet to be implemented and a story for another time?
