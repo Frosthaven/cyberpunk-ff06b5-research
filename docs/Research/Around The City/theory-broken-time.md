@@ -19,7 +19,7 @@ There's some interesting color notes we can borrow from [color research
   cyan.
 
 We can also see that the character name is scrambled, with a character level of
-17 (the numeric 18 is in the chip to the left of the name, barely visible in
+18 (the numeric 18 is in the chip to the left of the name, barely visible in
 red).
 
 ## What Is A Buffer Overflow?
