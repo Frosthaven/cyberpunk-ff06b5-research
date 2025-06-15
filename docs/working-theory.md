@@ -22,7 +22,7 @@ amount of V's influence without oversaturating the world with their presence.
 
 ## Who or What is V?
 
-V is the character we upload into Johnny. The payload is [pink/purple in hue](/Research/Around%20The%20City/theory-broken-time/#the-data-lifecycle),
+V is the character we upload into Johnny. The payload is [violet in hue](/Research/Around%20The%20City/theory-broken-time/#the-payload),
 which when combined with the red/cyan of the game and blue/yellow of Johnny
 completes the colors we experience in this projected version of Night City.
 
