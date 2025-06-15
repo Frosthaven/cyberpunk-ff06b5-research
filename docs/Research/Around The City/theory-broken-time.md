@@ -76,6 +76,8 @@ Ending Memory Buffers
 ![The red title screen buffers have been influenced by the violet character upload to present us with a blended magenta buffer at the end of the game.](assets/oom-credits.png){loading=lazy data-slider}
 ![Phantom Liberty's credits go even further, showing that the magenta has now taken over the entire system.](assets/oom-phantom-liberty.png){loading=lazy data-slider}
 
+![Recap](assets/oom-recap.png){loading=lazy class=no-lightbox}
+
 ## Some Clues On What's Happening
 
 ### Buffer Overflow Hacking Glitch
