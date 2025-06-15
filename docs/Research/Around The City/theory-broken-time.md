@@ -145,6 +145,8 @@ claiming that an all out assault from the front door is impossible, that's
 exactly what we do.
 
 - There's a chance to get at least 8 keycards when you need only 1.
+- When going to the back of the lobby, there's 6 guards if you activate time
+  dilation, but 2 vanish into thin air very quickly.
 - A mech falls from the sky ala "The Heist" quest when entering the elevator.
 - One elevator is labeled as "-2 Parking" as if we're at the megabuilding,
   despite taking us to netrunner operations.
