@@ -116,6 +116,10 @@ Seeing magenta in the arcade game is one such-likely side effect of this buffer
 overflow hack, as the arcade cartridge attempts to load the now-corrupted data
 and make sense of the hexidecimal value.
 
+## Visualizing Corrupted Memory
+
+![Corrupted Memory](assets/oom-memory-diagram.png){loading=lazy class=no-lightbox}
+
 ## Signs of Memory Corruption In Game
 
 Much like the magenta and minus world in Arasaka Tower 3D, we'd expect to see
