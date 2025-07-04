@@ -1,4 +1,4 @@
-# The Burning Man
+# Burning Man
 
 ![Burning Man Rock](assets/burning-man-header.png){class=no-lightbox}
 
