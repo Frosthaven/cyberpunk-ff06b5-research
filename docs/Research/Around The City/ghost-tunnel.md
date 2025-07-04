@@ -119,4 +119,4 @@ helix (DNA) strand at the top, reminescent of [Mapping Cyberspace](alt-cyberspac
 
 We're left with an entity with no bottom half, and a [V with no top
 half](research-burningman.md#a-parallel). This rests against a backdrop of DNA
-and surgery. Anteresting combination of concepts.
+and surgery. Interesting combination of concepts.
