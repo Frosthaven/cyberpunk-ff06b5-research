@@ -147,6 +147,11 @@ Not backing down, yeah
   title screen and many other places. I look at those in more detail under the
   [V as Code Injection](../theory-broken-time) research.
 
+In addition, there are capital case or bold print. Extracting only the
+emphasized words, we get the following:
+
+> SOUL INSERTED. HUNTING. animal. BLOOD
+
 ### Side
 
 ```
