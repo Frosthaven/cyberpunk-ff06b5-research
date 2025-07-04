@@ -148,7 +148,7 @@ Not backing down, yeah
 - The remainder of the song typography is all over the place in spacing. This
   spacing is very reminescent of the spacing of the memory bands found in the
   title screen and many other places. I look at those in more detail under the
-  [V as Code Injection](../theory-broken-time) research.
+  [V as Code Injection](theory-broken-time.md) research.
 
 In addition, there are capital case or bold print. Extracting only the
 emphasized words, we get the following:

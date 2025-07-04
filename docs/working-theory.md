@@ -21,7 +21,7 @@ perspectives of Johnny, V, and the player to fully comprehend.
 ## Who or What is V?
 
 V is the character data we upload into S.Y.S.. The payload is [violet in
-hue](/Research/Around%20The%20City/theory-broken-time/#the-payload) at first
+hue](Research/Around The City/theory-broken-time.md#the-payload) at first
 glance. The combination of Johnny, V, and the player create a visual spectrum
 projection that is Night City.
 

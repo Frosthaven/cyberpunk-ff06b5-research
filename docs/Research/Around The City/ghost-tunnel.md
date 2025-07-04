@@ -12,9 +12,9 @@ game.
 
 This line of research requires bits and pieces from my other research:
 
-- [Color Research 1](../theory-color-)/[Color Research 2](../theory-color-2)
-- [Johnny as the World](../theory-dreamscape)
-- [Burning Man](../research-burningman)
+- [Color Research 1](theory-color-1.md)/[Color Research 2](theory-color-2.md)
+- [Johnny as the World](theory-dreamscape.md)
+- [Burning Man](research-burningman.md)
 
 ## Location
 
@@ -42,8 +42,8 @@ Indeed, magenta hides red! But if we could somehow shift the colors to be more
 orange and yellow, then a hidden red would come into the visible color spectrum
 under a magenta lens.
 
-Applying the [burning man](../research-burningman) logic and recognizing that
-[Johnny/V/Player is the world](../theory-dreamscape), I set V on fire. The
+Applying the [burning man](research-burningman.md) logic and recognizing that
+[Johnny/V/Player is the world](theory-dreamscape.md), I set V on fire. The
 thought process is that if I'm the world, and I need to be more yellow/orange,
 fire would do that right?
 
@@ -112,11 +112,11 @@ The area at the epicenter above this tunnel was added in Phantom Liberty -
 Terra Cognita (or "Familiar Land"). In particular the Digimmortal exhibit. This
 building depects a cybernetic upper body with mantis blades and a missing
 bottom half - cables dangling from the torso. We also get a glimpse of a double
-helix (DNA) strand at the top, reminescent of [Mapping Cyberspace](alt-cyberspace-mapping).
+helix (DNA) strand at the top, reminescent of [Mapping Cyberspace](alt-cyberspace-mapping.md).
 
 ![Ghost Tunnel - Digimmortal display missing bottom half](assets/ghost-tunnel-digimmortal.png){data-slider}
 ![Ghost Tunnel - DNA and a surgery procedure ad above the display](assets/ghost-tunnel-digimmortal-dna.png){data-slider}
 
 We're left with an entity with no bottom half, and a [V with no top
-half](../research-burningman/#a-parallel). This rests against a backdrop of DNA
+half](research-burningman.md#a-parallel). This rests against a backdrop of DNA
 and surgery. Anteresting combination of concepts.
