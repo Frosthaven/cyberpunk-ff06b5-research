@@ -20,9 +20,10 @@ This line of research requires bits and pieces from my other research:
 
 ![Ghost Tunnel Location](assets/ghost-tunnel-location.png){class=no-lightbox}
 
-Ghost Tunnel is located on either side of a single tunnel, just south of
-Dogtown. On the side of this tunnel is an NCPD scanner activity with a group
-that believes a militech bunker rests beyond.
+Ghost Tunnel is located just south of Dogtown. On the side of this tunnel is an
+NCPD scanner activity with a group that believes a militech bunker rests
+beyond. The tunnel is capped on both sides by an exposed red flow under the
+right conditions.
 
 ## How I Discovered It
 
