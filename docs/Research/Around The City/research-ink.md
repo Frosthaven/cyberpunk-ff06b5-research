@@ -92,6 +92,9 @@ That leaves us with the following:
 Thicker Than Blood
 ```
 
+One thing that comes to mind when considering what's thicker than blood - oil.
+Could this relate to Johnny in the oil fields?
+
 ### Back
 
 #### Roman Numerals
