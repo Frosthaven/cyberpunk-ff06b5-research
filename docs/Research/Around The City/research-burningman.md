@@ -2,7 +2,7 @@
 
 ![Burning Man Rock](assets/burning-man-header.png){class=no-lightbox}
 
-# About
+## About
 
 This is a specific graffiti that depicts a humanoid figure who is scratched out
 above the chest. The style of this graffiti matches the existential line of
