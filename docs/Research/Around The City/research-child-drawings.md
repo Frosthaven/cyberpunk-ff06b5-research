@@ -44,16 +44,11 @@ serpent emblem. Show monster on face of moon. Get less discolored variant.
 
 ![Balloons By Day](assets/child-balloons-by-day.png){loading=lazy}
 
-@todo show johnny gaining color in opening and how world is painted through
-V and Johnny. Remind of Saburo's office in love like fire/total immortal.
+@todo show johnny gaining color in opening and how world is painted through V
+and Johnny. Remind of Saburo's office in love like fire/total immortal.
 
-@todo show how ranger in balloon matches hologram rangers (twins) in rogue ending
-path. Show how this further matches vanishing arasaka rangers who vanish in DFTR,
-that you have to be incredibly quick to notice. Wonder if CDPR was expecting
-speed runners to notice sooner?
-
-@todo point out person standing at base of colored building and how it matches
-the "traveling the curve" drawing.
+@todo go into the color eclipses that happen visually in game (blue/yellow,
+yellow/red, and green or cyan/red)
 
 ## Traveling The Curve
 

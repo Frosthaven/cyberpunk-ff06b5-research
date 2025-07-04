@@ -43,4 +43,4 @@ flips, and mirrors in a way that point locality is not lost in the transition:
 
 In this demonstration, you can see that no matter how we flip or rotate the 3
 dimensional shape, the points on the graph always align to the labels on the
-chart. A 3D cube.
+chart. A 3D cube capable of pointing in all directions.
