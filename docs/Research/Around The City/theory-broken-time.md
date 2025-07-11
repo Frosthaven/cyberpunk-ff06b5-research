@@ -120,34 +120,22 @@ and make sense of the hexidecimal value.
 
 #### Score Board Integer Overflow (Sorting Anomaly)
 
-If we assume that the only hexidecimal score is Polyhistor's, we can work
-backwards to understand how it appears at the bottom of the list despite
-translating to a higher score than the rest of the entries at first glance.
+If we assume that the only hexadecimal score is Polyhistor's, we can work backwards to understand how it appears at the bottom of the list despite translating to a higher score than the rest of the entries at first glance.
 
-The minimum bit system that would allow us to represent FF06B5 in hexidecimal
-on this screen is `24` bits (with a signed integer range of -8,388,608 to
-8,388,607).
+The minimum bit system that would allow us to represent `FF06B5` in hexadecimal on this screen is 24 bits (with a signed integer range of `-8,388,608` to `+8,388,607`).
 
-Because `16,713,397` is larger than `8,388,607`, we would encounter something
-known as integer overflow. When an integer reaches the cap of its maximum
-value, it will wrap around to the minimum value and continue counting up from
-there. This means that the score would be calculated as follows:
+Because `16,713,397` is larger than `8,388,607`, we would encounter something known as integer overflow. When an integer reaches the cap of its maximum value, it will wrap around to the minimum value and continue counting up from there like a clock. In a system with signed integers, this means that the score would be interpreted as `-63,819`.
+
+So although the score is technically the highest in the game, it's decimal value gets interpreted as a negative number, which is why it appears at the bottom of the list. The final interpreted scoreboard is as follows:
 
 ```
-16713397 - 16777216 = -63819
+Player Name    Score
+BLCKHND        + 941,229
+MRPHY          + 940,204
+ARMSMG         + 870,312
+ANTVRK         + 110,180
+PLHSTR         -  63,819
 ```
-
-So although the score is technically the highest in the game, it's decimal
-value gets interpreted as a negative number, which is why it appears at the
-bottom of the list. The final interpreted scoreboard is as follows:
-
-| Player Name | Score    |
-| ----------- | -------- |
-| BLCKHND     | + 941229 |
-| MRPHY       | + 940204 |
-| ARMSMG      | + 870312 |
-| ANTVRK      | + 110180 |
-| PLHSTR      | - 63819  |
 
 ## Visualizing Corrupted Memory
 
