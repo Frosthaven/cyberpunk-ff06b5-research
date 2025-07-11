@@ -1123,51 +1123,17 @@ leading to all kinds of glitches as the game loads data that it shouldn't.</p>
 overflow hack, as the arcade cartridge attempts to load the now-corrupted data
 and make sense of the hexidecimal value.</p>
 <h4 id="score-board-integer-overflow-sorting-anomaly">Score Board Integer Overflow (Sorting Anomaly)</h4>
-<p>If we assume that the only hexidecimal score is Polyhistor's, we can work
-backwards to understand how it appears at the bottom of the list despite
-translating to a higher score than the rest of the entries at first glance.</p>
-<p>The minimum bit system that would allow us to represent FF06B5 in hexidecimal
-on this screen is <code>24</code> bits (with a signed integer range of -8,388,608 to
-8,388,607).</p>
-<p>Because <code>16,713,397</code> is larger than <code>8,388,607</code>, we would encounter something
-known as integer overflow. When an integer reaches the cap of its maximum
-value, it will wrap around to the minimum value and continue counting up from
-there. This means that the score would be calculated as follows:</p>
-<pre><code>16713397 - 16777216 = -63819
+<p>If we assume that the only hexadecimal score is Polyhistor's, we can work backwards to understand how it appears at the bottom of the list despite translating to a higher score than the rest of the entries at first glance.</p>
+<p>The minimum bit system that would allow us to represent <code>FF06B5</code> in hexadecimal on this screen is 24 bits (with a signed integer range of <code>-8,388,608</code> to <code>+8,388,607</code>).</p>
+<p>Because <code>16,713,397</code> is larger than <code>8,388,607</code>, we would encounter something known as integer overflow. When an integer reaches the cap of its maximum value, it will wrap around to the minimum value and continue counting up from there like a clock. In a system with signed integers, this means that the score would be interpreted as <code>-63,819</code>.</p>
+<p>So although the score is technically the highest in the game, it's decimal value gets interpreted as a negative number, which is why it appears at the bottom of the list. The final interpreted scoreboard is as follows:</p>
+<pre><code>Player Name    Score
+BLCKHND        + 941,229
+MRPHY          + 940,204
+ARMSMG         + 870,312
+ANTVRK         + 110,180
+PLHSTR         -  63,819
 </code></pre>
-<p>So although the score is technically the highest in the game, it's decimal
-value gets interpreted as a negative number, which is why it appears at the
-bottom of the list. The final interpreted scoreboard is as follows:</p>
-<table>
-<thead>
-<tr>
-<th>Player Name</th>
-<th>Score</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>BLCKHND</td>
-<td>+ 941229</td>
-</tr>
-<tr>
-<td>MRPHY</td>
-<td>+ 940204</td>
-</tr>
-<tr>
-<td>ARMSMG</td>
-<td>+ 870312</td>
-</tr>
-<tr>
-<td>ANTVRK</td>
-<td>+ 110180</td>
-</tr>
-<tr>
-<td>PLHSTR</td>
-<td>- 63819</td>
-</tr>
-</tbody>
-</table>
 <h2 id="visualizing-corrupted-memory">Visualizing Corrupted Memory</h2>
 <p><img alt="Corrupted Memory" class="no-lightbox" loading="lazy" src="../assets/oom-memory-diagram.png" /></p>
 <h2 id="signs-of-memory-corruption-in-game">Signs of Memory Corruption In Game</h2>
