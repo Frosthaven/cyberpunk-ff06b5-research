@@ -1105,6 +1105,7 @@ rendered that reveals the glitch fully.</p>
 <a class="glightbox" href="../assets/oom-kiroshi-cleaned-times.png" data-type="image" data-width="100%" data-height="auto" data-title="If we were to attempt to clean the alignment of the lefthand buffer, we see a pattern of missing data. This data could also contribute to the alignment being off in the buffer." data-desc-position="bottom"><img alt="If we were to attempt to clean the alignment of the lefthand buffer, we see a pattern of missing data. This data could also contribute to the alignment being off in the buffer." data-slider="data-slider" loading="lazy" src="../assets/oom-kiroshi-cleaned-times.png" /></a>
 <a class="glightbox" href="../assets/oom-kiroshi-glitch-binary.png" data-type="image" data-width="100%" data-height="auto" data-title="The right side of this image appears at first glance to be a sequence of 1's and 0's, but if you look closely you can see that there are actually 2 pipe | symbols (yellow) that split the data. This is interesting, as files and software are generally split into 2 parts: the header and the data. The header contains metadata about the data, such as its size and type, while the data contains the actual contents. It would appear that data (pink) is overflowing (gray) and overwriting the header (white)." data-desc-position="bottom"><img alt="The right side of this image appears at first glance to be a sequence of 1's and 0's, but if you look closely you can see that there are actually 2 pipe | symbols (yellow) that split the data. This is interesting, as files and software are generally split into 2 parts: the header and the data. The header contains metadata about the data, such as its size and type, while the data contains the actual contents. It would appear that data (pink) is overflowing (gray) and overwriting the header (white)." data-slider="data-slider" loading="lazy" src="../assets/oom-kiroshi-glitch-binary.png" /></a></p>
 <h3 id="arasaka-tower-3d">Arasaka Tower 3D</h3>
+<h4 id="score-board-buffer-overflow">Score Board Buffer Overflow</h4>
 <p><a class="glightbox" href="../assets/oom-a3d.png" data-type="image" data-width="100%" data-height="auto" data-title="Arasaka 3D" data-desc-position="bottom"><img alt="Arasaka 3D" loading="lazy" src="../assets/oom-a3d.png" /></a></p>
 <p>The "exploit" in Arasaka 3D is that the scoreboard totals are registered as
 hexidecimal values instead of decimal. Where we would expect a max score of
@@ -1121,6 +1122,52 @@ leading to all kinds of glitches as the game loads data that it shouldn't.</p>
 <p>Seeing magenta in the arcade game is one such-likely side effect of this buffer
 overflow hack, as the arcade cartridge attempts to load the now-corrupted data
 and make sense of the hexidecimal value.</p>
+<h4 id="score-board-integer-overflow-sorting-anomaly">Score Board Integer Overflow (Sorting Anomaly)</h4>
+<p>If we assume that the only hexidecimal score is Polyhistor's, we can work
+backwards to understand how it appears at the bottom of the list despite
+translating to a higher score than the rest of the entries at first glance.</p>
+<p>The minimum bit system that would allow us to represent FF06B5 in hexidecimal
+on this screen is <code>24</code> bits (with a signed integer range of -8,388,608 to
+8,388,607).</p>
+<p>Because <code>16,713,397</code> is larger than <code>8,388,607</code>, we would encounter something
+known as integer overflow. When an integer reaches the cap of its maximum
+value, it will wrap around to the minimum value and continue counting up from
+there. This means that the score would be calculated as follows:</p>
+<pre><code>16713397 - 16777216 = -63819
+</code></pre>
+<p>So although the score is technically the highest in the game, it's decimal
+value gets interpreted as a negative number, which is why it appears at the
+bottom of the list. The final interpreted scoreboard is as follows:</p>
+<table>
+<thead>
+<tr>
+<th>Player Name</th>
+<th>Score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BLCKHND</td>
+<td>+ 941229</td>
+</tr>
+<tr>
+<td>MRPHY</td>
+<td>+ 940204</td>
+</tr>
+<tr>
+<td>ARMSMG</td>
+<td>+ 870312</td>
+</tr>
+<tr>
+<td>ANTVRK</td>
+<td>+ 110180</td>
+</tr>
+<tr>
+<td>PLHSTR</td>
+<td>- 63819</td>
+</tr>
+</tbody>
+</table>
 <h2 id="visualizing-corrupted-memory">Visualizing Corrupted Memory</h2>
 <p><img alt="Corrupted Memory" class="no-lightbox" loading="lazy" src="../assets/oom-memory-diagram.png" /></p>
 <h2 id="signs-of-memory-corruption-in-game">Signs of Memory Corruption In Game</h2>
