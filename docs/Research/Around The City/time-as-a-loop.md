@@ -72,4 +72,7 @@ overlaps](theory-color-3.md), etc.
 
 Lest we forget the reward for ARG work was the following shirt:
 
-![Cyberpunk ARG reward shirt](./assets/time-shirt.png){data-slider}
+![Cyberpunk ARG reward shirt](./assets/time-shirt.png){class=no-lightbox}
+
+Come to think of it, the top of this shirt looks like it could go with the
+zoetrope images in [ghost tunnel](ghost-tunnel.md).
