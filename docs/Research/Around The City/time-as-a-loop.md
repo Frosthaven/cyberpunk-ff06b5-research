@@ -69,3 +69,7 @@ While I'm not solid on the exact position of elements, I believe that
 _something like this_ is how we experience the game. Perhaps there's a way to
 map quests to where they belong based on [moon time](mystery-moon.md), [color
 overlaps](theory-color-3.md), etc.
+
+Lest we forget the reward for ARG work was the following shirt:
+
+![Cyberpunk ARG reward shirt](./assets/time-shirt.png){data-slider}
