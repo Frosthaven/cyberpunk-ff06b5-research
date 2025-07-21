@@ -6,10 +6,13 @@ These observations can be browsed by viewing my [research](Research/Around%20The
 
 ## What is the City?
 
-The city is the landscape connecting Johnny, V, Alt, and the player together.
-It is a projected representation the mental dream state, memories, and
-thoughts. It is the neural network being reconnected through the actions and
-sacrifice of V, Johnny, and the player.
+The city is a combination of memories from V, Johnny Silverhand, and the
+player. It is a mental landscape that can be explored, but with a warning - it
+isn't so easy to discern where one perspective's memories are interfering with
+another's. The city acts as a projection of broken mirrors, reflecting hints at
+events that have happened, but not always in a clear or linear way. It is a
+place where the past, present, and future collide, creating a complex tapestry
+of experiences.
 
 ## What is the Statue?
 
@@ -21,9 +24,10 @@ perspectives of Johnny, V, and the player to fully comprehend.
 ## Who or What is V?
 
 V is the character data we upload into S.Y.S.. The payload is [violet in
-hue](Research/Around The City/theory-broken-time.md#the-payload) at first
-glance. The combination of Johnny, V, and the player create a visual spectrum
-projection that is Night City.
+hue](Research/Around The City/theory-broken-time.md#the-payload). The
+combination of Johnny, V, and the player create a visual spectrum projection
+that is Night City. V is a construct of the player - a proxy injected into
+Johnny's memories and trapped in the web of those memories.
 
 ## What is the cube?
 
@@ -41,9 +45,12 @@ world for what it truly is. What levers does it move by? That is the key.
 
 ## What does this mean for the future?
 
-Johnny or his memories will certainly return in some form. Does the V upload
-complete him in a proper merger between beings? Or is his psyche still trapped
-in the loop? Does combining V, Johnny, and the player (human element) create a
-third new thing?
+I do not know if it is possible to escape the dream beyond joining Alt and
+having V become a part of us the player's memories. If it is, it would likely
+involve piecing together the many fragmented missions and choices in a way that
+shows us the full picture.
 
-Time will tell.
+I believe that Johnny and V will return post-2077 - as I believe that either
+the Johnny/V/Player hybrid exists now in a meta-sense as us, or something
+similar. Johnny/V/Alt escaping the net is on the table, so I suppose time will
+tell.
