@@ -57,7 +57,7 @@ Filtering The Title Screen
 ![Next, we swap the red and yellow channels.](./assets/color-3-title-3.png){data-slider}
 ![Finally, we swap the yellow and cyan channels.](./assets/color-3-title-4.png){data-slider}
 
-Before interpreting anything about this expiriment, I want to point out what
+Before interpreting anything about this expirement, I want to point out what
 this strategy has done. It pinpoints where the discolorations are coming from
 that cause the red areas to look a little more pink normally.
 
