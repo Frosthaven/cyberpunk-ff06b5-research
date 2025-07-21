@@ -4,11 +4,14 @@
 
 ## Overview
 
-Have you ever noticed that if you skip enough time, the background effect
-begins spinning in reverse?
+If life is a straight line, starting at birth and ending at death, then how
+would you fashion immortality? An argument could be made for simply connecting
+the end to the beginning and scrubbing away the death scene in a perfect
+circular cage. But what about preserving two timelines in one?
 
-This research delves into the possibility of time being a circle, where we can
-peer across from one end to the other.
+Have you ever noticed that if you skip enough time, the background effect
+begins spinning in reverse? This research delves into the possibility of time
+being a circle, where we can peer across from one end to the other.
 
 ### The First Indicator - Maman Brigitte
 
