@@ -13,7 +13,7 @@ peer across from one end to the other.
 ### The First Indicator - Maman Brigitte
 
 During the quest "Transmission", Maman Brigitte peers into your memories. When
-this happens, a strange anomoly can be found - some of the memories are playing
+this happens, a strange anomoly can be found - some of Johnny's memories are playing
 forwards even though she's scrubbing backwards.
 
 ### The Second Indicator - Peter Horvath
