@@ -21,7 +21,7 @@ Color Ghosting
 ![Lots of yellow gold objects in the parade glow blue.](./assets/color-3-ghost-4.png){data-slider}
 ![With a bright light hitting the brown, we expect an orange into yellow. Instead, this car's trim reaches across the color wheel from orange for pale blue.](./assets/color-3-car.png){data-slider}
 ![Skippy's red component under some pink lights reflects the opposite color green.](./assets/color-3-swap-1.png){data-slider}
-![Skippy's red component under some yellow lights reflects the opposite color cyan.](./assets/color-3-swap-2.png){data-slider}
+![Skippy's red component under some orange/yellow lights reflects the opposite cyan into blue.](./assets/color-3-swap-2.png){data-slider}
 ![This yellow combat zone graffiti in the second floor of the GIM is glowing blue.](./assets/color-3-swap-3.png){data-slider}
 ![From the overlook of Ghost Tunnel during specific weather, the cyan "bio" sign appears green and carries a pink glow.](./assets/color-3-swap-4.png){data-slider}
 ![Unlike all previous examples, the top of the Murkman cache has red triangles ghosting blue. Is the red actually yellow?](./assets/color-3-ghost-5.png){data-slider}
