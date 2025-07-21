@@ -97,6 +97,14 @@ If we apply one concept to the other, then you could get an optical green by
 strobing cyan and yellow together very fast in sequence in front of a viewer
 (Zoetrope effect).
 
+Additionally, the angled lights with the object coming into view are very close
+to the Quadra Turbo-R 740 tail light profile, a car that comes in colorways
+that can trigger [color ghosting](theory-color-3.md):
+
+Quadra Turbo-R 740
+![Tail light profile.](assets/ghost-tunnel-quadra.png){data-slider}
+![A colorway where a reflection that should be orange into yellow gets a blue ghosting effect instead.](assets/color-3-car.png){data-slider}
+
 ### Outside Viewing Area
 
 In the caged viewing area of the tunnel, there is a single structural column
