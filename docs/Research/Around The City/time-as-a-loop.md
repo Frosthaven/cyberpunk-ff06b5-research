@@ -21,7 +21,7 @@ forwards even though she's scrubbing backwards.
 Do you recall the [NCPD projection just outside of Misty's (external source)](https://www.reddit.com/r/LowSodiumCyberpunk/comments/14kkynb/outside_mistys_shop_never_seen_this_before/)? A man with the appearance of Peter Horvath:
 
 1. Charges forward with presumably deadly intent.
-2. Falls backwards to gunshot wounds.
+2. Falls backwards to gunshot wounds by a police officer.
 
 Later when investigating a BD with River Ward, we can see the following events:
 
@@ -29,7 +29,7 @@ Later when investigating a BD with River Ward, we can see the following events:
 2. Shortly after, Peter Horvath enters, humming a non-tune.
 3. Peter Horvath stabs the security guard.
 4. Peter charges forward with presumably deadly intent.
-5. Peter falls backwards to gunshot wounds.
+5. Peter falls backwards to gunshot wounds by a police officer.
 6. The security guard sees his silver hand before the BD cuts.
 
 What was already known is that Peter was likely humming the same song as Judy
