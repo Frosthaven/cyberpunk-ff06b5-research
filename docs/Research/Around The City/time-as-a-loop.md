@@ -48,7 +48,9 @@ behind by a mantis blade user. If you recall, Johnny sees the cat used for the
 dejavu reference and his silver hand before fading to black in that scene.
 
 Is this a [corrupted memory](theory-broken-time.md), borrowing from V and
-Johnny to bring a ghost image from across the timeline into being?
+Johnny to bring a ghost image from across the timeline into being? It always
+feels like something is bleeding over from the two being merged. Like white
+noise over an impure tv broadcast.
 
 ### Game Time Loop
 
