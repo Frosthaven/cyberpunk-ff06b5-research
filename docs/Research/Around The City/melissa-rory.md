@@ -90,7 +90,8 @@ the Maxtac visor scene? The visor scene ends with the following frames:
 
 Why did we get these two animation frames? Why does the gun seemingly go
 forward with a bright light? If it was fired, we'd expect kickback - not
-forward momentum.
+forward momentum. If the gun was never fired, these frames would equally be
+impossible.
 
 Furthermore, if the hex code really was just a program that checks the
 display, it should only fire once at the beginning, and not mirrored again at
