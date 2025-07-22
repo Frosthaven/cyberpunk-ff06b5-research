@@ -121,6 +121,3 @@ into Mikoshi/Soulkiller's calling function?
 
 At least to me, it seems Melissa has been caught in the same prison as V, who's
 one-way ticket is measured in calibers and stamped in the blood of trauma.
-
-Was the scene with the magenta lights and her in the streets the dream that
-she awoke from? Or the other way around?
