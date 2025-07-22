@@ -72,7 +72,8 @@ Notice the gun still pointed at her head, barely visible behind the logo.
 
 Did the gun fire? The next scenes after the logo will convince you that it
 didn't, as Melissa is now aboard a Maxtac vehicle, suiting up and putting on a
-visor.
+visor. It would seem she's been completely reformed and out on missions in this
+perspective.
 
 ![Melissa suiting up](assets/rory-frame-3.png){class=no-lightbox}
 
