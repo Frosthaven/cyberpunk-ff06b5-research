@@ -57,7 +57,8 @@ JMP $0002   ; Jump to address $0002
 
 ```
 
-For now lets just focus on the frame image as the "start".
+This solution isn't particularly new, so for now lets focus on the frame image
+as the "start".
 
 ## Before the Logo Cut
 
