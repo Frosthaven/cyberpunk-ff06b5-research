@@ -103,8 +103,8 @@ Melissa closes her eyes. The Maxtac agent fires, the gun kicking back in bright
 light. The moment of death.
 
 Shock and surprise come across her lips as she takes the visor off. The visor
-reflects her partner collapsing to his seat. Taking a moment to process what
-just happened, she looks down dejectedly before the scene fades.
+reflects the silhouette of her partner finding his seat. Taking a moment to
+process what just happened, she looks down dejectedly before the scene fades.
 
 What does this mean? Playing a simulation? And what about
 the infinite loop program that wraps the video? Could this be an 8-bit peak
