@@ -84,7 +84,7 @@ the Maxtac visor scene? The visor scene ends with the following frames:
 
 2 Problem Frames
 ![Somehow we're back at the initial scene, with the gun raised back...](assets/rory-frame-4.png){data-slider}
-![...followed by a bright light of the gun positioned more forward.](assets/rory-frame-5.png){data-slider}
+![...followed by a bright light with the gun in a more forward position.](assets/rory-frame-5.png){data-slider}
 
 Why did we get these two animation frames? Why does the gun seemingly go
 forward with a bright light? If it was fired, we'd expect kickback - not
