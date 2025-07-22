@@ -34,6 +34,8 @@ Ultimately it _seems_ that these symbols are pointing to the hidden "Don't Fear
 (The Reaper)" ending existing, by expressing 4 pyramids instead of the 3 we
 knew about prior to this ending path coming to light.
 
+Or, it could be as simple as [stemming from an 8 bit 6502 system](melissa-rory.md#how-it-starts).
+
 ## Similar Structures
 
 ### Mega Buildings
