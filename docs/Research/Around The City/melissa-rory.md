@@ -116,9 +116,9 @@ surprise come across her lips as she takes the now powered down visor off.
 Taking a moment to process what just happened, she looks down dejectedly before
 the scene fades.
 
-What does this mean? Playing a simulation? And what about
-the infinite loop program that wraps the video? Could this be an 8-bit peak
-into Mikoshi/Soulkiller's calling function?
+There's plenty of magenta before the visor scene. Did Melissa Rory wake from
+the dream? Or did we witness her death? Is our having seen this trailer the
+reason her memory carries on in Night City as a Maxtac operator?
 
-At least to me, it seems Melissa has been caught in the same prison as V, who's
-one-way ticket is measured in calibers and stamped in the blood of trauma.
+One thing's for sure, it seems that on some level Melissa's path mirrors our
+own - a one way ticket to the city of dreams measured in calibers.
