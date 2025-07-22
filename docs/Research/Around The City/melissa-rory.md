@@ -105,7 +105,7 @@ the order corrected, we get a very different final outcome:
 Melissa closes her eyes. The Maxtac agent fires, the gun kicking back in bright
 light. The moment of death.
 
-The visor reflects the silhouette of her partner finding his seat.Shock and
+The visor reflects the silhouette of her partner finding his seat. Shock and
 surprise come across her lips as she takes the visor off. Taking a moment to
 process what just happened, she looks down dejectedly before the scene fades.
 
@@ -114,4 +114,4 @@ the infinite loop program that wraps the video? Could this be an 8-bit peak
 into Mikoshi/Soulkiller's calling function?
 
 At least to me, it seems Melissa has been caught in the same prison as V, who's
-one-way ticket is measured in calibers.
+one-way ticket is measured in calibers and stamped in the blood of trauma.
