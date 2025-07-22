@@ -106,8 +106,9 @@ Shock and surprise come across her lips as she takes the visor off. The visor
 reflects her partner collapsing to his seat. Taking a moment to process what
 just happened, she looks down dejectedly before the scene fades.
 
-What does this mean? Was she soulkilled? Playing a simulation? And what about
-the infinite loop program that wraps the video?
+What does this mean? Playing a simulation? And what about
+the infinite loop program that wraps the video? Could this be an 8-bit peak
+into Mikoshi/Soulkiller?
 
 At least to me, it seems Melissa has been caught in the same prison as V, who's
 one-way ticket is measured in calibur.
