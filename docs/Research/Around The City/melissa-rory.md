@@ -92,6 +92,10 @@ Why did we get these two animation frames? Why does the gun seemingly go
 forward with a bright light? If it was fired, we'd expect kickback - not
 forward momentum.
 
+Furthermore, if the hex code really was just a program that checks the
+display, it should only fire once at the beginning, and not mirrored again at
+the end.
+
 Unless, like was the case with [Peter Horvath](time-as-a-loop.md#the-second-indicator-peter-horvath), this portion has been inverted and plays backwards.
 
 ## Matching the Frames Together
