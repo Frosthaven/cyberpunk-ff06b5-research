@@ -102,8 +102,8 @@ the order corrected, we get a very different final outcome:
 Melissa closes her eyes. The Maxtac agent fires, the gun kicking back in bright
 light. The moment of death.
 
-Shock and surprise come across her lips as she takes the visor off. The visor
-reflects the silhouette of her partner finding his seat. Taking a moment to
+The visor reflects the silhouette of her partner finding his seat.Shock and
+surprise come across her lips as she takes the visor off. Taking a moment to
 process what just happened, she looks down dejectedly before the scene fades.
 
 What does this mean? Playing a simulation? And what about
