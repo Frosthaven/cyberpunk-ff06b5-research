@@ -92,6 +92,8 @@ forward momentum.
 
 Unless, like was the case with [Peter Horvath](time-as-a-loop.md#the-second-indicator-peter-horvath), this portion has been inverted and plays backwards.
 
+## Matching the Frames Together
+
 If we reverse the AV/visor scene so that the gun frames are together again and
 the order corrected, we get a very different final outcome:
 
