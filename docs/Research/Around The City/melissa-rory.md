@@ -97,7 +97,7 @@ Furthermore, if the hex code really was just a program that checks the
 display, it should only fire once at the beginning, and not mirrored again at
 the end.
 
-Unless, like was the case with [Peter Horvath](time-as-a-loop.md#the-second-indicator-peter-horvath), this portion has been inverted and plays backwards.
+Unless, like was the case with [Peter Horvath](time-as-a-loop.md#the-second-indicator-peter-horvath), this portion has been cut out, flipped and played backwards.
 
 ## Matching the Frames Together
 
