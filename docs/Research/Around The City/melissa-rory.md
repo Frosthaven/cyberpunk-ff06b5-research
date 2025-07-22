@@ -113,4 +113,4 @@ the infinite loop program that wraps the video? Could this be an 8-bit peak
 into Mikoshi/Soulkiller?
 
 At least to me, it seems Melissa has been caught in the same prison as V, who's
-one-way ticket is measured in calibur.
+one-way ticket is measured in calibers.
