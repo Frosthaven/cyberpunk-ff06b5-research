@@ -69,7 +69,7 @@ a gun to the back of her head. The transition frame is below:
 
 Notice the gun still pointed at her head, barely visible behind the logo.
 
-## Afer the Logo Cut
+## After the Logo Cut
 
 Did the gun fire? The next scenes after the logo will convince you that it
 didn't, as Melissa is now aboard a Maxtac vehicle, suiting up and putting on a
