@@ -4,9 +4,10 @@
 
 ## Warning: This Is A Living Document
 
-This is a _working theory_ and should not be taken as outright fact. It is based
-on a collection of observations and interpretations that are subject to change.
-These observations can be browsed by viewing my [research](Research/Around%20The%20City/alt-cyberspace-mapping.md) pages.
+This is a _working theory_ and should not be taken as outright fact. It is
+based on a collection of observations and interpretations that are subject to
+change. These observations can be browsed by viewing my
+[research](Research/Around%20The%20City/alt-cyberspace-mapping.md) pages.
 
 ## Foreword
 
@@ -51,9 +52,9 @@ The city is a simulation. Its original purpose was to merge Shaitan and Johnny
 memories left behind.
 
 The memories between the active parties all blend together to create new and
-interesting twists. Johnny's memory of unplugging Alt bleeds over to create
-the scene of V unplugging Evelyn Parker. Everything is based in fact, but with
-the premise so twisted that it is hard to recognize.
+interesting twists. Johnny's memory of unplugging Alt bleeds over to create the
+scene of V unplugging Evelyn Parker. Everything is based in fact, but with the
+premise so twisted that it is hard to recognize.
 
 ## Who or What is V?
 
@@ -123,11 +124,11 @@ and an unknown player, the child V was born. New to the world and its secrets,
 the fool began their journey.
 
 The journey won't be so simple for V, who is incompatible at a fundamental
-level. While Shaitan and Johnny sat as mirrors `FF0000` (red) and `0000FF` (blue),
-V was born into the world as `FF06B5`. The world is full of dangerous memory
-overlaps and clues to the past. For V to survive, a new way must be found. The
-clock is ticking, though, as the system is unstable. Every corrupted memory a
-new land mine waiting to overheat the whole thing.
+level. While Shaitan and Johnny sat as mirrors `FF0000` (red) and `0000FF`
+(blue), V was born into the world as `FF06B5`. The world is full of dangerous
+memory overlaps and clues to the past. For V to survive, a new way must be
+found. The clock is ticking, though, as the system is unstable. Every corrupted
+memory a new land mine waiting to overheat the whole thing.
 
 ## Fact Sheet Reference
 
@@ -191,6 +192,10 @@ new land mine waiting to overheat the whole thing.
   rooftop and with the Zen Master. It talks about their arrival in Babylon and
   the construction of the Tower of Babel.
 
+- 2.3 introduced a new Animal's themed truck plastered with "Ten Kills". In the
+  bible, satan (the devil) was credited with the deaths of exactly 10 people
+  directly.
+
 - The Tower of Babel was a construction intended to pierce the heavens, but the
   creator saw this and cursed everyone with different languages so that they
   could not communicate nor reach Heaven.
@@ -229,5 +234,5 @@ new land mine waiting to overheat the whole thing.
 
 ## Lingering Questions
 
-- Are all parties accounted for? Or are there even more memories mixed in all of
-  this besides the player's, Johnny's, and Shaitan's?
+- Are all parties accounted for? Or are there even more memories mixed in all
+  of this besides the player's, Johnny's, and Shaitan's?
