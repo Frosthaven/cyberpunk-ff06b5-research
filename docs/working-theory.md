@@ -8,6 +8,42 @@ This is a _working theory_ and should not be taken as outright fact. It is based
 on a collection of observations and interpretations that are subject to change.
 These observations can be browsed by viewing my [research](Research/Around%20The%20City/alt-cyberspace-mapping.md) pages.
 
+## Foreword
+
+I've been doing a lot of thinking over the years of how we're accessing
+memories and these memories are mixed between Johnny and V. I've often posited
+that if the memories were mixed - it wasn't JUST Johnny's memories that would
+be false but V's as well.
+
+Konpeki - Does it even exist? It stands as a symbol - two towers individually
+connected via bridges. Much the same way V and Johnny overlap. You go up one
+tower and are forced to go down the other - mirroring the timeline of the game
+going through V's time into Johnny's playing in reverse.
+
+With my thinking on Peter Horvath (demonstrated to be going backwards and
+humming backwards in the previous post), what other bleed over memory rewrites
+could exist?
+
+We know Johnny didn't go to the top of Arasaka tower. But someone did. That's
+someone's memory. Blackhand has been all but ruled out. What about Shaitan?
+
+The facial structure and all-but-obvious faceplate cyberware isn't the only
+striking thing about these two:
+
+During "Love Like Fire", Shaitan gets shot and falls during aircraft fire.
+
+During "The Heist", Jackie gets shot and falls during aircraft fire.
+
+Smasher used Shaitan's biopod to lure Blackhand into the duel, but the rules of
+the scene were clear - no matter what, Shaitain's biopod miraculously survives.
+He later finds himself awake on a boat full of cyberware and goes through his
+own cyberpsychosis. Vowing to make Arasaka pay.
+
+I wonder if Jackie could be a ghost of the digital brain - a way of making
+sense of Johnny's and V's memories crashing into each other. This idea of being
+a digital ghost is echoed in Death's Stranding, where Jackie communicates
+through the digital wires and talks about finding his way back home to V.
+
 ## What is the City?
 
 The city is a simulation. Its original purpose was to merge Shaitan and Johnny
@@ -190,3 +226,8 @@ new land mine waiting to overheat the whole thing.
 
 - If Shaitan/Jackie/V do overlap, then the mental construct of Jackie must be
   laid to rest for the original to surface.
+
+## Lingering Questions
+
+-Are all parties accounted for? Or are there even more memories mixed in all of
+this besides the player's, Johnny's, and Shaitan's?
