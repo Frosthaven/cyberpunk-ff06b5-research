@@ -190,15 +190,13 @@ memory a new land mine waiting to overheat the whole thing.
 
 - "Beelzebub's (Devil's) Tales to His Grandson" shard can be found on Misty's
   rooftop and with the Zen Master. It talks about their arrival in Babylon and
-  the construction of the Tower of Babel.
+  the construction of the Tower of Babel. The Tower of Babel was a construction
+  intended to pierce the heavens, but the creator saw this and cursed everyone
+  with different languages so that they could not communicate nor reach Heaven.
 
 - 2.3 introduced a new Animal's themed truck plastered with "Ten Kills". In the
-  bible, satan (the devil) was credited with the deaths of exactly 10 people
+  bible, Satan (the devil) was credited with the deaths of exactly 10 people
   directly.
-
-- The Tower of Babel was a construction intended to pierce the heavens, but the
-  creator saw this and cursed everyone with different languages so that they
-  could not communicate nor reach Heaven.
 
 - This resonates with the fractured memories of Night City.
 
