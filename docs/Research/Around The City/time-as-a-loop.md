@@ -79,3 +79,11 @@ Lest we forget the reward for ARG work was the following shirt:
 
 Come to think of it, the top of this shirt looks like it could go with the
 zoetrope images in [ghost tunnel](ghost-tunnel.md).
+
+### Heat & Magenta Memory Interference Patterns
+
+I've spent some time trying to work out what's causing the bleed over of
+magenta, heat, and time anomolies. This is very abstract, but I believe it
+carries some level of explanation:
+
+![The map as a blueprint](./assets/overloaded-map.png){class=no-lightbox}
