@@ -66,3 +66,10 @@ logo should be. It also seems to imply that the chip is the cause of the
 discoloration, as the inward heat is radiating out from itself as the source. A
 magenta that is physically hot? Could this overheating be the result of a [buffer
 overflow and corrupted memory](theory-broken-time.md)?
+
+### Thoughts
+
+Perhaps it isn't that colors are being swapped, but rather the case that things
+are more than one color at a time? If we have the shared perspectives of Johnny
+& V, maybe it isn't that yellow is actually red. Maybe the object is both
+yellow AND red, leading to the anomolies we see.
