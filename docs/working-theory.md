@@ -229,5 +229,5 @@ new land mine waiting to overheat the whole thing.
 
 ## Lingering Questions
 
--Are all parties accounted for? Or are there even more memories mixed in all of
-this besides the player's, Johnny's, and Shaitan's?
+- Are all parties accounted for? Or are there even more memories mixed in all of
+  this besides the player's, Johnny's, and Shaitan's?
