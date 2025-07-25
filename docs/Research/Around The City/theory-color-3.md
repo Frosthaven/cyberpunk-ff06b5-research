@@ -101,3 +101,11 @@ It attempts to answer the following questions:
 - Why V "tastes purple" if Arasaka removes Johnny
 - Why Songbird interferes with Johnny when communicating
 - How [Ghost Tunnel](ghost-tunnel.md) can exist and the cyan/yellow map on promotion material can still be true
+
+### Theory
+
+I think that V is a fragment of Alt, just like Delamain 21 was a fragment of
+Delamain. We don't see it because we were dropped into the middle rather than
+the start. It takes merging all 3 (player/Alt/Johnny) to generate the white we
+see at the end of the game, which leads to a merge and the V fragment's rebirth
+in the system as remaining data.
