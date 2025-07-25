@@ -76,9 +76,8 @@ yellow AND red, leading to the anomolies we see.
 
 ### Attempting To Model The Colors
 
-In attempt to answer several questions, I began modeling possible color systems
-that could represent what we see in game. The following is what I've come up
-with so far:
+I began modeling possible color systems that could represent what we see in
+game. The following is what I've come up with:
 
 ![Color Model. Click the image to enlarge.](./assets/color-3-breakdown.png){data-slider}
 
