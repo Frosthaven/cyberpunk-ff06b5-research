@@ -163,4 +163,4 @@ r
 
 - [Hex Calculator](https://www.calculator.net/hex-calculator.html)
 - [Color Hue Rotator](https://imgonline.tools/color-hue)
-- [Color Mixer](https://colordesigner.io/color-mixer)esembles Johnny's. Below, we will attempt such a calibration effort.
+- [Color Mixer](https://colordesigner.io/color-mixer)
