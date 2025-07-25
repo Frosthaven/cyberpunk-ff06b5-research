@@ -135,7 +135,7 @@ The Zen Master teaches the lessons out of order, omitting the Dodecahedron:
 2. Icosahedron (Water) - 20 triangles - costs `233` Eddies
 3. Tetrahedron (Fire) - 4 triangles - costs `377` Eddies
 4. Octahedron (Air) - 8 triangles - costs `610` Eddies
-5. Dodecahedron (Ether/Spirit) - 12 pentagons - costs `987` Eddies
+5. **Missing** Dodecahedron (Ether/Spirit) - 12 pentagons - costs `987` Eddies
 
 To me, this symbolizes an assymetry or corruption in the world itself. Some
 things are out of order while other things are missing. [Could this be pointing
