@@ -73,3 +73,32 @@ Perhaps it isn't that colors are being swapped, but rather the case that things
 are more than one color at a time? If we have the shared perspectives of Johnny
 & V, maybe it isn't that yellow is actually red. Maybe the object is both
 yellow AND red, leading to the anomolies we see.
+
+### Attempting To Model The Colors
+
+In attempt to answer several questions, I began modeling possible color systems
+that could represent what we see in game. The following is what I've come up
+with so far:
+
+![Color Model. Click the image to enlarge.](./assets/color-3-breakdown.png){data-slider}
+
+It attempts to answer the following questions:
+
+- Why V is red-magenta cast in cyberspace
+- Why Johnny is blue-magenta cast in cyberspace
+- Why V has Red & Cyan UI
+- Why Johnny has Blue & Yellow UI
+- Why Alt's engramatic data is represented in V's UI colors
+- Why red and yellow are swapping around in some cases (Mint's car, wash buckets, etc)
+- Why V can't see green all that well
+- Why Johnny has trouble seeing red
+- Why the player can't see magenta
+- Why Johnny sees modern 2077 Night City in Atlantis behind orange tinted glass.
+- Why V sees magenta while holding Evelyn's head one direction while Johnny sees orange while holding Alt's the other in these mirrored scenes.
+- How the moon can be both magenta and not magenta at the same time.
+- Which three perspectives are at play with the rotating cube.
+- What is real and what is not real.
+- Why the devil card is embedded in an at-the-time-unsolvable color cube in the Devil ending.
+- Why V "tastes purple" if Arasaka removes Johnny
+- Why Songbird interferes with Johnny when communicating
+- How [Ghost Tunnel](ghost-tunnel.md) can exist and the cyan/yellow map on promotion material can still be true
