@@ -11,6 +11,11 @@ based on a collection of observations and interpretations that are subject to
 change. These observations can be browsed by viewing my
 [research](./Research/Around%20The%20City/alt-cyberspace-mapping.md) pages.
 
+As a result of this being a living document, it's worth noting that findings
+held within the research pages may not be fully updated with the present
+moment's contexts. Treat them as snapshots in time that led here, and not as
+the final word on the matter.
+
 ---
 
 # The Sequence of Events
