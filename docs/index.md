@@ -32,6 +32,15 @@ myself drawn to a few key observations that guide my research:
    in mind that any revelation could be a bug that has been misinterpreted as a
    feature. I will do my best to contextualize my findings in this light.
 
+## Warning For Readers
+
+Each of the pages held within this site act as a path, not a destination. These
+are snapshots of discoveries that, when assembled together, form the basis of
+my [working theory](working-theory.md). As such, they are not intended to
+represent the final word on any given topic. Treat them as historical record
+of the journey that led to the present moment, and not as a definitive answer
+to any one question.
+
 ## Get In Touch
 
 If you find something in need of correction, or if you have a question, feel
