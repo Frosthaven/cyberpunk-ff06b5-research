@@ -4,6 +4,8 @@
 
 ## Warning: This Is A Living Document
 
+_Last updated: 2025-07-26_
+
 This is a _working theory_ and should not be taken as outright fact. It is
 based on a collection of observations and interpretations that are subject to
 change. These observations can be browsed by viewing my
