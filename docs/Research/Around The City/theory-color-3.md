@@ -77,9 +77,10 @@ yellow AND red, leading to the anomolies we see.
 ### Attempting To Model The Colors
 
 I began modeling possible color systems that could represent what we see in
-game. The following is what I've come up with:
+game. The following 2 models are what I've come up with (still wip):
 
-![Color Model. Click the image to enlarge.](./assets/color-3-breakdown.png){data-slider}
+![Color Model 1 (older). Click the image to enlarge.](./assets/color-3-breakdown.png){data-slider}
+![Color Model 2 (newer). Click the image to enlarge.](./assets/color-3-breakdown-2.png){data-slider}
 
 It attempts to answer the following questions:
 
