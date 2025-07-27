@@ -18,6 +18,8 @@ the final word on the matter.
 
 ---
 
+![Color Model Mk2. Click the image to enlarge.](./Research/Around%20The%20City/assets/color-3-breakdown-2.png){data-slider}
+
 # The Sequence of Events
 
 1. Johnny/Alt/Someone merged using a piece of experimental server tech that can
