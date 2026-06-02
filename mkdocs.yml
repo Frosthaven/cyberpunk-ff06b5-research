@@ -1,5 +1,9 @@
 copyright: '© 2021-2077 Paladin Frosthaven'
 site_name: 'FF06B5:CCRI'
+# Required for navigation.instant.* features (e.g. link previews) to work on the
+# deployed site. `mkdocs serve` auto-sets this locally, so without it the instant
+# features only appear in local dev, not in production.
+site_url: 'https://ff06b5.thedragon.dev'
 repo_url: 'https://github.com/Frosthaven/cyberpunk-ff06b5-research'
 
 extra_css:

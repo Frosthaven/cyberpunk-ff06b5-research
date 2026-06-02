@@ -73,19 +73,21 @@ chip's Soulkiller guardian who wear's Alt's face.
 
 ### Why Have a Player at all?
 
-The data chip inserted into Johnny was damaged. Likely the ground pins. Between
-the incomplete data and the voltage overflowing into the pins, there isn't much
-to "soulkill" into the chip intended for Johnny's psyche.
+The data chip inserted into Johnny was damaged. [Likely the ground
+pins](./Research/Around%20The%20City/time-as-a-loop.md#heat-magenta-memory-interference-patterns).
+Between the incomplete data and the voltage overflowing into the pins, there
+isn't much to "soulkill" into the chip intended for Johnny's psyche.
 
 It requires the human element to be the scalpel. To navigate the insanity of a
 projected dystopian city being flooded with interference and feedback loops. The
-software knows this, and recognizes the player as the necessary human element
-when looking at V. The element needed when automation has run out of road.
+software Alt recognizes the player as the necessary human element when looking
+at V. The element needed when automation has run out of road.
 
 ### Judgement
 
 We eventually reach a point that Johnny's engram is completely patched. No
 longer a patient etherized upon the table. No more half deserted streets.
+Through our guidance, V joins Alt in the datastream on the final merge.
 
 V might have been the dreamer, but it was always Johnny's dream. Johnny's body.
 This newly refurbished engram isn't quite Johnny, and it isn't quite V. It's a
