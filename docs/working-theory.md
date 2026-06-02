@@ -28,10 +28,12 @@ wasn't in a usable state.
 
 ### Time of the Game
 
-We, the player, breach into the memory system. It's presented to us in game
-form. It isn't a game - but rather the memory store of Johnny Silverhand and the
-data slug/chip. His inner psyche and all of the broken memories held within.
-Johnny remains in a form of stasis.
+We, the player, [breach into the memory
+system](./Research/Around%20The%20City/theory-broken-time.md). It's presented to
+us in game form. It isn't a game - but rather [the memory store of Johnny
+Silverhand](./Research/Around%20The%20City/theory-dreamscape.md) and the data
+slug/chip. His inner psyche and all of the broken memories held within. Johnny
+remains in a form of stasis.
 
 We create V as a way to build up the missing memory sectors in Johnny's engram
 and navigate the corrupted data. We start by editing our V's own backstory to
@@ -39,8 +41,10 @@ fill the gaps. The memories within the engram begin blending with our synthetic
 edits to the engramatic data.
 
 From our perspective, we see through the eyes of the synthetic memory we created
-and experience the passing of time as if its real - but it isn't. There is no
-time. It's all just data. No future. No tomorrow. Only the here and now.
+and experience the passing of time as if its real - but it isn't. [There is no
+time.](./Research/Around The City/time-as-a-loop.md) It's all just data. No
+future. No tomorrow. Only the here and now and buffers located in different
+places.
 
 Further complicating this experience, the blending of Johnny's engramatic data
 and our synthetic V causes side effects. The memories start to blend. From V's
@@ -51,13 +55,14 @@ working.
 
 ### A Matter of Perspective
 
-The world we experience is an amalgamation of Johnny's psyche, previous
-iterations, and the projection of the data chip. The time is wrong. The colors
-are wrong. The memories are wrong. Progressing through the game, we restore
-power to several areas. We connect and create neural pathways that were severed.
-We collect "hidden gem" scattered bytes of memory data and trudge through
-corrupted data. We force Johnny to confront himself and his shadow in the
-process.
+The world we experience is an amalgamation of Johnny's psyche, [previous
+iterations](./Research/Around%20The%20City/research-burningman.md#01-02-03-00)
+and the projection of the data chip. The time is wrong. [The colors are
+wrong](./Research/Around%20The%20City/theory-color-2.md). The memories are
+wrong. Progressing through the game, we restore power to several areas. We
+connect and create neural pathways that were severed. We collect "hidden gems" -
+scattered bytes of memory data and trudge through corrupted data. We force
+Johnny to confront himself and his shadow in the process.
 
 Scrubbing forward and backwards through them, and looping into every possible
 memory - every outcome - we continue to rebuild the engram. Our V goes through
