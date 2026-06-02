@@ -14,6 +14,9 @@ around them. They usually follow a simple rule of opposites:
 
 ![Color Halos](./assets/color-3-halos.png){class=no-lightbox}
 
+*I believe that this could likely be a rendering bug, but I'm including it just
+in case.*
+
 Color Ghosting
 ![Skippy's cyan text has a ghostly opposite red glow, despite being simple paint.](./assets/color-3-ghost-1.png){data-slider}
 ![This Arasaka logo has an opposite blue glow...](./assets/color-3-ghost-2.png){data-slider}
@@ -101,13 +104,3 @@ It attempts to answer the following questions:
 - Why V "tastes purple" if Arasaka removes Johnny
 - Why Songbird interferes with Johnny when communicating
 - How [Ghost Tunnel](ghost-tunnel.md) can exist and the cyan/yellow map on promotion material can still be true
-
-### Theory
-
-I think that V is a fragment of Alt, just like Delamain 21 was a fragment of
-Delamain. We don't see it because we were dropped into the middle rather than
-the start. It takes merging all 3 (player/Alt/Johnny) to generate the white we
-see at the end of the game, which leads to a merge into the real world, while
-leftover data gets recycled into the system as a new V. The corpo fish are the
-balance of colors between Johnny and V, which means that this process already
-took place at least once before.
