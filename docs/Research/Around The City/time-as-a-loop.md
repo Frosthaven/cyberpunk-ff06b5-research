@@ -87,3 +87,11 @@ magenta, heat, and time anomolies. This is very abstract, but I believe it
 carries some level of explanation:
 
 ![The map as a blueprint](./assets/overloaded-map.png){class=no-lightbox}
+
+The voltage pin actually lines up quite nicely to the voltage station that feeds
+the city, and the "grounding pin" is broken. The abandoned parking lot not far
+from the solar array site has an out of place building and other features that
+make it look like someone completely transplanted it from its original location.
+
+At the tip of where the grounding pin would have been, a spark of roads explodes
+into the pathways that feed night city's streets.
