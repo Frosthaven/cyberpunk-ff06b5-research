@@ -95,3 +95,7 @@ make it look like someone completely transplanted it from its original location.
 
 At the tip of where the grounding pin would have been, a spark of roads explodes
 into the pathways that feed night city's streets.
+
+Do you remember what happened when Johnny tried to pull the chip out of V's head
+when they first met? What happened to Johnny when V overloaded the chip plugged
+into *his* head?
